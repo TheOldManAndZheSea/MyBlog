@@ -1,0 +1,43 @@
+2022-04-02 10:25:42.1966 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-04-02 10:25:42.1966 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-02 10:25:42.1966 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-02 10:25:42.1966 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-02 10:26:09.7736 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/Blog/Articlecategory/list | 请求访问[/Blog/Articlecategory/list]失败，无法访问系统资源 |  |  | 
+2022-04-02 10:35:04.1255 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-04-02 10:35:04.1303 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-02 10:35:04.1303 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-02 10:35:04.1303 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-02 10:35:08.7761 | 13 | ERROR | Microsoft.AspNetCore.Server.Kestrel | ::1 |  | http://localhost/swagger/v1/swagger.json | Connection id "0HMGKA5JK6SBN", Request id "0HMGKA5JK6SBN:00000003": An unhandled exception was thrown by the application. |  |  | Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ZR.Admin.WebApi.Controllers.System.SysLoginController.RecordLogInfo (ZR.Admin.WebApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-04-02 10:35:17.3654 | 13 | ERROR | Microsoft.AspNetCore.Server.Kestrel | ::1 |  | http://localhost/swagger/v1/swagger.json | Connection id "0HMGKA5JK6SBN", Request id "0HMGKA5JK6SBN:00000005": An unhandled exception was thrown by the application. |  |  | Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ZR.Admin.WebApi.Controllers.System.SysLoginController.RecordLogInfo (ZR.Admin.WebApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-04-02 10:38:51.8861 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-04-02 10:38:51.8861 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-02 10:38:51.8861 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-02 10:38:51.8927 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-02 10:38:57.1861 | 13 | ERROR | Microsoft.AspNetCore.Server.Kestrel | ::1 |  | http://localhost/swagger/v1/swagger.json | Connection id "0HMGKA7NMHEBL", Request id "0HMGKA7NMHEBL:00000003": An unhandled exception was thrown by the application. |  |  | Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Ambiguous HTTP method for action - ZR.Admin.WebApi.Controllers.System.SysLoginController.RecordLogInfo (ZR.Admin.WebApi). Actions require an explicit HttpMethod binding for Swagger/OpenAPI 3.0
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+2022-04-02 10:40:01.9750 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-04-02 10:40:01.9750 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-02 10:40:01.9750 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-02 10:40:01.9750 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-02 10:50:00.1166 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-02 11:00:00.0387 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-02 11:10:00.0434 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-02 11:20:00.0346 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-02 11:30:00.0368 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-02 11:40:00.0355 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-02 11:50:00.0325 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-02 12:00:00.0384 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 

@@ -1,0 +1,178 @@
+2022-04-13 10:42:43.2897 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:9999 |  |  | 
+2022-04-13 10:42:43.2956 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-13 10:42:43.2956 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-13 10:42:43.2956 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-13 10:43:07.7134 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-04-13 10:43:08.1298 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-04-13 10:43:09.2106 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-04-13 10:50:00.0736 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 10:56:32.3890 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/1 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-04-13 11:00:00.0270 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 11:10:00.0267 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 11:23:13.6026 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:9999 |  |  | 
+2022-04-13 11:23:13.6075 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-13 11:23:13.6075 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-13 11:23:13.6075 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-13 11:23:38.6227 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-04-13 11:23:38.9734 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-04-13 11:23:40.5425 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-04-13 11:26:25.6318 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:9999 |  |  | 
+2022-04-13 11:26:25.6373 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-13 11:26:25.6373 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-13 11:26:25.6373 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-13 11:26:43.8499 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tag/3 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-04-13 11:26:52.2447 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tag/2 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-04-13 11:26:54.6523 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tag/1 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-04-13 14:35:28.3564 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:9999 |  |  | 
+2022-04-13 14:35:28.3564 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-13 14:35:28.3564 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-13 14:35:28.3564 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-13 14:36:23.5901 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-04-13 14:36:24.0132 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-04-13 14:36:28.5956 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-04-13 14:36:50.5401 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory/6 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-04-13 14:36:52.7523 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory/3 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-04-13 14:36:54.5453 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory/2 |  |  | {  "code": 110,  "msg": "删除失败，文章类型下有文章存在"} | 
+2022-04-13 14:37:03.5384 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/2 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 0} | 
+2022-04-13 14:37:10.4301 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory/2 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-04-13 14:37:30.9090 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory |  | {"name":"wpf","pic_url":"http://localhost:9999/uploads/2022413//c97df5604f90a80c.webp","color":"#2b73af"} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-04-13 14:40:00.0854 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 14:41:05.5608 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory |  | {"category_Id":7,"name":"wpf","parentId":0,"pic_url":"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp","color":null} | {  "code": 1,  "msg": "FAIL"} | 
+2022-04-13 14:41:18.6529 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory |  | {"category_Id":7,"name":"wpf","parentId":0,"pic_url":"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp","color":"#2b73af"} | {  "code": 1,  "msg": "FAIL"} | 
+2022-04-13 14:42:44.5858 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:9999 |  |  | 
+2022-04-13 14:42:44.5858 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-13 14:42:44.5858 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-13 14:42:44.5858 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-13 14:43:02.3067 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory |  | {"category_Id":7,"name":"wpf","parentId":0,"pic_url":"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp","color":"#2b73af"} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-04-13 14:43:22.8851 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory |  | {"category_Id":7,"name":"wpf","parentId":0,"pic_url":"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp","color":"#2b73af"} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-04-13 16:16:50.3254 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:9999 |  |  | 
+2022-04-13 16:16:50.3254 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-13 16:16:50.3254 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-13 16:16:50.3254 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-13 16:17:16.9806 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-04-13 16:17:17.3322 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-04-13 16:17:18.9456 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-04-13 16:20:00.0663 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 16:23:03.4970 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tool/gen/importTable |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "tableId": 7,    "dbName": "blogadmin",    "tableName": "t_bloglinks",    "tableComment": "博客友情链接",    "subTableName": null,    "subTableFkName": null,    "className": "Bloglinks",    "tplCategory": null,    "baseNameSpace": "ZR.",    "moduleName": "business",    "businessName": "TBloglinks",    "functionName": "博客友情链接",    "functionAuthor": "ztc",    "genType": null,    "genPath": null,    "options": null,    "columns": [      {        "columnId": 0,        "columnName": "id",        "tableId": 7,        "tableName": "t_bloglinks",        "columnComment": "",        "columnType": "int",        "csharpType": "int",        "csharpField": "Id",        "isPk": true,        "isRequired": true,        "isIncrement": true,        "isInsert": false,        "isEdit": false,        "isList": true,        "isQuery": false,        "htmlType": "input",        "queryType": "EQ",        "sort": 0,        "dictType": "",        "requiredStr": "",        "csharpFieldFl": null,        "createBy": "admin",        "createTime": "2022-04-13 16:23:03",        "updateTime": null,        "remark": null      },      {        "columnId": 0,        "columnName": "name",        "tableId": 7,        "tableName": "t_bloglinks",        "columnComment": "名称",        "columnType": "varchar",        "csharpType": "string",        "csharpField": "Name",        "isPk": false,        "isRequired": false,        "isIncrement": false,        "isInsert": true,        "isEdit": true,        "isList": true,        "isQuery": false,        "htmlType": "input",        "queryType": "EQ",        "sort": 0,        "dictType": "",        "requiredStr": "",        "csharpFieldFl": null,        "createBy": "admin",        "createTime": "2022-04-13 16:23:03",        "updateTime": null,        "remark": null      },      {        "columnId": 0,        "columnName": "links",        "tableId": 7,        "tableName": "t_bloglinks",        "columnComment": "跳转链接",        "columnType": "varchar",        "csharpType": "string",        "csharpField": "Links",        "isPk": false,        "isRequired": false,        "isIncrement": false,        "isInsert": true,        "isEdit": true,        "isList": true,        "isQuery": false,        "htmlType": "input",        "queryType": "EQ",        "sort": 0,        "dictType": "",        "requiredStr": "",        "csharpFieldFl": null,        "createBy": "admin",        "createTime": "2022-04-13 16:23:03",        "updateTime": null,        "remark": null      }    ],    "parentMenuId": null,    "sortType": "asc",    "sortField": "",    "treeCode": "",    "treeName": "",    "treeParentCode": null,    "checkedBtn": [      1,      2,      3    ],    "createBy": "admin",    "createTime": "2022-04-13 16:23:03",    "updateTime": null,    "remark": null  }} | 
+2022-04-13 16:23:57.3697 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tool/gen/ |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": true} | 
+2022-04-13 16:24:14.6185 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tool/gen/genCode |  | {"tableId":7} | {  "code": 200,  "msg": "SUCCESS",  "data": {    "path": "/Generatecode/ZrAdmin.NET-博客友情链接-0413162414.zip",    "fileName": null  }} | 
+2022-04-13 17:17:12.9984 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:9999 |  |  | 
+2022-04-13 17:17:12.9984 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-13 17:17:12.9984 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-13 17:17:12.9984 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-13 17:17:21.6855 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-04-13 17:17:22.0512 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-04-13 17:17:23.1776 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-04-13 17:20:00.0674 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 17:23:52.8841 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:9999 |  |  | 
+2022-04-13 17:23:52.8841 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-13 17:23:52.8841 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-13 17:23:52.8841 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-13 17:24:25.6687 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/Blog/TBlogconfig/addLinks |  | {} | {"code":101,"msg":"value cannot be null. (parameter \u0027source\u0027)","data":null} | System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at SqlSugar.InsertableProvider`1.InsertColumns(Expression`1 columns)
+   at ZR.Repository.BaseRepository`1.Insert(T parm, Expression`1 iClumns, Boolean ignoreNull) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\BaseRepository.cs:line 72
+   at ZR.Service.BaseService`1.Insert(T parm, Expression`1 iClumns, Boolean ignoreNull) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\BaseService.cs:line 35
+   at ZR.Admin.WebApi.Controllers.BlogconfigController.InsertBloglinks(BloglinksDto parm) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\Blog\BlogconfigController.cs:line 83
+   at lambda_method62(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-04-13 17:28:41.6559 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/Blog/TBlogconfig/addLinks |  | {} | {"code":101,"msg":"value cannot be null. (parameter \u0027source\u0027)","data":null} | System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at SqlSugar.InsertableProvider`1.InsertColumns(Expression`1 columns)
+   at ZR.Repository.BaseRepository`1.Insert(T parm, Expression`1 iClumns, Boolean ignoreNull) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\BaseRepository.cs:line 72
+   at ZR.Service.BaseService`1.Insert(T parm, Expression`1 iClumns, Boolean ignoreNull) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\BaseService.cs:line 35
+   at ZR.Admin.WebApi.Controllers.BlogconfigController.InsertBloglinks(BloglinksDto parm) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\Blog\BlogconfigController.cs:line 83
+   at lambda_method62(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-04-13 17:30:00.0914 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 17:30:09.4368 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/Blog/TBlogconfig/addLinks |  | {} | {"code":101,"msg":"value cannot be null. (parameter \u0027source\u0027)","data":null} | System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at SqlSugar.InsertableProvider`1.InsertColumns(Expression`1 columns)
+   at ZR.Repository.BaseRepository`1.Insert(T parm, Expression`1 iClumns, Boolean ignoreNull) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\BaseRepository.cs:line 72
+   at ZR.Service.BaseService`1.Insert(T parm, Expression`1 iClumns, Boolean ignoreNull) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\BaseService.cs:line 35
+   at ZR.Admin.WebApi.Controllers.BlogconfigController.InsertBloglinks(BloglinksDto parm) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\Blog\BlogconfigController.cs:line 83
+   at lambda_method62(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-04-13 17:31:45.3994 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:9999 |  |  | 
+2022-04-13 17:31:45.3994 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-13 17:31:45.3994 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-13 17:31:45.3994 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-13 17:32:54.4039 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/Blog/TBlogconfig/addLinks |  | {"name":"ZrAdmin.NET","links":"http://www.izhaorui.cn/doc/#/"} | {"code":101,"msg":"value cannot be null. (parameter \u0027source\u0027)","data":null} | System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Select[TSource,TResult](IEnumerable`1 source, Func`2 selector)
+   at SqlSugar.InsertableProvider`1.InsertColumns(Expression`1 columns)
+   at ZR.Repository.BaseRepository`1.Insert(T parm, Expression`1 iClumns, Boolean ignoreNull) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\BaseRepository.cs:line 72
+   at ZR.Service.BaseService`1.Insert(T parm, Expression`1 iClumns, Boolean ignoreNull) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\BaseService.cs:line 35
+   at ZR.Admin.WebApi.Controllers.BlogconfigController.InsertBloglinks(BloglinksDto parm) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\Blog\BlogconfigController.cs:line 83
+   at lambda_method217(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-04-13 17:33:21.5379 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:9999 |  |  | 
+2022-04-13 17:33:21.5379 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-04-13 17:33:21.5379 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-04-13 17:33:21.5379 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-04-13 17:33:36.8220 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/TBlogconfig/addLinks |  | {"name":"ZrAdmin.NET","links":"http://www.izhaorui.cn/doc/#/"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-04-13 17:40:00.0858 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 17:50:00.0449 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 18:00:00.0398 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 21:10:00.0385 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 21:20:00.0244 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-04-13 21:50:00.0922 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 

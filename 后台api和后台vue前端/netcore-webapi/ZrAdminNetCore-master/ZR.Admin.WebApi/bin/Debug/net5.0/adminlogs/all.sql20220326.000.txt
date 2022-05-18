@@ -1,0 +1,230 @@
+===========================================
+ 2022-03-26 09:04:44.0993 - ::1 -  - http://localhost/blog/TBlogessays/list 
+ SELECT Count(*) FROM `t_blogessays`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-26 09:04:44.1134 - ::1 -  - http://localhost/blog/TBlogessays/list 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( 1 = 1 )   ORDER BY `CreateTime` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-26 09:10:00.0318 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-26 09:10:00.0382 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-26T09:10:00.0376045+08:00","@Elapsed":10.3842}
+===========================================
+ 2022-03-26 09:10:00.0382 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-26 09:11:12.0344 - 127.0.0.1 - userid=undefined - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-03-26T09:11:11.9607312+08:00","@Elapsed":0}
+===========================================
+ 2022-03-26 09:11:12.0512 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-26 09:11:12.0681 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-26 09:11:13.1289 - 127.0.0.1 -  - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-03-26T09:11:13.1287661+08:00","@Elapsed":0}
+===========================================
+ 2022-03-26 09:11:13.9475 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-26 09:11:13.9632 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-26 09:11:22.0632 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-26 09:11:22.0940 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-26 09:11:29.5346 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-26 09:11:29.5829 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE (( `UserName` = @UserName0 ) AND ( `Password` = @Password1 ))  ORDER BY NOW()  LIMIT 0,1，{"@UserName0":"admin","@Password1":"E10ADC3949BA59ABBE56E057F20F883E"}
+===========================================
+ 2022-03-26 09:11:29.5857 - 127.0.0.1 -  - http://localhost/login 
+ INSERT INTO `sys_logininfor`  
+           (`userName`,`status`,`ipaddr`,`loginLocation`,`browser`,`os`,`msg`,`loginTime`)
+     VALUES
+           (@userName,@status,@ipaddr,@loginLocation,@browser,@os,@msg,@loginTime) ;SELECT LAST_INSERT_ID();，{"@userName":"admin","@status":"0","@ipaddr":"127.0.0.1","@loginLocation":"0-内网IP","@browser":"Other","@os":"Windows 10","@msg":"登录成功","@loginTime":"2022-03-26T09:11:29.5836767+08:00"}
+===========================================
+ 2022-03-26 09:11:29.5857 - 127.0.0.1 -  - http://localhost/login 
+ select sysdate()，{}
+===========================================
+ 2022-03-26 09:11:29.5857 - 127.0.0.1 -  - http://localhost/login 
+ UPDATE `sys_user`  SET
+           `LoginIP`=@LoginIP,`LoginDate`=@LoginDate  WHERE `UserId`=@UserId，{"@UserId":1,"@LoginIP":"127.0.0.1","@LoginDate":"2022-03-26T09:11:29"}
+===========================================
+ 2022-03-26 09:11:29.6012 - 127.0.0.1 -  - http://localhost/login 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-26 09:11:29.9772 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-26 09:11:29.9772 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-26 09:11:30.2307 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-26 09:11:30.2531 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-26 09:11:30.2883 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-26 09:11:30.8050 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-03-26 09:11:38.4028 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/list 
+ SELECT Count(*) FROM `t_blogessays`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-26 09:11:38.4028 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/list 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( 1 = 1 )   ORDER BY `CreateTime` DESC LIMIT 0,10，{}
+===========================================
+ 2022-03-26 09:11:40.5293 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/1 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:13:52.5221 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/1 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:13:56.3501 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-26 09:13:56.3501 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-26 09:13:56.6483 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-26 09:13:56.6614 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-26 09:13:56.6614 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-26 09:13:57.0379 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/list 
+ SELECT Count(*) FROM `t_blogessays`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-26 09:13:57.0379 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/list 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( 1 = 1 )   ORDER BY `CreateTime` DESC LIMIT 0,10，{}
+===========================================
+ 2022-03-26 09:13:58.7011 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/1 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:14:34.2082 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/1 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:14:42.7058 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-26 09:14:42.7058 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-26 09:14:43.0038 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-26 09:14:43.0174 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-26 09:14:43.0174 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-26 09:14:43.4139 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/list 
+ SELECT Count(*) FROM `t_blogessays`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-26 09:14:43.4139 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/list 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( 1 = 1 )   ORDER BY `CreateTime` DESC LIMIT 0,10，{}
+===========================================
+ 2022-03-26 09:14:44.9943 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/1 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:14:50.9483 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/1 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:16:17.3942 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/1 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:17:52.4384 - ::1 -  - http://localhost/blog/TBlogessays/list 
+ SELECT Count(*) FROM `t_blogessays`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-26 09:17:52.4384 - ::1 -  - http://localhost/blog/TBlogessays/list 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( 1 = 1 )   ORDER BY `CreateTime` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-26 09:19:06.3659 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/1 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:19:17.9814 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/1 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:19:26.7713 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays 
+ UPDATE `t_blogessays`  SET
+            `Title` = @Const0 , `Color` = @Const1 , `Content` = @Const2 , `CreateTime` = @Const3 , `AuthorName` = @Const4   WHERE ( `Id` = @Id5 )，{"@Const0":"测试","@Const1":"#B8DE38","@Const2":"水水水水","@Const3":"2022-03-25T17:46:37+08:00","@Const4":"水水水","@Id5":1}
+===========================================
+ 2022-03-26 09:19:26.7713 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"随笔管理","@businessType":2,"@method":"Blogessays.UpdateBlogessays()","@requestMethod":"PUT","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/blog/TBlogessays","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"id\":1,\"title\":\"测试\",\"color\":\"#B8DE38\",\"content\":\"水水水水\",\"createTime\":\"2022-03-25 17:46:37\",\"authorName\":\"水水水\"}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\"}","@status":0,"@errorMsg":null,"@operTime":"2022-03-26T09:19:26.773382+08:00","@Elapsed":0}
+===========================================
+ 2022-03-26 09:19:26.9704 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/list 
+ SELECT Count(*) FROM `t_blogessays`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-26 09:19:26.9704 - 127.0.0.1 - userid=1 - http://localhost/blog/TBlogessays/list 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( 1 = 1 )   ORDER BY `CreateTime` DESC LIMIT 0,10，{}
+===========================================
+ 2022-03-26 09:19:30.5952 - ::1 -  - http://localhost/Blog/TBlogconfig/getQuery 
+ SELECT `Id`,`Title`,`Copyright`,`AuthorQQ`,`AuthorWechart`,`AuthorEmail`,`IsOpenLogin`,`IsOpenRegister`,`Content`,`BottomImage`,`BlogBackGroundImage`,`FundedAlipayImg`,`FundedWechartImg` FROM `t_blogconfig`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:19:30.5952 - ::1 -  - http://localhost/blog/TBlogessays/list 
+ SELECT Count(*) FROM `t_blogessays`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-26 09:19:30.6140 - ::1 -  - http://localhost/Blog/TBlogconfig/getQuery 
+ SELECT `Id`,`Title`,`Copyright`,`AuthorQQ`,`AuthorWechart`,`AuthorEmail`,`IsOpenLogin`,`IsOpenRegister`,`Content`,`BottomImage`,`BlogBackGroundImage`,`FundedAlipayImg`,`FundedWechartImg` FROM `t_blogconfig`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-03-26 09:19:30.6154 - ::1 -  - http://localhost/blog/TBlogessays/list 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( 1 = 1 )   ORDER BY `CreateTime` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-26 09:20:00.0280 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-26 09:20:00.0280 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-26T09:20:00.0289196+08:00","@Elapsed":15.2894}
+===========================================
+ 2022-03-26 09:20:00.0371 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-26 09:20:03.5511 - ::1 -  - http://localhost/blog/TBlogessays/list 
+ SELECT Count(*) FROM `t_blogessays`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-26 09:20:03.5527 - ::1 -  - http://localhost/blog/TBlogessays/list 
+ SELECT `Id`,`Title`,`Color`,`Content`,`CreateTime`,`AuthorName` FROM `t_blogessays`   WHERE ( 1 = 1 )   ORDER BY `CreateTime` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-26 09:30:00.0193 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-26 09:30:00.0299 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-26T09:30:00.0294272+08:00","@Elapsed":14.9536}
+===========================================
+ 2022-03-26 09:30:00.0376 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}

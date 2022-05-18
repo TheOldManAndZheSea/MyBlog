@@ -1,0 +1,116 @@
+===========================================
+ 2022-04-02 10:25:41.7739 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-02 10:35:03.7426 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-02 10:38:51.4830 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-02 10:40:01.6083 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-02 10:50:00.0412 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-02 10:50:00.0749 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-02T10:50:00.0592557+08:00","@Elapsed":11.1115}
+===========================================
+ 2022-04-02 10:50:00.1166 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:00:00.0192 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:00:00.0192 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-02T11:00:00.0253459+08:00","@Elapsed":6.4373}
+===========================================
+ 2022-04-02 11:00:00.0387 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:10:00.0208 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:10:00.0208 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-02T11:10:00.0268993+08:00","@Elapsed":13.8328}
+===========================================
+ 2022-04-02 11:10:00.0434 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:20:00.0274 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:20:00.0346 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-02T11:20:00.034062+08:00","@Elapsed":14.9962}
+===========================================
+ 2022-04-02 11:20:00.0346 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:30:00.0298 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:30:00.0368 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-02T11:30:00.03636+08:00","@Elapsed":14.9991}
+===========================================
+ 2022-04-02 11:30:00.0368 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:40:00.0291 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:40:00.0355 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-02T11:40:00.0349417+08:00","@Elapsed":14.9565}
+===========================================
+ 2022-04-02 11:40:00.0355 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:50:00.0227 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-02 11:50:00.0227 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-02T11:50:00.0294223+08:00","@Elapsed":14.7653}
+===========================================
+ 2022-04-02 11:50:00.0227 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-02 12:00:00.0314 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-02 12:00:00.0384 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-02T12:00:00.0380167+08:00","@Elapsed":14.478}
+===========================================
+ 2022-04-02 12:00:00.0384 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}

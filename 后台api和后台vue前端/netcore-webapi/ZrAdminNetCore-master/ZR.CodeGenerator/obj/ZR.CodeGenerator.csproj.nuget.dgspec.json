@@ -1,0 +1,334 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.CodeGenerator\\ZR.CodeGenerator.csproj": {}
+  },
+  "projects": {
+    "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\ProgramInstall\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AspectCore.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Hosting": {
+              "target": "Package",
+              "version": "[2.2.7, )"
+            },
+            "Microsoft.Extensions.Hosting.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.CodeGenerator\\ZR.CodeGenerator.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.CodeGenerator\\ZR.CodeGenerator.csproj",
+        "projectName": "ZR.CodeGenerator",
+        "projectPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.CodeGenerator\\ZR.CodeGenerator.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.CodeGenerator\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\ProgramInstall\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\Infrastructure\\Infrastructure.csproj"
+              },
+              "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Common\\ZR.Common.csproj": {
+                "projectPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Common\\ZR.Common.csproj"
+              },
+              "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Model\\ZR.Model.csproj": {
+                "projectPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Model\\ZR.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "JinianNet.JNTemplate": {
+              "target": "Package",
+              "version": "[2.2.5, )"
+            },
+            "SqlSugarCoreNoDrive": {
+              "target": "Package",
+              "version": "[5.0.5.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Common\\ZR.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Common\\ZR.Common.csproj",
+        "projectName": "ZR.Common",
+        "projectPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Common\\ZR.Common.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\ProgramInstall\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Aliyun.OSS.SDK.NetCore": {
+              "target": "Package",
+              "version": "[2.13.0, )"
+            },
+            "CSRedisCore": {
+              "target": "Package",
+              "version": "[3.6.9, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.8.6, )"
+            },
+            "MailKit": {
+              "target": "Package",
+              "version": "[3.1.1, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.14, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Model\\ZR.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Model\\ZR.Model.csproj",
+        "projectName": "ZR.Model",
+        "projectPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Model\\ZR.Model.csproj",
+        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
+        "outputPath": "E:\\文档\\张天赐\\练习代码\\Vstudio\\个人博客\\ZrAdminNetCore-master\\ZR.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\ProgramInstall\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 18.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "D:\\Program Files (x86)\\DevExpress 18.1\\Components\\System\\Components\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[5.8.6, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "SqlSugarCoreNoDrive": {
+              "target": "Package",
+              "version": "[5.0.5.4, )"
+            },
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

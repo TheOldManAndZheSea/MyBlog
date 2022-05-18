@@ -1,0 +1,240 @@
+2022-03-16 10:19:41.1706 | 35 | WARN | Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager |  |  |  | No XML encryptor configured. Key {61a167a7-fd3c-4c9a-8ea7-8c753a653b5a} may be persisted to storage in unencrypted form. |  |  | 
+2022-03-16 10:34:14.9057 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-16 10:34:14.9113 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-16 10:34:14.9113 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-16 10:34:14.9113 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-16 10:40:00.1118 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 10:48:59.4725 |  | INFO | ZR.Admin.WebApi.Filters.GlobalActionMonitor | 127.0.0.1 |  | http://localhost/system/post/6,7,8,9,10,11,12,13,14,1 | 请求参数错误,The value '6,7,8,9,10,11,12,13,14,1' is not valid. |  |  | 
+2022-03-16 10:48:59.4725 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/6,7,8,9,10,11,12,13,14,1 |  |  | msg=The value '6,7,8,9,10,11,12,13,14,1' is not valid.,data= | 
+2022-03-16 10:49:26.2562 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/4 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:49:41.4269 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/7 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:49:45.6129 |  | INFO | ZR.Admin.WebApi.Filters.GlobalActionMonitor | 127.0.0.1 |  | http://localhost/system/post/6,8,9,10,11,12,13,14,1,2 | 请求参数错误,The value '6,8,9,10,11,12,13,14,1,2' is not valid. |  |  | 
+2022-03-16 10:49:45.6129 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/6,8,9,10,11,12,13,14,1,2 |  |  | msg=The value '6,8,9,10,11,12,13,14,1,2' is not valid.,data= | 
+2022-03-16 10:49:57.8165 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/6 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:49:59.9079 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/8 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:50:00.0347 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 10:50:01.8138 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/9 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:50:04.2403 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/10 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:50:06.3641 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/11 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:50:08.3326 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/12 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:50:10.4557 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/13 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:50:12.6724 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/14 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:50:14.9395 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/1 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:50:17.2878 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/2 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:50:19.1871 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/post/3 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:50:33.6786 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/dept/104 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-16 10:50:35.7249 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/dept/103 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-16 10:50:37.5410 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/dept/102 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-16 10:50:39.2836 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/dept/101 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-16 10:51:28.3663 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/user/2 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 10:51:30.5792 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/user/3 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 11:00:00.0325 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 11:10:00.0407 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 11:10:23.0207 |  | ERROR | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/tool/gen/getDbList | 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified).
+English Message : Connection open error . A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified) |  | {"code":500,"msg":"\u670d\u52a1\u5668\u597d\u50cf\u51fa\u4e86\u70b9\u95ee\u9898......","data":null} | SqlSugar.SqlSugarException: 中文提示 :  连接数据库过程中发生错误，检查服务器是否正常连接字符串是否正确，实在找不到原因请先Google错误信息：A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified).
+English Message : Connection open error . A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: SNI_PN11, error: 26 - Error Locating Server/Instance Specified)
+   at SqlSugar.AdoProvider.GetDataReader(String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.SqlQuery[T,T2,T3,T4,T5,T6,T7](String sql, Object parameters)
+   at SqlSugar.AdoProvider.SqlQuery[T](String sql, SugarParameter[] parameters)
+   at SqlSugar.AdoProvider.SqlQuery[T](String sql, Object parameters)
+   at SqlSugar.DbMaintenanceProvider.GetDataBaseList(SqlSugarClient db)
+   at ZR.CodeGenerator.Service.CodeGeneraterService.GetAllDataBases() in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.CodeGenerator\Service\CodeGeneraterService.cs:line 17
+   at ZR.Admin.WebApi.Controllers.CodeGeneratorController.GetListDataBase() in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\CodeGeneratorController.cs:line 56
+   at lambda_method408(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-16 11:13:42.0961 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/monitor/operlog/22,21,20,19,18,17,16,15,14,13,12,11,10,9,8,7,6,5,4,3 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 20} | 
+2022-03-16 11:13:46.1597 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/monitor/operlog/23,2,1 |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": 3} | 
+2022-03-16 11:14:48.7238 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/5 |  |  | {  "code": 110,  "msg": "菜单已分配,不允许删除"} | 
+2022-03-16 11:15:15.4102 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/role/dataScope |  | {"roleId":2,"roleName":"普通角色","roleKey":"common","menuCheckStrictly":true,"menuIds":[1,100,101,102,103,104,109,108,501,3,6,1001,1008,106,1013,1018,1022,1051,500,1044,114]} | {  "code": 200,  "msg": "SUCCESS",  "data": true} | 
+2022-03-16 11:15:40.2863 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/5 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 11:39:26.5055 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-16 11:39:26.5055 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-16 11:39:26.5055 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-16 11:39:26.5055 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-16 11:39:49.4990 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-16 11:39:49.8060 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-16 11:39:51.7402 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-16 11:40:00.0815 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 11:50:00.0336 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 12:00:00.0433 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 13:17:25.5270 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/system/menu/list | 请求访问[/system/menu/list]失败，无法访问系统资源 |  |  | 
+2022-03-16 13:17:27.0181 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-16 13:18:21.1106 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/103 |  |  | {  "code": 110,  "msg": "存在子菜单,不允许删除"} | 
+2022-03-16 13:18:29.4392 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1018 |  |  | {  "code": 110,  "msg": "菜单已分配,不允许删除"} | 
+2022-03-16 13:18:43.5528 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1022 |  |  | {  "code": 110,  "msg": "菜单已分配,不允许删除"} | 
+2022-03-16 13:19:05.1752 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/system/role/2 |  |  | {"code":0,"msg":"\u666e\u901a\u89d2\u8272\u5df2\u5206\u914d,\u4e0d\u80fd\u5220\u9664","data":null} | Infrastructure.CustomException: 普通角色已分配,不能删除
+   at ZR.Service.SysRoleService.DeleteRoleByRoleId(Int64[] roleIds) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\System\SysRoleService.cs:line 87
+   at ZR.Admin.WebApi.Controllers.System.SysRoleController.Remove(String roleId) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\SysRoleController.cs:line 146
+   at lambda_method272(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-16 13:20:00.0357 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 13:22:47.4072 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/role/dataScope |  | {"roleId":2,"roleName":"普通角色","roleKey":"common","menuCheckStrictly":true,"menuIds":[1,100,101,102,109,108,501,3,6,1001,1008,106,1013,1051,500,1044,114]} | {  "code": 200,  "msg": "SUCCESS",  "data": true} | 
+2022-03-16 13:23:08.9547 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/103 |  |  | {  "code": 110,  "msg": "存在子菜单,不允许删除"} | 
+2022-03-16 13:23:14.0178 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1018 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:23:17.0798 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1019 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:23:19.6964 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1020 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:23:22.6283 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1021 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:23:25.5212 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/103 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:23:40.0667 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1022 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:23:43.4401 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1023 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:23:46.4438 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1070 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:23:48.4579 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1025 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:23:50.5946 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1024 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:23:53.2115 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/104 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:26:16.4412 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/role/edit |  | {"roleName":"ceshi","roleKey":"ceshi","roleSort":99,"status":"0","menuIds":[],"dataScope":"1","menuCheckStrictly":true,"deptCheckStrictly":true,"type":"add"} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:26:23.6313 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/role/117 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:27:01.0550 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/user/edit |  | {"userName":"ceshi","nickName":"测试","password":"123456","phonenumber":"15130421218","email":"sageinqi@qq.com","sex":"0","status":"0","roleIds":[2]} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:27:49.1464 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/user/4 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:28:13.6146 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/system/role/2 |  |  | {"code":0,"msg":"\u666e\u901a\u89d2\u8272\u5df2\u5206\u914d,\u4e0d\u80fd\u5220\u9664","data":null} | Infrastructure.CustomException: 普通角色已分配,不能删除
+   at ZR.Service.SysRoleService.DeleteRoleByRoleId(Int64[] roleIds) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\System\SysRoleService.cs:line 87
+   at ZR.Admin.WebApi.Controllers.System.SysRoleController.Remove(String roleId) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\SysRoleController.cs:line 146
+   at lambda_method272(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-16 13:29:34.3033 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/system/role/2 |  |  | {"code":0,"msg":"\u666e\u901a\u89d2\u8272\u5df2\u5206\u914d,\u4e0d\u80fd\u5220\u9664","data":null} | Infrastructure.CustomException: 普通角色已分配,不能删除
+   at ZR.Service.SysRoleService.DeleteRoleByRoleId(Int64[] roleIds) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\System\SysRoleService.cs:line 87
+   at ZR.Admin.WebApi.Controllers.System.SysRoleController.Remove(String roleId) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\SysRoleController.cs:line 146
+   at lambda_method272(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-16 13:29:35.6665 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/system/role/2 |  |  | {"code":0,"msg":"\u666e\u901a\u89d2\u8272\u5df2\u5206\u914d,\u4e0d\u80fd\u5220\u9664","data":null} | Infrastructure.CustomException: 普通角色已分配,不能删除
+   at ZR.Service.SysRoleService.DeleteRoleByRoleId(Int64[] roleIds) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\System\SysRoleService.cs:line 87
+   at ZR.Admin.WebApi.Controllers.System.SysRoleController.Remove(String roleId) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\SysRoleController.cs:line 146
+   at lambda_method272(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-16 13:30:00.0242 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 13:30:16.3609 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/role/2 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:40:00.0331 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 13:40:13.5504 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":6,"menuName":"控制台","parentName":null,"parentId":0,"orderNum":0,"path":"dashboard","component":"index","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"","icon":"dashboard","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":""} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:44:02.3676 |  | INFO | GlobalActionMonitor | 172.18.87.79 | admin | http://localhost/system/Menu/edit |  | {"menuId":6,"menuName":"控制台","parentName":null,"parentId":0,"orderNum":0,"path":"index","component":"index","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"","icon":"dashboard","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":""} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 13:49:09.2438 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-16 13:49:09.2880 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-16 13:49:11.3634 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-16 13:50:00.0216 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 13:57:52.4574 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":6,"menuName":"控制台","parentName":null,"parentId":0,"orderNum":0,"path":"index","component":"","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"","icon":"dashboard","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":""} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 14:00:00.0372 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 14:10:00.0356 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 14:20:00.0330 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 14:30:00.0247 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 14:30:16.5194 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/user/profile/avatar |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "imgUrl": "http://localhost:8888/uploads/2022316//42FCDE844043280B.png"  }} | 
+2022-03-16 14:33:24.0966 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":3,"orderNum":2,"path":"/article/publish","component":"system/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"system:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 14:34:48.8520 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":0,"orderNum":2,"path":"/article/publish","component":"system/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"system:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 14:35:01.5287 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":118,"menuName":"文章管理","parentName":null,"parentId":0,"orderNum":18,"path":"article","component":null,"isCache":"0","isFrame":"0","menuType":"M","visible":"0","status":"0","perms":null,"icon":"documentation","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 14:35:15.1894 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":118,"orderNum":2,"path":"/article/publish","component":"system/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"system:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 14:39:51.0137 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-16 14:39:51.0194 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-16 14:39:51.0194 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-16 14:39:51.0194 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-16 14:40:00.1270 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 14:40:51.2499 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-16 14:40:51.5550 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-16 14:40:52.6659 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-16 14:50:00.0329 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 15:00:00.0252 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 15:00:10.5057 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":118,"menuName":"文章管理","parentName":null,"parentId":0,"orderNum":18,"path":"article","component":null,"isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":null,"icon":"documentation","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 15:01:26.3190 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":118,"menuName":"文章管理","parentName":null,"parentId":0,"orderNum":18,"path":"article","component":null,"isCache":"0","isFrame":"0","menuType":"M","visible":"0","status":"0","perms":null,"icon":"zujian","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 15:10:00.0397 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 15:13:35.2774 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-16 15:13:35.3807 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-16 15:13:37.0049 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-16 15:20:00.0325 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 15:22:02.7994 |  | INFO | GlobalActionMonitor | 172.18.87.79 | admin | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": "admin",    "id": 1  }} | 
+2022-03-16 15:23:34.8066 |  | INFO | GlobalActionMonitor | 172.18.87.79 | admin | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": "admin",    "id": 1  }} | 
+2022-03-16 15:30:00.0210 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 15:40:00.0339 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 15:50:00.0204 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 15:50:48.0645 |  | INFO | GlobalActionMonitor | 172.18.87.79 | admin | http://localhost/system/menu/add |  | {"parentId":0,"menuName":"博客管理","icon":"tools","menuType":"M","orderNum":19,"isFrame":"0","isCache":"0","visible":"0","status":"0","path":"blog"} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 15:50:57.8140 |  | INFO | GlobalActionMonitor | 172.18.87.79 | admin | http://localhost/system/Menu/edit |  | {"menuId":118,"menuName":"文章管理","parentName":null,"parentId":2006,"orderNum":18,"path":"article","component":null,"isCache":"0","isFrame":"0","menuType":"M","visible":"0","status":"0","perms":null,"icon":"zujian","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-16 16:00:00.0349 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 16:10:00.0492 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 16:20:00.0362 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 16:30:00.0497 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 16:40:00.0387 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 16:50:00.0501 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 17:00:00.0504 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 17:10:00.0365 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 17:20:00.0397 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 17:30:00.0798 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 17:40:00.0669 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 17:50:00.0728 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 18:00:00.0519 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-16 18:00:01.7219 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/article/CategoryList | 请求访问[/article/CategoryList]失败，无法访问系统资源 |  |  | 
+2022-03-16 18:00:25.0840 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/article/list | 请求访问[/article/list]失败，无法访问系统资源 |  |  | 

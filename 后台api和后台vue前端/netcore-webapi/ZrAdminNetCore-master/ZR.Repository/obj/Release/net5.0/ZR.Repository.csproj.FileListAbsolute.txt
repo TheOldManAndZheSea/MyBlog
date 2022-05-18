@@ -1,0 +1,17 @@
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\bin\Release\net5.0\ZR.Repository.deps.json
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\bin\Release\net5.0\ZR.Repository.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\bin\Release\net5.0\ref\ZR.Repository.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\bin\Release\net5.0\ZR.Repository.pdb
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\bin\Release\net5.0\Infrastructure.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\bin\Release\net5.0\ZR.Model.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\bin\Release\net5.0\Infrastructure.pdb
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\bin\Release\net5.0\ZR.Model.pdb
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\obj\Release\net5.0\ZR.Repository.csproj.AssemblyReference.cache
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\obj\Release\net5.0\ZR.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\obj\Release\net5.0\ZR.Repository.AssemblyInfoInputs.cache
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\obj\Release\net5.0\ZR.Repository.AssemblyInfo.cs
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\obj\Release\net5.0\ZR.Repository.csproj.CoreCompileInputs.cache
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\obj\Release\net5.0\ZR.Repository.csproj.CopyComplete
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\obj\Release\net5.0\ZR.Repository.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\obj\Release\net5.0\ref\ZR.Repository.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\obj\Release\net5.0\ZR.Repository.pdb

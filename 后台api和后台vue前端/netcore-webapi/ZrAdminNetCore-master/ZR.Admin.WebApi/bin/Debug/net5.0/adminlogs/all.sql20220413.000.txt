@@ -1,0 +1,1525 @@
+===========================================
+ 2022-04-13 10:42:42.8050 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-13 10:43:08.2275 - 127.0.0.1 - userid=undefined - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T10:43:08.1283123+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 10:43:08.2354 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 10:43:08.4950 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 10:43:09.2106 - 127.0.0.1 -  - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T10:43:09.2106179+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 10:43:09.9562 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 10:43:09.9720 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 10:43:20.4182 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 10:43:20.4509 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 10:43:29.0748 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 10:43:29.1321 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE (( `UserName` = @UserName0 ) AND ( `Password` = @Password1 ))  ORDER BY NOW()  LIMIT 0,1，{"@UserName0":"admin","@Password1":"E10ADC3949BA59ABBE56E057F20F883E"}
+===========================================
+ 2022-04-13 10:43:29.1368 - 127.0.0.1 -  - http://localhost/login 
+ INSERT INTO `sys_logininfor`  
+           (`userName`,`status`,`ipaddr`,`loginLocation`,`browser`,`os`,`msg`,`loginTime`)
+     VALUES
+           (@userName,@status,@ipaddr,@loginLocation,@browser,@os,@msg,@loginTime) ;SELECT LAST_INSERT_ID();，{"@userName":"admin","@status":"0","@ipaddr":"127.0.0.1","@loginLocation":"0-内网IP","@browser":"Other","@os":"Windows 10","@msg":"登录成功","@loginTime":"2022-04-13T10:43:29.134401+08:00"}
+===========================================
+ 2022-04-13 10:43:29.1368 - 127.0.0.1 -  - http://localhost/login 
+ select sysdate()，{}
+===========================================
+ 2022-04-13 10:43:29.1573 - 127.0.0.1 -  - http://localhost/login 
+ UPDATE `sys_user`  SET
+           `LoginIP`=@LoginIP,`LoginDate`=@LoginDate  WHERE `UserId`=@UserId，{"@UserId":1,"@LoginIP":"127.0.0.1","@LoginDate":"2022-04-13T10:43:29"}
+===========================================
+ 2022-04-13 10:43:29.1710 - 127.0.0.1 -  - http://localhost/login 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:43:29.5608 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:43:29.5608 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:43:29.8025 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:43:29.8236 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 10:43:29.8654 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 10:43:30.3842 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-04-13 10:43:36.6987 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/type/sys_article_status 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND ( `DictType` = @DictType1 ))ORDER BY `DictSort` ASC ，{"@Status0":"0","@DictType1":"sys_article_status"}
+===========================================
+ 2022-04-13 10:43:36.7295 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:43:36.7295 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 10:43:36.7295 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:43:36.7295 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:43:36.7449 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:43:36.7449 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 10:43:36.7449 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:43:36.7449 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 10:45:34.0958 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:45:34.0958 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 10:45:34.0958 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:45:34.0958 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:45:34.0958 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:45:34.0958 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 10:45:34.0958 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:45:34.1040 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 10:49:07.5142 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:49:07.5142 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 10:49:07.5142 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:49:07.5142 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:49:07.5259 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:49:07.5259 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 10:49:07.5259 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:49:07.5259 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 10:49:12.1472 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:49:12.1472 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:49:12.2800 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:49:12.2800 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 10:49:12.5683 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 10:49:13.3854 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:49:13.3854 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 10:49:13.3854 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:49:13.3854 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:49:13.3854 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:49:13.3854 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 10:49:13.3854 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:49:13.3854 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 10:50:00.0600 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 10:50:00.0600 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T10:50:00.0609949+08:00","@Elapsed":22.0121}
+===========================================
+ 2022-04-13 10:50:00.0736 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 10:50:03.1195 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:50:03.1220 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:50:03.5208 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 10:50:03.5378 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:50:03.5378 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 10:50:04.3249 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:50:04.3249 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 10:50:04.3249 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:50:04.3249 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:50:04.3249 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:50:04.3249 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 10:50:04.3249 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:50:04.3249 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 10:50:51.5210 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:50:51.5210 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:50:51.6299 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:50:51.6299 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 10:50:51.9251 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 10:50:52.7442 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:50:52.7462 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 10:50:52.7462 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:50:52.7462 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:50:52.7462 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:50:52.7462 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 10:50:52.7462 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:50:52.7462 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 10:52:38.0847 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:52:38.0847 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:52:38.5007 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 10:52:38.5124 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:52:38.5124 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 10:52:39.3242 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:52:39.3242 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 10:52:39.3242 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:52:39.3242 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:52:39.3242 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:52:39.3242 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 10:52:39.3242 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:52:39.3242 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 10:52:41.9359 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-04-13 10:52:46.8126 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:52:46.8126 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 10:52:46.8126 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:52:46.8126 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:52:46.8126 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:52:46.8126 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 10:52:46.8126 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:52:46.8126 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 10:53:17.9454 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`  ，{}
+===========================================
+ 2022-04-13 10:53:18.2816 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:53:18.2816 - 127.0.0.1 - userid=1 - http://localhost/Article/1 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":1}
+===========================================
+ 2022-04-13 10:53:18.2816 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-04-13 10:53:18.2816 - 127.0.0.1 - userid=1 - http://localhost/Article/1 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:53:18.3220 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":2}
+===========================================
+ 2022-04-13 10:53:18.3235 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":3}
+===========================================
+ 2022-04-13 10:53:18.3235 - 127.0.0.1 - userid=1 - http://localhost/Article/1 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:53:18.3235 - 127.0.0.1 - userid=1 - http://localhost/Article/1 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:53:18.3597 - 127.0.0.1 - userid=1 - http://localhost/Article/1 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":1}
+===========================================
+ 2022-04-13 10:53:18.3597 - 127.0.0.1 - userid=1 - http://localhost/Article/1 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:53:18.3597 - 127.0.0.1 - userid=1 - http://localhost/Article/1 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:53:18.3597 - 127.0.0.1 - userid=1 - http://localhost/Article/1 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:53:35.9338 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:53:35.9338 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 10:53:35.9338 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-04-13 10:53:35.9338 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:53:35.9338 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":1}
+===========================================
+ 2022-04-13 10:53:35.9338 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 10:53:35.9338 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:53:35.9338 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 10:56:32.3890 - 127.0.0.1 - userid=1 - http://localhost/Article/1 
+ DELETE FROM `article` WHERE `Cid` IN (1) ，{}
+===========================================
+ 2022-04-13 10:56:32.3890 - 127.0.0.1 - userid=1 - http://localhost/Article/1 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章删除","@businessType":3,"@method":"Article.Delete()","@requestMethod":"DELETE","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Article/1","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T10:56:32.3960347+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 10:56:32.7370 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 10:56:32.7370 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 10:56:32.7370 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 10:56:32.7370 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 10:56:32.7370 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 11:00:00.0237 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 11:00:00.0237 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T11:00:00.0247579+08:00","@Elapsed":14.2966}
+===========================================
+ 2022-04-13 11:00:00.0270 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 11:10:00.0267 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 11:10:00.0267 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T11:10:00.0330328+08:00","@Elapsed":14.5116}
+===========================================
+ 2022-04-13 11:10:00.0267 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 11:23:13.1849 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-13 11:23:39.0575 - 127.0.0.1 - userid=undefined - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T11:23:38.9721937+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 11:23:39.0857 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 11:23:39.2706 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 11:23:40.5425 - 127.0.0.1 -  - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T11:23:40.542499+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 11:23:41.3566 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 11:23:41.3725 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 11:23:45.1928 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 11:23:50.8484 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 11:23:50.9021 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE (( `UserName` = @UserName0 ) AND ( `Password` = @Password1 ))  ORDER BY NOW()  LIMIT 0,1，{"@UserName0":"admin","@Password1":"E10ADC3949BA59ABBE56E057F20F883E"}
+===========================================
+ 2022-04-13 11:23:50.9021 - 127.0.0.1 -  - http://localhost/login 
+ INSERT INTO `sys_logininfor`  
+           (`userName`,`status`,`ipaddr`,`loginLocation`,`browser`,`os`,`msg`,`loginTime`)
+     VALUES
+           (@userName,@status,@ipaddr,@loginLocation,@browser,@os,@msg,@loginTime) ;SELECT LAST_INSERT_ID();，{"@userName":"admin","@status":"0","@ipaddr":"127.0.0.1","@loginLocation":"0-内网IP","@browser":"Other","@os":"Windows 10","@msg":"登录成功","@loginTime":"2022-04-13T11:23:50.9047231+08:00"}
+===========================================
+ 2022-04-13 11:23:50.9021 - 127.0.0.1 -  - http://localhost/login 
+ select sysdate()，{}
+===========================================
+ 2022-04-13 11:23:50.9280 - 127.0.0.1 -  - http://localhost/login 
+ UPDATE `sys_user`  SET
+           `LoginIP`=@LoginIP,`LoginDate`=@LoginDate  WHERE `UserId`=@UserId，{"@UserId":1,"@LoginIP":"127.0.0.1","@LoginDate":"2022-04-13T11:23:50"}
+===========================================
+ 2022-04-13 11:23:50.9407 - 127.0.0.1 -  - http://localhost/login 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 11:23:51.0864 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 11:23:51.0884 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 11:23:51.3088 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 11:23:51.3263 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 11:23:51.3263 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 11:23:51.8789 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-04-13 11:23:56.1105 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 11:23:56.1105 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-04-13 11:23:56.1105 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":2}
+===========================================
+ 2022-04-13 11:23:56.1105 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":3}
+===========================================
+ 2022-04-13 11:24:20.6916 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 11:24:20.6916 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 11:24:20.7208 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 11:24:20.7208 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 11:24:21.0739 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 11:24:21.0885 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 11:24:21.0885 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-04-13 11:24:21.0885 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":2}
+===========================================
+ 2022-04-13 11:24:21.0885 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":3}
+===========================================
+ 2022-04-13 11:26:25.2566 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-13 11:26:39.6440 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 11:26:39.6655 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 11:26:39.7769 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 11:26:39.7981 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 11:26:39.7981 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 11:26:40.4861 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 11:26:40.4861 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-04-13 11:26:40.4861 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":2}
+===========================================
+ 2022-04-13 11:26:40.4961 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":3}
+===========================================
+ 2022-04-13 11:26:43.7988 - 127.0.0.1 - userid=1 - http://localhost/tag/3 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":3}
+===========================================
+ 2022-04-13 11:26:43.8137 - 127.0.0.1 - userid=1 - http://localhost/tag/3 
+ DELETE FROM `t_tag` WHERE `Id` IN (3) ，{}
+===========================================
+ 2022-04-13 11:26:43.8499 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 11:26:43.8499 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-04-13 11:26:43.8499 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":2}
+===========================================
+ 2022-04-13 11:26:43.8734 - 127.0.0.1 - userid=1 - http://localhost/tag/3 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"标签删除","@businessType":3,"@method":"Tag.Delete()","@requestMethod":"DELETE","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/tag/3","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T11:26:43.8495172+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 11:26:52.2447 - 127.0.0.1 - userid=1 - http://localhost/tag/2 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":2}
+===========================================
+ 2022-04-13 11:26:52.2447 - 127.0.0.1 - userid=1 - http://localhost/tag/2 
+ DELETE FROM `t_tag` WHERE `Id` IN (2) ，{}
+===========================================
+ 2022-04-13 11:26:52.2447 - 127.0.0.1 - userid=1 - http://localhost/tag/2 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"标签删除","@businessType":3,"@method":"Tag.Delete()","@requestMethod":"DELETE","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/tag/2","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T11:26:52.2548612+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 11:26:52.5019 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 11:26:52.5019 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-04-13 11:26:54.6503 - 127.0.0.1 - userid=1 - http://localhost/tag/1 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-04-13 11:26:54.6523 - 127.0.0.1 - userid=1 - http://localhost/tag/1 
+ DELETE FROM `t_tag` WHERE `Id` IN (1) ，{}
+===========================================
+ 2022-04-13 11:26:54.6523 - 127.0.0.1 - userid=1 - http://localhost/tag/1 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"标签删除","@businessType":3,"@method":"Tag.Delete()","@requestMethod":"DELETE","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/tag/1","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T11:26:54.6538468+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 11:26:54.9807 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:35:27.9174 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-13 14:36:24.1253 - 127.0.0.1 - userid=undefined - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:36:24.0112322+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:36:24.1253 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 14:36:24.3716 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 14:36:28.5956 - 127.0.0.1 -  - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:36:28.5955968+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:36:29.3133 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 14:36:29.3297 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 14:36:38.8313 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 14:36:38.8917 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE (( `UserName` = @UserName0 ) AND ( `Password` = @Password1 ))  ORDER BY NOW()  LIMIT 0,1，{"@UserName0":"admin","@Password1":"E10ADC3949BA59ABBE56E057F20F883E"}
+===========================================
+ 2022-04-13 14:36:38.8982 - 127.0.0.1 -  - http://localhost/login 
+ INSERT INTO `sys_logininfor`  
+           (`userName`,`status`,`ipaddr`,`loginLocation`,`browser`,`os`,`msg`,`loginTime`)
+     VALUES
+           (@userName,@status,@ipaddr,@loginLocation,@browser,@os,@msg,@loginTime) ;SELECT LAST_INSERT_ID();，{"@userName":"admin","@status":"0","@ipaddr":"127.0.0.1","@loginLocation":"0-内网IP","@browser":"Other","@os":"Windows 10","@msg":"登录成功","@loginTime":"2022-04-13T14:36:38.8949699+08:00"}
+===========================================
+ 2022-04-13 14:36:38.8982 - 127.0.0.1 -  - http://localhost/login 
+ select sysdate()，{}
+===========================================
+ 2022-04-13 14:36:38.9210 - 127.0.0.1 -  - http://localhost/login 
+ UPDATE `sys_user`  SET
+           `LoginIP`=@LoginIP,`LoginDate`=@LoginDate  WHERE `UserId`=@UserId，{"@UserId":1,"@LoginIP":"127.0.0.1","@LoginDate":"2022-04-13T14:36:38"}
+===========================================
+ 2022-04-13 14:36:38.9319 - 127.0.0.1 -  - http://localhost/login 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 14:36:39.0696 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 14:36:39.0696 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 14:36:39.3156 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 14:36:39.3312 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 14:36:39.3405 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 14:36:39.9181 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-04-13 14:36:46.9267 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT Count(*) FROM `articlecategory`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:36:46.9301 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( 1 = 1 )   ORDER BY `Category_Id` DESC LIMIT 0,10，{}
+===========================================
+ 2022-04-13 14:36:50.5226 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/6 
+ SELECT Count(*) FROM `article`  WHERE  (@MethodConst0 like concat('%', CAST(`Category_id` AS CHAR),'%'))  ，{"@MethodConst0":"6"}
+===========================================
+ 2022-04-13 14:36:50.5226 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/6 
+ DELETE FROM `articlecategory` WHERE `Category_Id` IN (6) ，{}
+===========================================
+ 2022-04-13 14:36:50.5401 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/6 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章类型","@businessType":3,"@method":"Articlecategory.DeleteArticlecategory()","@requestMethod":"DELETE","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/Articlecategory/6","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\"}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:36:50.5400743+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:36:50.5700 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT Count(*) FROM `articlecategory`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:36:50.5700 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( 1 = 1 )   ORDER BY `Category_Id` DESC LIMIT 0,10，{}
+===========================================
+ 2022-04-13 14:36:52.7523 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/3 
+ SELECT Count(*) FROM `article`  WHERE  (@MethodConst0 like concat('%', CAST(`Category_id` AS CHAR),'%'))  ，{"@MethodConst0":"3"}
+===========================================
+ 2022-04-13 14:36:52.7523 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/3 
+ DELETE FROM `articlecategory` WHERE `Category_Id` IN (3) ，{}
+===========================================
+ 2022-04-13 14:36:52.7523 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/3 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章类型","@businessType":3,"@method":"Articlecategory.DeleteArticlecategory()","@requestMethod":"DELETE","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/Articlecategory/3","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\"}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:36:52.7553656+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:36:52.9927 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT Count(*) FROM `articlecategory`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:36:52.9927 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( 1 = 1 )   ORDER BY `Category_Id` DESC LIMIT 0,10，{}
+===========================================
+ 2022-04-13 14:36:54.5453 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/2 
+ SELECT Count(*) FROM `article`  WHERE  (@MethodConst0 like concat('%', CAST(`Category_id` AS CHAR),'%'))  ，{"@MethodConst0":"2"}
+===========================================
+ 2022-04-13 14:36:54.5453 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/2 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章类型","@businessType":3,"@method":"Articlecategory.DeleteArticlecategory()","@requestMethod":"DELETE","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/Articlecategory/2","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 110,  \"msg\": \"删除失败，文章类型下有文章存在\"}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:36:54.5473997+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:37:00.1575 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/type/sys_article_status 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND ( `DictType` = @DictType1 ))ORDER BY `DictSort` ASC ，{"@Status0":"0","@DictType1":"sys_article_status"}
+===========================================
+ 2022-04-13 14:37:00.1761 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:37:00.1761 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 14:37:00.1793 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":2}
+===========================================
+ 2022-04-13 14:37:00.1793 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 14:37:00.1793 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 14:37:03.5342 - 127.0.0.1 - userid=1 - http://localhost/Article/2 
+ DELETE FROM `article` WHERE `Cid` IN (2) ，{}
+===========================================
+ 2022-04-13 14:37:03.5342 - 127.0.0.1 - userid=1 - http://localhost/Article/2 
+ DELETE FROM `t_article_tags` WHERE ( `article_id` = @article_id0 ) ，{"@article_id0":2}
+===========================================
+ 2022-04-13 14:37:03.5384 - 127.0.0.1 - userid=1 - http://localhost/Article/2 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章删除","@businessType":3,"@method":"Article.Delete()","@requestMethod":"DELETE","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Article/2","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 0}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:37:03.5384371+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:37:03.8690 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:37:03.8690 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `istop` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 14:37:10.4283 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/2 
+ SELECT Count(*) FROM `article`  WHERE  (@MethodConst0 like concat('%', CAST(`Category_id` AS CHAR),'%'))  ，{"@MethodConst0":"2"}
+===========================================
+ 2022-04-13 14:37:10.4301 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/2 
+ DELETE FROM `articlecategory` WHERE `Category_Id` IN (2) ，{}
+===========================================
+ 2022-04-13 14:37:10.4301 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/2 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章类型","@businessType":3,"@method":"Articlecategory.DeleteArticlecategory()","@requestMethod":"DELETE","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/Articlecategory/2","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\"}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:37:10.4315386+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:37:10.7700 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT Count(*) FROM `articlecategory`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:37:10.7700 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( 1 = 1 )   ORDER BY `Category_Id` DESC LIMIT 0,10，{}
+===========================================
+ 2022-04-13 14:37:19.9347 - 127.0.0.1 -  - http://localhost/Common/UploadFile 
+ INSERT INTO `sys_file`  
+           (`Id`,`RealName`,`FileType`,`FileName`,`FileUrl`,`StorePath`,`FileSize`,`FileExt`,`Create_by`,`Create_time`,`StoreType`,`AccessUrl`)
+     VALUES
+           (@Id,@RealName,@FileType,@FileName,@FileUrl,@StorePath,@FileSize,@FileExt,@Create_by,@Create_time,@StoreType,@AccessUrl) ;，{"@Id":1514130596010528768,"@RealName":"wpf.webp","@FileType":"image/webp","@FileName":"c97df5604f90a80c.webp","@FileUrl":"E:/文档/张天赐/练习代码/Vstudio/个人博客/ZrAdminNetCore-master/ZR.Admin.WebApi/wwwroot/uploads/2022413/c97df5604f90a80c.webp","@StorePath":null,"@FileSize":"11kb","@FileExt":".webp","@Create_by":"admin","@Create_time":"2022-04-13T14:37:19.9288206+08:00","@StoreType":1,"@AccessUrl":"http://localhost:9999/uploads/2022413//c97df5604f90a80c.webp"}
+===========================================
+ 2022-04-13 14:37:30.9090 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory 
+ INSERT INTO `articlecategory`  
+           (`Name`,`ParentId`)
+     VALUES
+           (@Name,@ParentId) ;，{"@Name":"wpf","@ParentId":0}
+===========================================
+ 2022-04-13 14:37:30.9090 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章类型","@businessType":1,"@method":"Articlecategory.AddArticlecategory()","@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/Articlecategory","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"name\":\"wpf\",\"pic_url\":\"http://localhost:9999/uploads/2022413//c97df5604f90a80c.webp\",\"color\":\"#2b73af\"}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\"}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:37:30.9109507+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:37:31.0750 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT Count(*) FROM `articlecategory`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:37:31.0750 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( 1 = 1 )   ORDER BY `Category_Id` DESC LIMIT 0,10，{}
+===========================================
+ 2022-04-13 14:37:35.3638 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/7 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":7}
+===========================================
+ 2022-04-13 14:37:53.6038 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 14:37:53.6038 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 14:37:54.0412 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 14:37:54.0581 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 14:37:54.0581 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 14:37:55.0215 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT Count(*) FROM `articlecategory`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:37:55.0239 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( 1 = 1 )   ORDER BY `Category_Id` DESC LIMIT 0,10，{}
+===========================================
+ 2022-04-13 14:40:00.0577 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 14:40:00.0577 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T14:40:00.0591809+08:00","@Elapsed":14.3405}
+===========================================
+ 2022-04-13 14:40:00.0839 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 14:40:57.9697 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/7 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":7}
+===========================================
+ 2022-04-13 14:41:01.1597 - 127.0.0.1 -  - http://localhost/Common/UploadFile 
+ INSERT INTO `sys_file`  
+           (`Id`,`RealName`,`FileType`,`FileName`,`FileUrl`,`StorePath`,`FileSize`,`FileExt`,`Create_by`,`Create_time`,`StoreType`,`AccessUrl`)
+     VALUES
+           (@Id,@RealName,@FileType,@FileName,@FileUrl,@StorePath,@FileSize,@FileExt,@Create_by,@Create_time,@StoreType,@AccessUrl) ;，{"@Id":1514131523899625472,"@RealName":"wpf.webp","@FileType":"image/webp","@FileName":"b41212f11a2dafdd.webp","@FileUrl":"E:/文档/张天赐/练习代码/Vstudio/个人博客/ZrAdminNetCore-master/ZR.Admin.WebApi/wwwroot/uploads/2022413/b41212f11a2dafdd.webp","@StorePath":null,"@FileSize":"11kb","@FileExt":".webp","@Create_by":"admin","@Create_time":"2022-04-13T14:41:01.1582055+08:00","@StoreType":1,"@AccessUrl":"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp"}
+===========================================
+ 2022-04-13 14:41:05.5608 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory 
+ UPDATE `articlecategory`  SET
+            `Name` = @Const0 , `ParentId` = @Const1 , `pic_url` = @Const2 , `color` = @Const3   WHERE ( `Category_Id` = @Category_Id4 )，{"@Const0":"wpf","@Const1":0,"@Const2":null,"@Const3":null,"@Category_Id4":0}
+===========================================
+ 2022-04-13 14:41:05.5608 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章类型","@businessType":2,"@method":"Articlecategory.UpdateArticlecategory()","@requestMethod":"PUT","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/Articlecategory","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"category_Id\":7,\"name\":\"wpf\",\"parentId\":0,\"pic_url\":\"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp\",\"color\":null}","@jsonResult":"{  \"code\": 1,  \"msg\": \"FAIL\"}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:41:05.5619333+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:41:18.6529 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory 
+ UPDATE `articlecategory`  SET
+            `Name` = @Const0 , `ParentId` = @Const1 , `pic_url` = @Const2 , `color` = @Const3   WHERE ( `Category_Id` = @Category_Id4 )，{"@Const0":"wpf","@Const1":0,"@Const2":null,"@Const3":null,"@Category_Id4":0}
+===========================================
+ 2022-04-13 14:41:18.6529 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章类型","@businessType":2,"@method":"Articlecategory.UpdateArticlecategory()","@requestMethod":"PUT","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/Articlecategory","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"category_Id\":7,\"name\":\"wpf\",\"parentId\":0,\"pic_url\":\"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp\",\"color\":\"#2b73af\"}","@jsonResult":"{  \"code\": 1,  \"msg\": \"FAIL\"}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:41:18.6545427+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:42:44.1762 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-13 14:42:51.7904 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 14:43:02.2611 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory 
+ UPDATE `articlecategory`  SET
+            `Name` = @Const0 , `ParentId` = @Const1 , `pic_url` = @Const2 , `color` = @Const3   WHERE ( `Category_Id` = @Category_Id4 )，{"@Const0":"wpf","@Const1":0,"@Const2":"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp","@Const3":"#2b73af","@Category_Id4":7}
+===========================================
+ 2022-04-13 14:43:02.3394 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章类型","@businessType":2,"@method":"Articlecategory.UpdateArticlecategory()","@requestMethod":"PUT","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/Articlecategory","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"category_Id\":7,\"name\":\"wpf\",\"parentId\":0,\"pic_url\":\"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp\",\"color\":\"#2b73af\"}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\"}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:43:02.3059174+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:43:02.3394 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT Count(*) FROM `articlecategory`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:43:02.3394 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( 1 = 1 )   ORDER BY `Category_Id` DESC LIMIT 0,10，{}
+===========================================
+ 2022-04-13 14:43:18.8051 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/7 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":7}
+===========================================
+ 2022-04-13 14:43:22.8851 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory 
+ UPDATE `articlecategory`  SET
+            `Name` = @Const0 , `ParentId` = @Const1 , `pic_url` = @Const2 , `color` = @Const3   WHERE ( `Category_Id` = @Category_Id4 )，{"@Const0":"wpf","@Const1":0,"@Const2":"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp","@Const3":"#2b73af","@Category_Id4":7}
+===========================================
+ 2022-04-13 14:43:22.9299 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章类型","@businessType":2,"@method":"Articlecategory.UpdateArticlecategory()","@requestMethod":"PUT","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/Articlecategory","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"category_Id\":7,\"name\":\"wpf\",\"parentId\":0,\"pic_url\":\"http://localhost:9999/uploads/2022413//b41212f11a2dafdd.webp\",\"color\":\"#2b73af\"}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\"}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T14:43:22.8932187+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 14:43:23.2471 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT Count(*) FROM `articlecategory`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 14:43:23.2471 - 127.0.0.1 - userid=1 - http://localhost/Blog/Articlecategory/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articlecategory`   WHERE ( 1 = 1 )   ORDER BY `Category_Id` DESC LIMIT 0,10，{}
+===========================================
+ 2022-04-13 16:16:49.9188 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-13 16:17:17.4352 - 127.0.0.1 - userid=undefined - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T16:17:17.3310236+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 16:17:17.4698 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 16:17:17.6527 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 16:17:18.9456 - 127.0.0.1 -  - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T16:17:18.9456069+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 16:17:19.7415 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 16:17:19.7606 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 16:17:23.3855 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 16:17:35.6284 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 16:17:35.6575 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 16:17:40.8590 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 16:17:41.1919 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 16:17:46.4844 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 16:17:46.5442 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE (( `UserName` = @UserName0 ) AND ( `Password` = @Password1 ))  ORDER BY NOW()  LIMIT 0,1，{"@UserName0":"admin","@Password1":"E10ADC3949BA59ABBE56E057F20F883E"}
+===========================================
+ 2022-04-13 16:17:46.5442 - 127.0.0.1 -  - http://localhost/login 
+ INSERT INTO `sys_logininfor`  
+           (`userName`,`status`,`ipaddr`,`loginLocation`,`browser`,`os`,`msg`,`loginTime`)
+     VALUES
+           (@userName,@status,@ipaddr,@loginLocation,@browser,@os,@msg,@loginTime) ;SELECT LAST_INSERT_ID();，{"@userName":"admin","@status":"0","@ipaddr":"127.0.0.1","@loginLocation":"0-内网IP","@browser":"Other","@os":"Windows 10","@msg":"登录成功","@loginTime":"2022-04-13T16:17:46.5465926+08:00"}
+===========================================
+ 2022-04-13 16:17:46.5442 - 127.0.0.1 -  - http://localhost/login 
+ select sysdate()，{}
+===========================================
+ 2022-04-13 16:17:46.5678 - 127.0.0.1 -  - http://localhost/login 
+ UPDATE `sys_user`  SET
+           `LoginIP`=@LoginIP,`LoginDate`=@LoginDate  WHERE `UserId`=@UserId，{"@UserId":1,"@LoginIP":"127.0.0.1","@LoginDate":"2022-04-13T16:17:46"}
+===========================================
+ 2022-04-13 16:17:46.5803 - 127.0.0.1 -  - http://localhost/login 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 16:17:46.9650 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 16:17:46.9650 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 16:17:47.2146 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 16:17:47.2344 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 16:17:47.2785 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 16:17:47.8050 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-04-13 16:17:58.8368 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getQuery 
+ SELECT `Id`,`Title`,`Copyright`,`AuthorQQ`,`AuthorWechart`,`AuthorEmail`,`IsOpenLogin`,`IsOpenRegister`,`Content`,`BottomImage`,`BlogBackGroundImage`,`FundedAlipayImg`,`FundedWechartImg` FROM `t_blogconfig`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-04-13 16:17:58.8533 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/types 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND  (`DictType` IN ('sys_normal_disable','sys_normal_disable')) )ORDER BY `DictSort` ASC ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 16:20:00.0466 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 16:20:00.0466 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T16:20:00.0477836+08:00","@Elapsed":8.6554}
+===========================================
+ 2022-04-13 16:20:00.0663 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 16:22:41.3508 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/list 
+ SELECT Count(*) FROM `gen_table`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 16:22:41.3508 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/list 
+ SELECT `TableId`,`DbName`,`TableName`,`TableComment`,`SubTableName`,`SubTableFkName`,`ClassName`,`TplCategory`,`BaseNameSpace`,`ModuleName`,`BusinessName`,`FunctionName`,`FunctionAuthor`,`GenType`,`GenPath`,`Options`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `gen_table`   WHERE ( 1 = 1 )   ORDER BY `TableId` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 16:23:03.4607 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/importTable 
+ DELETE FROM `gen_table` WHERE ( `TableName` = @TableName0 ) ，{"@TableName0":"t_bloglinks"}
+===========================================
+ 2022-04-13 16:23:03.4607 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/importTable 
+ INSERT INTO `gen_table`  
+           (`DbName`,`TableName`,`TableComment`,`ClassName`,`BaseNameSpace`,`ModuleName`,`BusinessName`,`FunctionName`,`FunctionAuthor`,`Create_by`,`Create_time`)
+     VALUES
+           (@DbName,@TableName,@TableComment,@ClassName,@BaseNameSpace,@ModuleName,@BusinessName,@FunctionName,@FunctionAuthor,@Create_by,@Create_time) ;SELECT LAST_INSERT_ID();，{"@DbName":"blogadmin","@TableName":"t_bloglinks","@TableComment":"博客友情链接","@ClassName":"Bloglinks","@BaseNameSpace":"ZR.","@ModuleName":"business","@BusinessName":"TBloglinks","@FunctionName":"博客友情链接","@FunctionAuthor":"ztc","@Create_by":"admin","@Create_time":"2022-04-13T16:23:03.4534905+08:00"}
+===========================================
+ 2022-04-13 16:23:03.4833 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/importTable 
+ DELETE FROM `gen_table_column` WHERE ( `TableName` = @TableName0 ) ，{"@TableName0":"t_bloglinks"}
+===========================================
+ 2022-04-13 16:23:03.4833 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/importTable 
+ INSERT INTO `gen_table_column`  (`ColumnName`,`TableId`,`TableName`,`ColumnComment`,`ColumnType`,`CsharpType`,`CsharpField`,`IsPk`,`IsRequired`,`IsIncrement`,`IsInsert`,`IsEdit`,`IsList`,`IsQuery`,`HtmlType`,`QueryType`,`Sort`,`DictType`,`Create_by`,`Create_time`) VALUES(N'id',N'7',N't_bloglinks',N'',N'int',N'int',N'Id',1,1,1,0,0,1,0,N'input',N'EQ',N'0',N'',N'admin','2022-04-13 16:23:03.480'),  (N'name',N'7',N't_bloglinks',N'名称',N'varchar',N'string',N'Name',0,0,0,1,1,1,0,N'input',N'EQ',N'0',N'',N'admin','2022-04-13 16:23:03.481'),  (N'links',N'7',N't_bloglinks',N'跳转链接',N'varchar',N'string',N'Links',0,0,0,1,1,1,0,N'input',N'EQ',N'0',N'',N'admin','2022-04-13 16:23:03.481') ;select @@IDENTITY
+，{}
+===========================================
+ 2022-04-13 16:23:03.4970 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/importTable 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"代码生成","@businessType":6,"@method":"CodeGenerator.ImportTableSave()","@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/tool/gen/importTable","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"tableId\": 7,    \"dbName\": \"blogadmin\",    \"tableName\": \"t_bloglinks\",    \"tableComment\": \"博客友情链接\",    \"subTableName\": null,    \"subTableFkName\": null,    \"className\": \"Bloglinks\",    \"tplCategory\": null,    \"baseNameSpace\": \"ZR.\",    \"moduleName\": \"business\",    \"businessName\": \"TBloglinks\",    \"functionName\": \"博客友情链接\",    \"functionAuthor\": \"ztc\",    \"genType\": null,    \"genPath\": null,    \"options\": null,    \"columns\": [      {        \"columnId\": 0,        \"columnName\": \"id\",        \"tableId\": 7,        \"tableName\": \"t_bloglinks\",        \"columnComment\": \"\",        \"columnType\": \"int\",        \"csharpType\": \"int\",        \"csharpField\": \"Id\",        \"isPk\": true,        \"isRequired\": true,        \"isIncrement\": true,        \"isInsert\": false,        \"isEdit\": false,        \"isList\": true,        \"isQuery\": false,        \"htmlType\": \"input\",        \"queryType\": \"EQ\",        \"sort\": 0,        \"dictType\": \"\",        \"requiredStr\": \"\",        \"csharpFieldFl\": null,        \"createBy\": \"admin\",        \"createTime\": \"2022-04-13 16:23:03\",        \"updateTime\": null,        \"remark\": null      },      {        \"columnId\": 0,        \"columnName\": \"name\",        \"tableId\": 7,        \"tableName\": \"t_bloglinks\",        \"columnComment\": \"名称\",        \"columnType\": \"varchar\",        \"csharpType\": \"string\",        \"csharpField\": \"Name\",        \"isPk\": false,        \"isRequired\": false,        \"isIncrement\": false,        \"isInsert\": true,        \"isEdit\": true,        \"isList\": true,        \"isQuery\": false,        \"htmlType\": \"input\",        \"queryType\": \"EQ\",        \"sort\": 0,        \"dictType\": \"\",        \"requiredStr\": \"\",        \"csharpFieldFl\": null,        \"createBy\": \"admin\",        \"createTime\": \"2022-04-13 16:23:03\",        \"updateTime\": null,        \"remark\": null      },      {        \"columnId\": 0,        \"columnName\": \"links\",        \"tableId\": 7,        \"tableName\": \"t_bloglinks\",        \"columnComment\": \"跳转链接\",        \"columnType\": \"varchar\",        \"csharpType\": \"string\",        \"csharpField\": \"Links\",        \"isPk\": false,        \"isRequired\": false,        \"isIncrement\": false,        \"isInsert\": true,        \"isEdit\": true,        \"isList\": true,        \"isQuery\": false,        \"htmlType\": \"input\",        \"queryType\": \"EQ\",        \"sort\": 0,        \"dictType\": \"\",        \"requiredStr\": \"\",        \"csharpFieldFl\": null,        \"createBy\": \"admin\",        \"createTime\": \"2022-04-13 16:23:03\",        \"updateTime\": null,        \"remark\": null      }    ],    \"parentMenuId\": null,    \"sortType\": \"asc\",    \"sortField\": \"\",    \"treeCode\": \"\",    \"treeName\": \"\",    \"treeParentCode\": null,    \"checkedBtn\": [      1,      2,      3    ],    \"createBy\": \"admin\",    \"createTime\": \"2022-04-13 16:23:03\",    \"updateTime\": null,    \"remark\": null  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T16:23:03.4969408+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 16:23:03.7151 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/list 
+ SELECT Count(*) FROM `gen_table`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 16:23:03.7151 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/list 
+ SELECT `TableId`,`DbName`,`TableName`,`TableComment`,`SubTableName`,`SubTableFkName`,`ClassName`,`TplCategory`,`BaseNameSpace`,`ModuleName`,`BusinessName`,`FunctionName`,`FunctionAuthor`,`GenType`,`GenPath`,`Options`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `gen_table`   WHERE ( 1 = 1 )   ORDER BY `TableId` DESC LIMIT 0,20，{}
+===========================================
+ 2022-04-13 16:23:08.4657 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/list 
+ SELECT Count(*) FROM `gen_table`  WHERE  (`TableName` like concat('%',@MethodConst0,'%'))  ，{"@MethodConst0":"t_bloglinks"}
+===========================================
+ 2022-04-13 16:23:08.4657 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/list 
+ SELECT `TableId`,`DbName`,`TableName`,`TableComment`,`SubTableName`,`SubTableFkName`,`ClassName`,`TplCategory`,`BaseNameSpace`,`ModuleName`,`BusinessName`,`FunctionName`,`FunctionAuthor`,`GenType`,`GenPath`,`Options`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `gen_table`   WHERE  (`TableName` like concat('%',@MethodConst0,'%'))   ORDER BY `TableId` DESC LIMIT 0,20，{"@MethodConst0":"t_bloglinks"}
+===========================================
+ 2022-04-13 16:23:09.4641 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/7 
+ SELECT `TableId`,`DbName`,`TableName`,`TableComment`,`SubTableName`,`SubTableFkName`,`ClassName`,`TplCategory`,`BaseNameSpace`,`ModuleName`,`BusinessName`,`FunctionName`,`FunctionAuthor`,`GenType`,`GenPath`,`Options`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `gen_table`  WHERE `TableId` = @InPara0   ，{"@InPara0":7}
+===========================================
+ 2022-04-13 16:23:09.4790 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/7 
+ SELECT `TableId`,`DbName`,`TableName`,`TableComment`,`SubTableName`,`SubTableFkName`,`ClassName`,`TplCategory`,`BaseNameSpace`,`ModuleName`,`BusinessName`,`FunctionName`,`FunctionAuthor`,`GenType`,`GenPath`,`Options`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `gen_table`  ，{}
+===========================================
+ 2022-04-13 16:23:09.4790 - 127.0.0.1 - userid=1 - http://localhost/system/dict/type/list 
+ SELECT Count(*) FROM `sys_dict_type`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-04-13 16:23:09.4938 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/7 
+ SELECT `ColumnId`,`ColumnName`,`TableId`,`TableName`,`ColumnComment`,`ColumnType`,`CsharpType`,`CsharpField`,`IsPk`,`IsRequired`,`IsIncrement`,`IsInsert`,`IsEdit`,`IsList`,`IsQuery`,`HtmlType`,`QueryType`,`Sort`,`DictType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `gen_table_column`  WHERE ( `TableId` = @TableId0 )ORDER BY `Sort` ASC ，{"@TableId0":7}
+===========================================
+ 2022-04-13 16:23:09.4938 - 127.0.0.1 - userid=1 - http://localhost/system/dict/type/list 
+ SELECT `DictId`,`DictName`,`DictType`,`Status`,`Type`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_type`   WHERE ( 1 = 1 )   ORDER BY `DictId` DESC LIMIT 0,100，{}
+===========================================
+ 2022-04-13 16:23:09.4938 - 127.0.0.1 - userid=1 - http://localhost/system/menu/list 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 16:23:09.4938 - 127.0.0.1 - userid=1 - http://localhost/system/menu/list 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu` ORDER BY `parentId` ASC,`orderNum` ASC ，{}
+===========================================
+ 2022-04-13 16:23:57.3633 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/ 
+ select sysdate()，{}
+===========================================
+ 2022-04-13 16:23:57.3633 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/ 
+ UPDATE `gen_table`  SET
+           `TableName`=@TableName,`TableComment`=@TableComment,`ClassName`=@ClassName,`TplCategory`=@TplCategory,`BaseNameSpace`=@BaseNameSpace,`ModuleName`=@ModuleName,`BusinessName`=@BusinessName,`FunctionName`=@FunctionName,`FunctionAuthor`=@FunctionAuthor,`GenType`=@GenType,`GenPath`=@GenPath,`Options`=@Options,`Update_by`=@Update_by,`Update_time`=@Update_time  WHERE `TableId`=@TableId，{"@TableId":7,"@DbName":null,"@TableName":"t_bloglinks","@TableComment":"博客友情链接","@SubTableName":null,"@SubTableFkName":null,"@ClassName":"Bloglinks","@TplCategory":"crud","@BaseNameSpace":"ZR.","@ModuleName":"Blog","@BusinessName":"TBloglinks","@FunctionName":"博客友情链接","@FunctionAuthor":"ztc","@GenType":"0","@GenPath":"/","@Options":"{\"treeCode\":\"\",\"treeName\":\"\",\"treeParentCode\":null,\"parentMenuId\":2006,\"sortField\":\"\",\"sortType\":\"asc\",\"checkedBtn\":\"1,2,3\"}","@Update_by":"admin","@Update_time":"2022-04-13T16:23:57","@Remark":null}
+===========================================
+ 2022-04-13 16:23:57.3697 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/ 
+ UPDATE  `gen_table_column` S    INNER JOIN             (
+              
+ SELECT N'53' AS `ColumnId`,N'' AS `ColumnComment`,N'int' AS `CsharpType`,N'Id' AS `CsharpField`,1 AS `IsRequired`,0 AS `IsInsert`,0 AS `IsEdit`,1 AS `IsList`,0 AS `IsQuery`,N'input' AS `HtmlType`,N'EQ' AS `QueryType`,N'0' AS `Sort`,N'' AS `DictType`,NULL AS `Update_by`,NULL AS `Update_time`,N'7' AS `TableId`		
+UNION ALL 
+ SELECT N'54' AS `ColumnId`,N'名称' AS `ColumnComment`,N'string' AS `CsharpType`,N'Name' AS `CsharpField`,0 AS `IsRequired`,1 AS `IsInsert`,1 AS `IsEdit`,1 AS `IsList`,0 AS `IsQuery`,N'input' AS `HtmlType`,N'EQ' AS `QueryType`,N'0' AS `Sort`,N'' AS `DictType`,NULL AS `Update_by`,NULL AS `Update_time`,N'7' AS `TableId`		
+UNION ALL 
+ SELECT N'55' AS `ColumnId`,N'跳转链接' AS `ColumnComment`,N'string' AS `CsharpType`,N'Links' AS `CsharpField`,0 AS `IsRequired`,1 AS `IsInsert`,1 AS `IsEdit`,1 AS `IsList`,0 AS `IsQuery`,N'input' AS `HtmlType`,N'EQ' AS `QueryType`,N'0' AS `Sort`,N'' AS `DictType`,NULL AS `Update_by`,NULL AS `Update_time`,N'7' AS `TableId`
+
+
+            ) T ON S.`ColumnId`=T.`ColumnId` AND S.`TableId`=T.`TableId`
+                   SET S.`ColumnComment`=T.`ColumnComment`,S.`CsharpType`=T.`CsharpType`,S.`CsharpField`=T.`CsharpField`,S.`IsRequired`=T.`IsRequired`,S.`IsInsert`=T.`IsInsert`,S.`IsEdit`=T.`IsEdit`,S.`IsList`=T.`IsList`,S.`IsQuery`=T.`IsQuery`,S.`HtmlType`=T.`HtmlType`,S.`QueryType`=T.`QueryType`,S.`Sort`=T.`Sort`,S.`DictType`=T.`DictType`,S.`Update_by`=T.`Update_by`,S.`Update_time`=T.`Update_time` ;，{}
+===========================================
+ 2022-04-13 16:23:57.3697 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/ 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"代码生成","@businessType":8,"@method":"CodeGenerator.EditSave()","@requestMethod":"PUT","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/tool/gen/","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": true}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T16:23:57.3718053+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 16:24:01.2580 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/preview/7 
+ SELECT `TableId`,`DbName`,`TableName`,`TableComment`,`SubTableName`,`SubTableFkName`,`ClassName`,`TplCategory`,`BaseNameSpace`,`ModuleName`,`BusinessName`,`FunctionName`,`FunctionAuthor`,`GenType`,`GenPath`,`Options`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `gen_table`  WHERE `TableId` = @InPara0   ，{"@InPara0":7}
+===========================================
+ 2022-04-13 16:24:01.2580 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/preview/7 
+ SELECT `ColumnId`,`ColumnName`,`TableId`,`TableName`,`ColumnComment`,`ColumnType`,`CsharpType`,`CsharpField`,`IsPk`,`IsRequired`,`IsIncrement`,`IsInsert`,`IsEdit`,`IsList`,`IsQuery`,`HtmlType`,`QueryType`,`Sort`,`DictType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `gen_table_column`  WHERE ( `TableId` = @TableId0 )ORDER BY `Sort` ASC ，{"@TableId0":7}
+===========================================
+ 2022-04-13 16:24:14.5622 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/genCode 
+ SELECT `TableId`,`DbName`,`TableName`,`TableComment`,`SubTableName`,`SubTableFkName`,`ClassName`,`TplCategory`,`BaseNameSpace`,`ModuleName`,`BusinessName`,`FunctionName`,`FunctionAuthor`,`GenType`,`GenPath`,`Options`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `gen_table`  WHERE `TableId` = @InPara0   ，{"@InPara0":7}
+===========================================
+ 2022-04-13 16:24:14.5622 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/genCode 
+ SELECT `ColumnId`,`ColumnName`,`TableId`,`TableName`,`ColumnComment`,`ColumnType`,`CsharpType`,`CsharpField`,`IsPk`,`IsRequired`,`IsIncrement`,`IsInsert`,`IsEdit`,`IsList`,`IsQuery`,`HtmlType`,`QueryType`,`Sort`,`DictType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `gen_table_column`  WHERE ( `TableId` = @TableId0 )ORDER BY `Sort` ASC ，{"@TableId0":7}
+===========================================
+ 2022-04-13 16:24:14.6185 - 127.0.0.1 - userid=1 - http://localhost/tool/gen/genCode 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"代码生成","@businessType":8,"@method":"CodeGenerator.CodeGenerate()","@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/tool/gen/genCode","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"tableId\":7}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"path\": \"/Generatecode/ZrAdmin.NET-博客友情链接-0413162414.zip\",    \"fileName\": null  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T16:24:14.6185066+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 17:17:12.6047 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-13 17:17:22.1382 - 127.0.0.1 - userid=undefined - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T17:17:22.049906+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 17:17:22.1898 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 17:17:22.3520 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 17:17:23.1787 - 127.0.0.1 -  - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T17:17:23.1776393+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 17:17:24.0882 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 17:17:24.1050 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 17:17:32.4025 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-04-13 17:17:32.4572 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE (( `UserName` = @UserName0 ) AND ( `Password` = @Password1 ))  ORDER BY NOW()  LIMIT 0,1，{"@UserName0":"admin","@Password1":"E10ADC3949BA59ABBE56E057F20F883E"}
+===========================================
+ 2022-04-13 17:17:32.4627 - 127.0.0.1 -  - http://localhost/login 
+ INSERT INTO `sys_logininfor`  
+           (`userName`,`status`,`ipaddr`,`loginLocation`,`browser`,`os`,`msg`,`loginTime`)
+     VALUES
+           (@userName,@status,@ipaddr,@loginLocation,@browser,@os,@msg,@loginTime) ;SELECT LAST_INSERT_ID();，{"@userName":"admin","@status":"0","@ipaddr":"127.0.0.1","@loginLocation":"0-内网IP","@browser":"Other","@os":"Windows 10","@msg":"登录成功","@loginTime":"2022-04-13T17:17:32.4597149+08:00"}
+===========================================
+ 2022-04-13 17:17:32.4627 - 127.0.0.1 -  - http://localhost/login 
+ select sysdate()，{}
+===========================================
+ 2022-04-13 17:17:32.4821 - 127.0.0.1 -  - http://localhost/login 
+ UPDATE `sys_user`  SET
+           `LoginIP`=@LoginIP,`LoginDate`=@LoginDate  WHERE `UserId`=@UserId，{"@UserId":1,"@LoginIP":"127.0.0.1","@LoginDate":"2022-04-13T17:17:32"}
+===========================================
+ 2022-04-13 17:17:32.4936 - 127.0.0.1 -  - http://localhost/login 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:17:32.6577 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:17:32.6577 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:17:32.8613 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:17:32.8750 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:17:32.8898 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 17:17:33.4848 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture`,`istop` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-04-13 17:17:37.6553 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getQuery 
+ SELECT `Id`,`Title`,`Copyright`,`AuthorQQ`,`AuthorWechart`,`AuthorEmail`,`IsOpenLogin`,`IsOpenRegister`,`Content`,`BottomImage`,`BlogBackGroundImage`,`FundedAlipayImg`,`FundedWechartImg` FROM `t_blogconfig`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-04-13 17:17:37.6708 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/types 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND  (`DictType` IN ('sys_normal_disable','sys_normal_disable')) )ORDER BY `DictSort` ASC ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:20:00.0476 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 17:20:00.0476 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T17:20:00.0489969+08:00","@Elapsed":7.1767}
+===========================================
+ 2022-04-13 17:20:00.0674 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 17:23:52.5073 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-13 17:24:25.6953 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/addLinks 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":null,"@businessType":0,"@method":null,"@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/TBlogconfig/addLinks","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{}","@jsonResult":"{\"code\":101,\"msg\":\"value cannot be null. (parameter \\u0027source\\u0027)\",\"data\":null}","@status":1,"@errorMsg":"Value cannot be null. (Parameter 'source')","@operTime":"2022-04-13T17:24:25.6680117+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 17:24:36.8894 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:24:36.9029 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:24:37.2076 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:24:37.2284 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:24:37.2284 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 17:24:38.2070 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getQuery 
+ SELECT `Id`,`Title`,`Copyright`,`AuthorQQ`,`AuthorWechart`,`AuthorEmail`,`IsOpenLogin`,`IsOpenRegister`,`Content`,`BottomImage`,`BlogBackGroundImage`,`FundedAlipayImg`,`FundedWechartImg` FROM `t_blogconfig`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-04-13 17:24:38.2667 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/types 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND  (`DictType` IN ('sys_normal_disable','sys_normal_disable')) )ORDER BY `DictSort` ASC ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:27:44.4840 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:27:44.4840 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:27:44.9086 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:27:44.9086 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:27:44.9169 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 17:27:45.7373 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getQuery 
+ SELECT `Id`,`Title`,`Copyright`,`AuthorQQ`,`AuthorWechart`,`AuthorEmail`,`IsOpenLogin`,`IsOpenRegister`,`Content`,`BottomImage`,`BlogBackGroundImage`,`FundedAlipayImg`,`FundedWechartImg` FROM `t_blogconfig`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-04-13 17:27:45.7514 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/types 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND  (`DictType` IN ('sys_normal_disable','sys_normal_disable')) )ORDER BY `DictSort` ASC ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:28:41.6559 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/addLinks 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":null,"@businessType":0,"@method":null,"@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/TBlogconfig/addLinks","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{}","@jsonResult":"{\"code\":101,\"msg\":\"value cannot be null. (parameter \\u0027source\\u0027)\",\"data\":null}","@status":1,"@errorMsg":"Value cannot be null. (Parameter 'source')","@operTime":"2022-04-13T17:28:41.6559435+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 17:29:22.6845 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:29:22.6845 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:29:23.1362 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:29:23.1505 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:29:23.1505 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 17:29:24.0086 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getQuery 
+ SELECT `Id`,`Title`,`Copyright`,`AuthorQQ`,`AuthorWechart`,`AuthorEmail`,`IsOpenLogin`,`IsOpenRegister`,`Content`,`BottomImage`,`BlogBackGroundImage`,`FundedAlipayImg`,`FundedWechartImg` FROM `t_blogconfig`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-04-13 17:29:24.0086 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/types 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND  (`DictType` IN ('sys_normal_disable','sys_normal_disable')) )ORDER BY `DictSort` ASC ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:29:24.0086 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getLinks 
+ SELECT `Id`,`Name`,`Links` FROM `t_bloglinks`  ，{}
+===========================================
+ 2022-04-13 17:30:00.0605 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 17:30:00.0605 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T17:30:00.0616566+08:00","@Elapsed":28.6484}
+===========================================
+ 2022-04-13 17:30:00.0914 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 17:30:09.4368 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/addLinks 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":null,"@businessType":0,"@method":null,"@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/TBlogconfig/addLinks","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{}","@jsonResult":"{\"code\":101,\"msg\":\"value cannot be null. (parameter \\u0027source\\u0027)\",\"data\":null}","@status":1,"@errorMsg":"Value cannot be null. (Parameter 'source')","@operTime":"2022-04-13T17:30:09.4368278+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 17:30:23.7137 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:30:23.7137 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:30:23.8273 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:30:23.8273 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 17:30:24.1295 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:30:24.9398 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getQuery 
+ SELECT `Id`,`Title`,`Copyright`,`AuthorQQ`,`AuthorWechart`,`AuthorEmail`,`IsOpenLogin`,`IsOpenRegister`,`Content`,`BottomImage`,`BlogBackGroundImage`,`FundedAlipayImg`,`FundedWechartImg` FROM `t_blogconfig`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-04-13 17:30:24.9398 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getLinks 
+ SELECT `Id`,`Name`,`Links` FROM `t_bloglinks`  ，{}
+===========================================
+ 2022-04-13 17:30:24.9398 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/types 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND  (`DictType` IN ('sys_normal_disable','sys_normal_disable')) )ORDER BY `DictSort` ASC ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:31:44.9882 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-13 17:31:51.6041 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:31:51.6254 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:31:51.7405 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:31:51.7598 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:31:51.7598 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 17:31:53.0503 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getQuery 
+ SELECT `Id`,`Title`,`Copyright`,`AuthorQQ`,`AuthorWechart`,`AuthorEmail`,`IsOpenLogin`,`IsOpenRegister`,`Content`,`BottomImage`,`BlogBackGroundImage`,`FundedAlipayImg`,`FundedWechartImg` FROM `t_blogconfig`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-04-13 17:31:53.0503 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getLinks 
+ SELECT `Id`,`Name`,`Links` FROM `t_bloglinks`  ，{}
+===========================================
+ 2022-04-13 17:31:53.0951 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/types 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND  (`DictType` IN ('sys_normal_disable','sys_normal_disable')) )ORDER BY `DictSort` ASC ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:32:54.4282 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/addLinks 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":null,"@businessType":0,"@method":null,"@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/TBlogconfig/addLinks","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"name\":\"ZrAdmin.NET\",\"links\":\"http://www.izhaorui.cn/doc/#/\"}","@jsonResult":"{\"code\":101,\"msg\":\"value cannot be null. (parameter \\u0027source\\u0027)\",\"data\":null}","@status":1,"@errorMsg":"Value cannot be null. (Parameter 'source')","@operTime":"2022-04-13T17:32:54.4032221+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 17:32:54.6852 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:33:21.1378 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-04-13 17:33:34.5799 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/addLinks 
+ INSERT INTO `t_bloglinks`  
+           (`Name`,`Links`)
+     VALUES
+           (@Name,@Links) ;，{"@Name":"ZrAdmin.NET","@Links":"http://www.izhaorui.cn/doc/#/"}
+===========================================
+ 2022-04-13 17:33:36.8353 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getLinks 
+ SELECT `Id`,`Name`,`Links` FROM `t_bloglinks`  ，{}
+===========================================
+ 2022-04-13 17:33:36.8539 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/addLinks 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"博客友情链接添加","@businessType":1,"@method":"Blogconfig.InsertBloglinks()","@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Blog/TBlogconfig/addLinks","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"name\":\"ZrAdmin.NET\",\"links\":\"http://www.izhaorui.cn/doc/#/\"}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-04-13T17:33:36.8210854+08:00","@Elapsed":0}
+===========================================
+ 2022-04-13 17:33:43.8583 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:33:49.3768 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getLinksQuery/1 
+ SELECT `Id`,`Name`,`Links` FROM `t_bloglinks`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-04-13 17:33:59.3558 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-04-13 17:33:59.3772 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-04-13 17:33:59.4585 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:34:00.8272 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getLinks 
+ SELECT `Id`,`Name`,`Links` FROM `t_bloglinks`  ，{}
+===========================================
+ 2022-04-13 17:34:00.8272 - 127.0.0.1 - userid=1 - http://localhost/Blog/TBlogconfig/getQuery 
+ SELECT `Id`,`Title`,`Copyright`,`AuthorQQ`,`AuthorWechart`,`AuthorEmail`,`IsOpenLogin`,`IsOpenRegister`,`Content`,`BottomImage`,`BlogBackGroundImage`,`FundedAlipayImg`,`FundedWechartImg` FROM `t_blogconfig`   WHERE ( `Id` = @Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Id0":1}
+===========================================
+ 2022-04-13 17:34:00.9293 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/types 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND  (`DictType` IN ('sys_normal_disable','sys_normal_disable')) )ORDER BY `DictSort` ASC ，{"@Status0":"0"}
+===========================================
+ 2022-04-13 17:40:00.0495 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 17:40:00.0581 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T17:40:00.0555911+08:00","@Elapsed":9.9496}
+===========================================
+ 2022-04-13 17:40:00.0836 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 17:50:00.0264 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 17:50:00.0264 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T17:50:00.0362102+08:00","@Elapsed":15.1168}
+===========================================
+ 2022-04-13 17:50:00.0449 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 18:00:00.0256 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 18:00:00.0256 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T18:00:00.0313543+08:00","@Elapsed":14.587}
+===========================================
+ 2022-04-13 18:00:00.0398 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 21:10:00.0300 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 21:10:00.0300 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T21:10:00.0363248+08:00","@Elapsed":14.8685}
+===========================================
+ 2022-04-13 21:10:00.0385 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 21:20:00.0189 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 21:20:00.0244 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T21:20:00.0239795+08:00","@Elapsed":15.5166}
+===========================================
+ 2022-04-13 21:20:00.0244 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-04-13 21:50:00.0447 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `sys_tasksqz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-04-13 21:50:00.0770 -  -  -  
+ INSERT INTO `sys_tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-04-13T21:50:00.0760861+08:00","@Elapsed":15.6387}
+===========================================
+ 2022-04-13 21:50:00.0922 -  -  -  
+ UPDATE `sys_tasksqz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}

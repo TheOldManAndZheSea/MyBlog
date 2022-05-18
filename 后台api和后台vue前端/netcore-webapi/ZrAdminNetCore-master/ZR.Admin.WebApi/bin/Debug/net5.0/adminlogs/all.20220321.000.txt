@@ -1,0 +1,171 @@
+2022-03-21 00:00:00.0544 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 00:10:00.0699 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 00:20:00.0627 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 00:30:00.0517 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 00:40:00.0522 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 00:50:00.0480 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 01:00:00.0467 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 09:21:05.0519 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 09:21:05.0519 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 09:21:05.0519 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 09:21:05.0519 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 09:21:31.0056 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-21 09:21:31.4149 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-21 09:21:32.7811 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-21 09:30:00.0950 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 09:36:50.4664 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/tag/add | 请求访问[/tag/add]失败，无法访问系统资源 |  |  | 
+2022-03-21 09:40:00.0469 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 09:50:00.0481 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 09:52:14.2322 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tag/add |  | {"Name":"测试"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-21 09:54:06.6311 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-21 09:54:07.0165 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-21 09:54:08.0673 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-21 10:00:00.0376 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 10:03:30.4300 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 10:03:30.4300 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 10:03:30.4378 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 10:03:30.4378 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 10:03:48.2970 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tag/edit |  | {"id":1,"name":"测试1","articlesCount":0} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-21 10:10:00.0536 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 10:20:00.0347 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 10:30:00.0334 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 10:40:00.0337 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 10:50:00.0493 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 11:00:00.0502 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 13:38:07.0900 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 13:38:07.0955 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 13:38:07.0955 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 13:38:07.0955 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 13:38:26.7837 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-21 13:38:27.1109 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-21 13:38:28.2494 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-21 13:41:35.8492 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 13:41:35.8492 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 13:41:35.8492 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 13:41:35.8609 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 13:41:58.7445 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/Article/add |  | {"fmt_type":"markdown","tags":["测试1"],"content":"sssss","category_id":1,"title":"sss","status":"1"} | {"code":0,"msg":"\u8bf7\u6c42\u53c2\u6570\u9519\u8bef","data":null} | Infrastructure.CustomException: 请求参数错误
+   at ZR.Admin.WebApi.Controllers.ArticleController.Create(Article parm) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\ArticleController.cs:line 152
+   at lambda_method192(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-21 13:57:37.9894 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 13:57:37.9894 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 13:57:37.9894 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 13:57:37.9894 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 14:00:00.0850 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 14:04:18.8283 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/Article/add |  | {"fmt_type":"markdown","tags":[{"tag_id":"测试1"}],"content":"撒大声地","title":"测试","category_id":1,"status":"1"} | {"code":0,"msg":"\u8bf7\u6c42\u53c2\u6570\u9519\u8bef","data":null} | Infrastructure.CustomException: 请求参数错误
+   at ZR.Admin.WebApi.Controllers.ArticleController.Create(Article parm) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\ArticleController.cs:line 152
+   at lambda_method193(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-21 14:10:06.8249 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 14:10:06.8312 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 14:10:06.8312 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 14:10:06.8312 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 14:11:42.3602 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/Article/add | 请求访问[/Article/add]失败，无法访问系统资源 |  |  | 
+2022-03-21 14:11:44.9384 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-21 14:16:44.6408 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 14:16:44.6408 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 14:16:44.6408 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 14:16:44.6408 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 14:17:50.3485 |  | ERROR | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/Article/add | Column 'article_id' cannot be null | {"fmt_type":"markdown","tags":[{"tag_id":1}],"content":"# 一级标题","title":"测试","category_id":1,"status":"1"} | {"code":500,"msg":"\u670d\u52a1\u5668\u597d\u50cf\u51fa\u4e86\u70b9\u95ee\u9898......","data":null} | MySql.Data.MySqlClient.MySqlException (0x80004005): Column 'article_id' cannot be null
+   at SqlSugar.AdoProvider.ExecuteCommand(String sql, SugarParameter[] parameters)
+   at SqlSugar.InsertableProvider`1.ExecuteCommand()
+   at ZR.Repository.BaseRepository`1.Insert(List`1 t) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Repository\BaseRepository.cs:line 54
+   at ZR.Service.BaseService`1.Insert(List`1 t) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\BaseService.cs:line 62
+   at ZR.Admin.WebApi.Controllers.ArticleController.Create(Article parm) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\ArticleController.cs:line 160
+   at lambda_method192(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-21 14:18:44.5779 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 14:18:44.5836 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 14:18:44.5836 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 14:18:44.5836 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 14:20:25.6113 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 14:20:25.6113 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 14:20:25.6113 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 14:20:25.6113 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 14:25:27.4372 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 14:25:27.4433 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 14:25:27.4433 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 14:25:27.4433 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 14:26:19.0235 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-21 14:26:19.0235 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-21 14:26:19.0235 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-21 14:26:19.0327 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-21 14:26:40.5472 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/add |  | {"fmt_type":"markdown","tags":[{"tag_id":1}],"content":"爱仕达多撒","title":"测试","category_id":1,"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-21 14:30:00.0784 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 14:34:24.8303 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":30,"title":"测试","content":"爱仕达多撒","category_id":1,"tags":[{"article_id":30,"tag_id":1,"tagName":"测试1"}],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-21 14:37:47.5982 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":30,"title":"测试","content":"爱仕达多撒","category_id":1,"tags":[{"article_id":30,"tag_id":1,"tagName":"测试1"}],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-21 14:39:08.4895 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":30,"title":"测试","content":"爱仕达多撒","category_id":1,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-21 14:40:00.0204 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 14:50:00.0420 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 15:00:00.0502 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 15:10:00.0471 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 15:20:00.0496 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 15:30:00.0366 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 15:40:00.0346 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 15:50:00.0361 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 16:00:00.0482 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 16:10:00.0322 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 16:20:00.0522 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 16:30:00.0330 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 16:40:00.0502 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 16:50:00.0494 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 17:00:00.0478 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 17:10:00.0478 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 17:20:00.0525 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 17:30:00.0530 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 17:40:00.0538 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 17:50:00.0478 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 18:00:00.0543 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 18:10:00.0363 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 18:20:00.0546 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 18:30:00.0395 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 18:40:00.0472 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-21 18:50:00.0873 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 

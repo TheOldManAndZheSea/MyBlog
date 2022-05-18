@@ -1,0 +1,1786 @@
+===========================================
+ 2022-03-21 00:00:00.0318 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:00:00.0318 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T00:00:00.0441126+08:00","@Elapsed":14.8665}
+===========================================
+ 2022-03-21 00:00:00.0544 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:10:00.0492 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:10:00.0492 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T00:10:00.0604153+08:00","@Elapsed":30.1687}
+===========================================
+ 2022-03-21 00:10:00.0699 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:20:00.0375 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:20:00.0516 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T00:20:00.050584+08:00","@Elapsed":15.3185}
+===========================================
+ 2022-03-21 00:20:00.0516 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:30:00.0210 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:30:00.0416 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T00:30:00.0406936+08:00","@Elapsed":15.2257}
+===========================================
+ 2022-03-21 00:30:00.0517 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:40:00.0207 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:40:00.0433 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T00:40:00.0427261+08:00","@Elapsed":14.8433}
+===========================================
+ 2022-03-21 00:40:00.0522 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:50:00.0280 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 00:50:00.0378 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T00:50:00.0373669+08:00","@Elapsed":14.8117}
+===========================================
+ 2022-03-21 00:50:00.0378 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 01:00:00.0255 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 01:00:00.0362 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T01:00:00.0356648+08:00","@Elapsed":14.478}
+===========================================
+ 2022-03-21 01:00:00.0362 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 09:21:04.5576 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 09:21:31.5030 - 127.0.0.1 - userid=undefined - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T09:21:31.4135442+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 09:21:31.5197 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:21:31.7973 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:21:32.7819 - 127.0.0.1 -  - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T09:21:32.7810696+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 09:21:33.4929 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:21:33.4929 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:21:41.8642 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:21:41.8829 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:21:52.5867 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:21:52.6444 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE (( `UserName` = @UserName0 ) AND ( `Password` = @Password1 ))  ORDER BY NOW()  LIMIT 0,1，{"@UserName0":"admin","@Password1":"E10ADC3949BA59ABBE56E057F20F883E"}
+===========================================
+ 2022-03-21 09:21:52.6444 - 127.0.0.1 -  - http://localhost/login 
+ INSERT INTO `sys_logininfor`  
+           (`userName`,`status`,`ipaddr`,`loginLocation`,`browser`,`os`,`msg`,`loginTime`)
+     VALUES
+           (@userName,@status,@ipaddr,@loginLocation,@browser,@os,@msg,@loginTime) ;SELECT LAST_INSERT_ID();，{"@userName":"admin","@status":"0","@ipaddr":"127.0.0.1","@loginLocation":"0-内网IP","@browser":"Other","@os":"Windows 10","@msg":"登录成功","@loginTime":"2022-03-21T09:21:52.6480669+08:00"}
+===========================================
+ 2022-03-21 09:21:52.6444 - 127.0.0.1 -  - http://localhost/login 
+ select sysdate()，{}
+===========================================
+ 2022-03-21 09:21:52.6723 - 127.0.0.1 -  - http://localhost/login 
+ UPDATE `sys_user`  SET
+           `LoginIP`=@LoginIP,`LoginDate`=@LoginDate  WHERE `UserId`=@UserId，{"@UserId":1,"@LoginIP":"127.0.0.1","@LoginDate":"2022-03-21T09:21:52"}
+===========================================
+ 2022-03-21 09:21:52.6723 - 127.0.0.1 -  - http://localhost/login 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:21:53.0549 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:21:53.0549 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:21:53.2997 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:21:53.3256 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 09:21:53.3877 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 09:21:53.8649 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Tags`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-03-21 09:21:57.9006 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 09:30:00.0656 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 09:30:00.0804 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T09:30:00.077239+08:00","@Elapsed":22.6709}
+===========================================
+ 2022-03-21 09:30:00.0804 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 09:40:00.0342 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 09:40:00.0469 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T09:40:00.0463994+08:00","@Elapsed":14.7951}
+===========================================
+ 2022-03-21 09:40:00.0469 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 09:50:00.0265 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 09:50:00.0381 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T09:50:00.0377006+08:00","@Elapsed":14.044}
+===========================================
+ 2022-03-21 09:50:00.0381 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 09:52:02.8083 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:52:02.8083 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:52:03.2536 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 09:52:03.2536 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:52:03.2536 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 09:52:04.2019 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 09:52:14.2322 - 127.0.0.1 - userid=1 - http://localhost/tag/add 
+ INSERT INTO `t_tag`  
+           (`Id`,`Name`)
+     VALUES
+           (@Id,@Name) ;，{"@Id":0,"@Name":"测试"}
+===========================================
+ 2022-03-21 09:52:14.2354 - 127.0.0.1 - userid=1 - http://localhost/tag/add 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"标签添加","@businessType":1,"@method":"Tag.Create()","@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/tag/add","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"Name\":\"测试\"}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T09:52:14.2342378+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 09:52:14.2524 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 09:52:14.2524 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 09:54:07.0719 - 127.0.0.1 - userid=undefined - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T09:54:07.0165111+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 09:54:07.0719 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:54:07.0814 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:54:08.0673 - 127.0.0.1 -  - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T09:54:08.0672951+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 09:54:09.8670 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:54:09.8670 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:54:18.1924 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:54:18.2113 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:54:20.2256 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:54:27.8806 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 09:54:27.9078 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE (( `UserName` = @UserName0 ) AND ( `Password` = @Password1 ))  ORDER BY NOW()  LIMIT 0,1，{"@UserName0":"admin","@Password1":"E10ADC3949BA59ABBE56E057F20F883E"}
+===========================================
+ 2022-03-21 09:54:27.9078 - 127.0.0.1 -  - http://localhost/login 
+ INSERT INTO `sys_logininfor`  
+           (`userName`,`status`,`ipaddr`,`loginLocation`,`browser`,`os`,`msg`,`loginTime`)
+     VALUES
+           (@userName,@status,@ipaddr,@loginLocation,@browser,@os,@msg,@loginTime) ;SELECT LAST_INSERT_ID();，{"@userName":"admin","@status":"0","@ipaddr":"127.0.0.1","@loginLocation":"0-内网IP","@browser":"Other","@os":"Windows 10","@msg":"登录成功","@loginTime":"2022-03-21T09:54:27.9101227+08:00"}
+===========================================
+ 2022-03-21 09:54:27.9078 - 127.0.0.1 -  - http://localhost/login 
+ select sysdate()，{}
+===========================================
+ 2022-03-21 09:54:27.9078 - 127.0.0.1 -  - http://localhost/login 
+ UPDATE `sys_user`  SET
+           `LoginIP`=@LoginIP,`LoginDate`=@LoginDate  WHERE `UserId`=@UserId，{"@UserId":1,"@LoginIP":"127.0.0.1","@LoginDate":"2022-03-21T09:54:27"}
+===========================================
+ 2022-03-21 09:54:27.9237 - 127.0.0.1 -  - http://localhost/login 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:54:28.2599 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:54:28.2599 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:54:28.2788 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:54:28.2788 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 09:54:28.4677 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 09:54:29.4320 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Tags`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-03-21 09:54:35.4723 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 09:54:35.4723 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 09:55:05.4813 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:55:05.4813 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:55:05.6431 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:55:05.6431 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 09:55:06.3466 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 09:55:06.3466 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 09:55:06.7006 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 09:55:56.7999 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:55:56.7999 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:55:57.0145 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:55:57.0166 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 09:55:57.3294 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 09:55:58.0312 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 09:55:58.0335 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 09:59:13.3765 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:59:13.3765 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:59:13.9312 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 09:59:13.9312 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 09:59:13.9312 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 09:59:14.6608 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 09:59:14.6608 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 10:00:00.0274 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:00:00.0274 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T10:00:00.029651+08:00","@Elapsed":14.7496}
+===========================================
+ 2022-03-21 10:00:00.0376 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:00:51.2321 - 127.0.0.1 - userid=1 - http://localhost/tag/add 
+ INSERT INTO `t_tag`  
+           (`Id`,`Name`)
+     VALUES
+           (@Id,@Name) ;，{"@Id":1,"@Name":"测试1"}
+===========================================
+ 2022-03-21 10:00:51.2422 - 127.0.0.1 - userid=1 - http://localhost/tag/add 
+ 执行SQL出错：Duplicate entry '1' for key 'PRIMARY'
+===========================================
+ 2022-03-21 10:03:30.0004 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 10:03:38.9595 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 10:03:38.9884 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 10:03:39.0595 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 10:03:39.0940 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 10:03:39.0940 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 10:03:40.1953 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 10:03:40.2050 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 10:03:48.2634 - 127.0.0.1 - userid=1 - http://localhost/tag/edit 
+ UPDATE `t_tag`  SET
+            `Name` = @Const1   WHERE ( `Id` = @Id2 )，{"@Const0":0,"@Const1":"测试1","@Id2":1}
+===========================================
+ 2022-03-21 10:03:48.3162 - 127.0.0.1 - userid=1 - http://localhost/tag/edit 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"标签修改","@businessType":2,"@method":"Tag.Update()","@requestMethod":"PUT","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/tag/edit","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"id\":1,\"name\":\"测试1\",\"articlesCount\":0}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T10:03:48.2958324+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 10:03:48.4297 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 10:03:48.4297 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 10:10:00.0397 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:10:00.0536 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T10:10:00.0488814+08:00","@Elapsed":3.1262}
+===========================================
+ 2022-03-21 10:10:00.0536 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:20:00.0224 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:20:00.0347 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T10:20:00.0341579+08:00","@Elapsed":14.6216}
+===========================================
+ 2022-03-21 10:20:00.0347 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:30:00.0210 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:30:00.0334 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T10:30:00.0328569+08:00","@Elapsed":14.5188}
+===========================================
+ 2022-03-21 10:30:00.0334 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:40:00.0211 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:40:00.0337 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T10:40:00.0332015+08:00","@Elapsed":15.4131}
+===========================================
+ 2022-03-21 10:40:00.0337 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:50:00.0320 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 10:50:00.0320 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T10:50:00.0446448+08:00","@Elapsed":14.4908}
+===========================================
+ 2022-03-21 10:50:00.0493 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 11:00:00.0327 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 11:00:00.0327 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T11:00:00.041246+08:00","@Elapsed":29.7188}
+===========================================
+ 2022-03-21 11:00:00.0502 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 13:38:06.6598 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 13:38:27.2016 - 127.0.0.1 - userid=undefined - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T13:38:27.1090342+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 13:38:27.2214 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 13:38:27.4193 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 13:38:28.2505 - 127.0.0.1 -  - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T13:38:28.2494202+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 13:38:29.0259 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 13:38:29.0259 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 13:38:31.1335 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 13:38:32.6873 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 13:38:37.7266 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 13:38:37.7995 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE (( `UserName` = @UserName0 ) AND ( `Password` = @Password1 ))  ORDER BY NOW()  LIMIT 0,1，{"@UserName0":"admin","@Password1":"E10ADC3949BA59ABBE56E057F20F883E"}
+===========================================
+ 2022-03-21 13:38:37.7995 - 127.0.0.1 -  - http://localhost/login 
+ INSERT INTO `sys_logininfor`  
+           (`userName`,`status`,`ipaddr`,`loginLocation`,`browser`,`os`,`msg`,`loginTime`)
+     VALUES
+           (@userName,@status,@ipaddr,@loginLocation,@browser,@os,@msg,@loginTime) ;SELECT LAST_INSERT_ID();，{"@userName":"admin","@status":"0","@ipaddr":"127.0.0.1","@loginLocation":"0-内网IP","@browser":"Other","@os":"Windows 10","@msg":"登录成功","@loginTime":"2022-03-21T13:38:37.8034902+08:00"}
+===========================================
+ 2022-03-21 13:38:37.7995 - 127.0.0.1 -  - http://localhost/login 
+ select sysdate()，{}
+===========================================
+ 2022-03-21 13:38:37.8278 - 127.0.0.1 -  - http://localhost/login 
+ UPDATE `sys_user`  SET
+           `LoginIP`=@LoginIP,`LoginDate`=@LoginDate  WHERE `UserId`=@UserId，{"@UserId":1,"@LoginIP":"127.0.0.1","@LoginDate":"2022-03-21T13:38:37"}
+===========================================
+ 2022-03-21 13:38:37.8395 - 127.0.0.1 -  - http://localhost/login 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 13:38:38.2094 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 13:38:38.2094 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 13:38:38.2427 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 13:38:38.2635 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 13:38:38.3763 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 13:38:39.0919 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-03-21 13:38:48.2994 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 13:38:48.2994 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 13:38:48.2994 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 13:41:35.4085 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 13:41:44.0081 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 13:41:44.0309 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 13:41:44.0862 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 13:41:44.1058 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 13:41:44.2132 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 13:41:44.9095 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 13:41:44.9095 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 13:41:44.9095 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 13:41:58.7733 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":null,"@businessType":0,"@method":null,"@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Article/add","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"fmt_type\":\"markdown\",\"tags\":[\"测试1\"],\"content\":\"sssss\",\"category_id\":1,\"title\":\"sss\",\"status\":\"1\"}","@jsonResult":"{\"code\":0,\"msg\":\"\\u8bf7\\u6c42\\u53c2\\u6570\\u9519\\u8bef\",\"data\":null}","@status":1,"@errorMsg":"请求参数错误","@operTime":"2022-03-21T13:41:58.743868+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 13:57:37.5417 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 13:58:15.5655 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 13:58:15.5906 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 13:58:15.6676 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 13:58:15.7153 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 13:58:15.7271 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 13:58:16.9622 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 13:58:16.9622 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 13:58:16.9758 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 13:59:29.5378 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 13:59:29.5378 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 13:59:29.5378 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:00:00.0411 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 14:00:00.0624 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T14:00:00.0422977+08:00","@Elapsed":16.4797}
+===========================================
+ 2022-03-21 14:00:00.0850 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 14:01:56.1493 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:01:56.1493 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:01:56.1493 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:02:45.6878 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:02:45.6878 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:02:45.6878 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:03:39.6604 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:03:39.6604 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:03:39.6604 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:04:18.8283 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":null,"@businessType":0,"@method":null,"@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Article/add","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"fmt_type\":\"markdown\",\"tags\":[{\"tag_id\":\"测试1\"}],\"content\":\"撒大声地\",\"title\":\"测试\",\"category_id\":1,\"status\":\"1\"}","@jsonResult":"{\"code\":0,\"msg\":\"\\u8bf7\\u6c42\\u53c2\\u6570\\u9519\\u8bef\",\"data\":null}","@status":1,"@errorMsg":"请求参数错误","@operTime":"2022-03-21T14:04:18.827685+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 14:05:47.8463 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:05:47.8463 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:05:48.0085 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:05:48.0085 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 14:05:48.3187 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 14:05:49.2262 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:05:49.2262 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:05:49.2262 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:10:06.3805 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 14:11:28.3697 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:11:28.4471 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:11:28.5215 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:11:45.0117 - 127.0.0.1 - userid=1 - http://localhost/LogOut 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"注销","@businessType":0,"@method":"SysLogin.LogOut()","@requestMethod":"POST","@operatorType":0,"@operName":null,"@deptName":null,"@operUrl":"/LogOut","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": {    \"name\": null,    \"id\": 0  }}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T14:11:44.9366125+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 14:11:46.7872 - 127.0.0.1 -  - http://localhost/captchaImage 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 14:11:46.7872 - 127.0.0.1 -  - http://localhost/system/config/configKey/sys.account.captchaOnOff 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 14:11:58.4973 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `ConfigId`,`ConfigName`,`ConfigKey`,`ConfigValue`,`ConfigType`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_config`   WHERE ( `ConfigKey` = @ConfigKey0 )  ORDER BY NOW()  LIMIT 0,1，{"@ConfigKey0":"sys.account.captchaOnOff"}
+===========================================
+ 2022-03-21 14:11:58.5606 - 127.0.0.1 -  - http://localhost/login 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE (( `UserName` = @UserName0 ) AND ( `Password` = @Password1 ))  ORDER BY NOW()  LIMIT 0,1，{"@UserName0":"admin","@Password1":"E10ADC3949BA59ABBE56E057F20F883E"}
+===========================================
+ 2022-03-21 14:11:58.5655 - 127.0.0.1 -  - http://localhost/login 
+ INSERT INTO `sys_logininfor`  
+           (`userName`,`status`,`ipaddr`,`loginLocation`,`browser`,`os`,`msg`,`loginTime`)
+     VALUES
+           (@userName,@status,@ipaddr,@loginLocation,@browser,@os,@msg,@loginTime) ;SELECT LAST_INSERT_ID();，{"@userName":"admin","@status":"0","@ipaddr":"127.0.0.1","@loginLocation":"0-内网IP","@browser":"Other","@os":"Windows 10","@msg":"登录成功","@loginTime":"2022-03-21T14:11:58.563235+08:00"}
+===========================================
+ 2022-03-21 14:11:58.5655 - 127.0.0.1 -  - http://localhost/login 
+ select sysdate()，{}
+===========================================
+ 2022-03-21 14:11:58.5950 - 127.0.0.1 -  - http://localhost/login 
+ UPDATE `sys_user`  SET
+           `LoginIP`=@LoginIP,`LoginDate`=@LoginDate  WHERE `UserId`=@UserId，{"@UserId":1,"@LoginIP":"127.0.0.1","@LoginDate":"2022-03-21T14:11:58"}
+===========================================
+ 2022-03-21 14:11:58.5950 - 127.0.0.1 -  - http://localhost/login 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:11:58.7441 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:11:58.7441 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:11:58.9733 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:11:58.9968 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 14:11:59.0385 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 14:11:59.9229 - 127.0.0.1 - userid=1 - http://localhost/Article/newList 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( `Status` = @Status0 )  ORDER BY `UpdateTime` DESC LIMIT 0,10，{"@Status0":"1"}
+===========================================
+ 2022-03-21 14:12:10.9587 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/type/sys_article_status 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND ( `DictType` = @DictType1 ))ORDER BY `DictSort` ASC ，{"@Status0":"0","@DictType1":"sys_article_status"}
+===========================================
+ 2022-03-21 14:12:10.9781 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:12:10.9781 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:12:10.9781 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:12:10.9871 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:12:22.5433 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:12:22.5433 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:12:22.5433 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:12:22.5492 - 127.0.0.1 - userid=1 - http://localhost/Article/28 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":28}
+===========================================
+ 2022-03-21 14:13:05.2486 - 127.0.0.1 - userid=1 - http://localhost/Article/28 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @Const0 ) ，{"@Const0":28}
+===========================================
+ 2022-03-21 14:13:05.5703 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 14:13:15.3555 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:13:15.3555 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:13:15.3555 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:13:15.3608 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:13:16.9003 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:13:17.2150 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:13:17.2150 - 127.0.0.1 - userid=1 - http://localhost/Article/28 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":28}
+===========================================
+ 2022-03-21 14:13:17.2150 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:13:17.2150 - 127.0.0.1 - userid=1 - http://localhost/Article/28 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @Const0 ) ，{"@Const0":28}
+===========================================
+ 2022-03-21 14:13:17.5430 - 127.0.0.1 - userid=1 - http://localhost/Article/28 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":28}
+===========================================
+ 2022-03-21 14:13:17.5430 - 127.0.0.1 - userid=1 - http://localhost/Article/28 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @Const0 ) ，{"@Const0":28}
+===========================================
+ 2022-03-21 14:13:25.3179 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:13:25.3179 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:13:25.3179 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:13:25.3179 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:13:27.4420 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:13:27.4420 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:13:27.4420 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:16:44.1715 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 14:16:48.1341 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:16:48.1600 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:16:48.2316 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:16:48.2654 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 14:16:48.2677 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 14:16:49.4788 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:16:49.5016 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:16:49.5016 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:17:34.5301 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ INSERT INTO `t_article_tags`  
+           (`article_id`,`tag_id`)
+     VALUES
+           (@article_id,@tag_id) ;，{"@article_id":null,"@tag_id":1}
+===========================================
+ 2022-03-21 14:17:34.5384 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ 执行SQL出错：Column 'article_id' cannot be null
+===========================================
+ 2022-03-21 14:17:50.3631 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":null,"@businessType":0,"@method":null,"@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Article/add","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"fmt_type\":\"markdown\",\"tags\":[{\"tag_id\":1}],\"content\":\"# 一级标题\",\"title\":\"测试\",\"category_id\":1,\"status\":\"1\"}","@jsonResult":"{\"code\":500,\"msg\":\"\\u670d\\u52a1\\u5668\\u597d\\u50cf\\u51fa\\u4e86\\u70b9\\u95ee\\u9898......\",\"data\":null}","@status":1,"@errorMsg":"Column 'article_id' cannot be null","@operTime":"2022-03-21T14:17:50.3478647+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 14:18:44.1399 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 14:19:10.1583 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ INSERT INTO `t_article_tags`  (`article_id`,`tag_id`) VALUES(N'0',N'1'),  (N'0',N'1'),  (N'0',N'1') ;select @@IDENTITY
+，{}
+===========================================
+ 2022-03-21 14:20:25.1519 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 14:25:26.9920 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 14:25:38.1375 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ INSERT INTO `article`  
+           (`Title`,`CreateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`)
+     VALUES
+           (@Title,@CreateTime,@Content,@AuthorName,@UserId,@Status,@Fmt_type,@Hits,@Category_id) ;SELECT LAST_INSERT_ID();，{"@Title":"测试","@CreateTime":"2022-03-21T14:25:36.3049242+08:00","@Content":"# 一级标题","@AuthorName":"admin","@UserId":1,"@Status":"1","@Fmt_type":"markdown","@Hits":0,"@Category_id":1}
+===========================================
+ 2022-03-21 14:25:41.9947 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ INSERT INTO `t_article_tags`  (`article_id`,`tag_id`) VALUES(N'29',N'1'),  (N'29',N'1'),  (N'29',N'1'),  (N'29',N'1'),  (N'29',N'1') ;select @@IDENTITY
+，{}
+===========================================
+ 2022-03-21 14:25:42.0013 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ 执行SQL出错：Duplicate entry '29' for key 'PRIMARY'
+===========================================
+ 2022-03-21 14:26:18.5664 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE ( `IsStart`=1 ) ，{}
+===========================================
+ 2022-03-21 14:26:21.5112 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:26:21.5386 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:26:21.6109 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:26:21.6471 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 14:26:21.6683 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 14:26:22.9310 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:26:22.9516 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:26:22.9592 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:26:36.9179 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ INSERT INTO `article`  
+           (`Title`,`CreateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`)
+     VALUES
+           (@Title,@CreateTime,@Content,@AuthorName,@UserId,@Status,@Fmt_type,@Hits,@Category_id) ;SELECT LAST_INSERT_ID();，{"@Title":"测试","@CreateTime":"2022-03-21T14:26:36.1455643+08:00","@Content":"爱仕达多撒","@AuthorName":"admin","@UserId":1,"@Status":"1","@Fmt_type":"markdown","@Hits":0,"@Category_id":1}
+===========================================
+ 2022-03-21 14:26:39.1303 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ INSERT INTO `t_article_tags`  
+           (`article_id`,`tag_id`)
+     VALUES
+           (@article_id,@tag_id) ;，{"@article_id":30,"@tag_id":1}
+===========================================
+ 2022-03-21 14:26:40.5570 - 127.0.0.1 - userid=1 - http://localhost/Article/add 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章添加","@businessType":1,"@method":"Article.Create()","@requestMethod":"POST","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Article/add","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"fmt_type\":\"markdown\",\"tags\":[{\"tag_id\":1}],\"content\":\"爱仕达多撒\",\"title\":\"测试\",\"category_id\":1,\"status\":\"1\"}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T14:26:40.5462116+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 14:26:41.3576 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:26:41.3598 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:26:41.3598 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:26:41.3598 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:26:41.3598 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:26:41.3598 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:26:41.3598 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:26:41.3598 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:26:41.6568 - 127.0.0.1 - userid=1 - http://localhost/system/dict/data/type/sys_article_status 
+ SELECT `DictCode`,`DictSort`,`DictLabel`,`DictValue`,`DictType`,`CssClass`,`ListClass`,`IsDefault`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_dict_data`  WHERE (( `Status` = @Status0 ) AND ( `DictType` = @DictType1 ))ORDER BY `DictSort` ASC ，{"@Status0":"0","@DictType1":"sys_article_status"}
+===========================================
+ 2022-03-21 14:30:00.0420 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 14:30:00.0420 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T14:30:00.0434579+08:00","@Elapsed":13.0516}
+===========================================
+ 2022-03-21 14:30:00.0756 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 14:32:27.3388 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:32:27.3388 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:32:27.3388 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:32:27.3445 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:32:27.3445 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:32:27.3612 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:32:27.3612 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:32:27.3612 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":29}
+===========================================
+ 2022-03-21 14:32:27.3612 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:32:27.3612 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:32:27.3612 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":28}
+===========================================
+ 2022-03-21 14:32:58.7649 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:32:58.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:32:58.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:32:58.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:32:58.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:32:58.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:32:58.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:32:58.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":29}
+===========================================
+ 2022-03-21 14:32:58.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:32:58.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:32:58.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":28}
+===========================================
+ 2022-03-21 14:34:18.1273 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:34:18.1273 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:34:18.1273 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:34:18.1273 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:18.1273 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:34:18.1273 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:34:18.1273 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:18.1273 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":29}
+===========================================
+ 2022-03-21 14:34:18.1273 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:34:18.1273 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:18.1412 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":28}
+===========================================
+ 2022-03-21 14:34:21.6052 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:34:21.6052 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:34:21.6052 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:34:21.6052 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":30}
+===========================================
+ 2022-03-21 14:34:21.6222 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:34:21.8531 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":30}
+===========================================
+ 2022-03-21 14:34:21.8531 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:34:24.8132 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ UPDATE `article`  SET
+            `Title` = @Const0 , `UpdateTime` = @Const4 , `Content` = @Const1 , `Status` = @Const5 , `Category_id` = @Const3   WHERE ( `Cid` = @Cid6 )，{"@Const0":"测试","@Const1":"爱仕达多撒","@Const2":null,"@Const3":1,"@Const4":"2022-03-21T14:34:24.8106458+08:00","@Const5":"1","@Cid6":30}
+===========================================
+ 2022-03-21 14:34:24.8132 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ DELETE FROM `t_article_tags` WHERE ( `article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:34:24.8303 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ INSERT INTO `t_article_tags`  
+           (`article_id`,`tag_id`)
+     VALUES
+           (@article_id,@tag_id) ;，{"@article_id":30,"@tag_id":1}
+===========================================
+ 2022-03-21 14:34:24.8303 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章修改","@businessType":2,"@method":"Article.Update()","@requestMethod":"PUT","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Article/edit","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"fmt_type\":\"markdown\",\"cid\":30,\"title\":\"测试\",\"content\":\"爱仕达多撒\",\"category_id\":1,\"tags\":[{\"article_id\":30,\"tag_id\":1,\"tagName\":\"测试1\"}],\"status\":\"1\"}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T14:34:24.8318249+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 14:34:25.7515 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:34:25.7515 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:34:25.7515 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:34:25.7515 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:25.7515 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:34:25.7515 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:34:25.7515 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:25.7515 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":29}
+===========================================
+ 2022-03-21 14:34:25.7515 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:34:25.7515 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:25.7666 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":28}
+===========================================
+ 2022-03-21 14:34:29.8410 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:29.8410 - 127.0.0.1 - userid=undefined - http://localhost/getInfo 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:30.1677 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 14:34:30.1720 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT r.* FROM `sys_user_role` ur Left JOIN `sys_role` r ON ( `ur`.`role_id` = `r`.`RoleId` )   WHERE ( `ur`.`user_id` = @UserId0 ) ，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:30.1720 - 127.0.0.1 - userid=1 - http://localhost/getRouters 
+ SELECT `menuId`,`menuName`,`parentId`,`orderNum`,`path`,`component`,`isCache`,`isFrame`,`menuType`,`visible`,`status`,`perms`,`icon`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_menu`  WHERE (( `status` = @status0 ) AND  (`menuType` IN ('M','C')) )ORDER BY `parentId` ASC,`orderNum` ASC ，{"@status0":"0"}
+===========================================
+ 2022-03-21 14:34:30.5735 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:34:30.5735 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:34:30.5735 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:34:30.5735 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:30.5800 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:34:30.5800 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:34:30.5800 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:30.5800 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":29}
+===========================================
+ 2022-03-21 14:34:30.5800 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:34:30.5800 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:34:30.5800 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":28}
+===========================================
+ 2022-03-21 14:35:24.2140 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:35:24.2140 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:35:24.2140 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":30}
+===========================================
+ 2022-03-21 14:35:24.2140 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:35:24.2140 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:35:24.4946 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":30}
+===========================================
+ 2022-03-21 14:35:24.4946 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:35:27.6625 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ UPDATE `article`  SET
+            `Title` = @Const0 , `UpdateTime` = @Const4 , `Content` = @Const1 , `Status` = @Const5 , `Category_id` = @Const3   WHERE ( `Cid` = @Cid6 )，{"@Const0":"测试","@Const1":"爱仕达多撒","@Const2":null,"@Const3":1,"@Const4":"2022-03-21T14:35:27.6613469+08:00","@Const5":"1","@Cid6":30}
+===========================================
+ 2022-03-21 14:37:47.5828 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ DELETE FROM `t_article_tags` WHERE ( `article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:37:47.5982 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ INSERT INTO `t_article_tags`  
+           (`article_id`,`tag_id`)
+     VALUES
+           (@article_id,@tag_id) ;，{"@article_id":30,"@tag_id":1}
+===========================================
+ 2022-03-21 14:37:47.5982 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章修改","@businessType":2,"@method":"Article.Update()","@requestMethod":"PUT","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Article/edit","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"fmt_type\":\"markdown\",\"cid\":30,\"title\":\"测试\",\"content\":\"爱仕达多撒\",\"category_id\":1,\"tags\":[{\"article_id\":30,\"tag_id\":1,\"tagName\":\"测试1\"}],\"status\":\"1\"}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T14:37:47.6013117+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 14:37:47.5982 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:37:47.5982 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:37:47.5982 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":30}
+===========================================
+ 2022-03-21 14:37:47.5982 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:37:47.5982 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:37:47.5982 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:37:47.5982 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:37:47.6114 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:37:47.6114 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:37:47.6114 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:37:47.6114 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:37:47.6114 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:37:47.6114 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":29}
+===========================================
+ 2022-03-21 14:37:47.6114 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:37:47.6114 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:37:47.6114 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":28}
+===========================================
+ 2022-03-21 14:37:47.9274 - 127.0.0.1 -  - http://localhost/msgHub 
+ SELECT `notice_id`,`notice_title`,`notice_type`,`notice_content`,`Status`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_notice`  WHERE ( `Status` = @Status0 ) ，{"@Status0":"0"}
+===========================================
+ 2022-03-21 14:37:51.1123 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:37:51.1123 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:37:51.1123 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":30}
+===========================================
+ 2022-03-21 14:37:51.1123 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:37:51.1123 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:37:51.3754 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":30}
+===========================================
+ 2022-03-21 14:37:51.3754 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:39:03.3488 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT `Id`,`Name` FROM `t_tag`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:39:03.3488 - 127.0.0.1 - userid=1 - http://localhost/Article/CategoryTreeList 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`  ，{}
+===========================================
+ 2022-03-21 14:39:03.3488 - 127.0.0.1 - userid=1 - http://localhost/tag/getList 
+ SELECT Count(*) FROM `t_article_tags`  WHERE ( `tag_id` = @tag_id0 ) ，{"@tag_id0":1}
+===========================================
+ 2022-03-21 14:39:03.6463 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":30}
+===========================================
+ 2022-03-21 14:39:03.6463 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:39:03.9750 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`  WHERE `Cid` = @InPara0   ，{"@InPara0":30}
+===========================================
+ 2022-03-21 14:39:03.9750 - 127.0.0.1 - userid=1 - http://localhost/Article/30 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:39:08.4895 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ UPDATE `article`  SET
+            `Title` = @Const0 , `UpdateTime` = @Const4 , `Content` = @Const1 , `Status` = @Const5 , `Category_id` = @Const3   WHERE ( `Cid` = @Cid6 )，{"@Const0":"测试","@Const1":"爱仕达多撒","@Const2":null,"@Const3":1,"@Const4":"2022-03-21T14:39:08.4884635+08:00","@Const5":"1","@Cid6":30}
+===========================================
+ 2022-03-21 14:39:08.4895 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ DELETE FROM `t_article_tags` WHERE ( `article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:39:08.4895 - 127.0.0.1 - userid=1 - http://localhost/Article/edit 
+ INSERT INTO `sys_oper_log`  
+           (`title`,`businessType`,`method`,`requestMethod`,`operatorType`,`operName`,`deptName`,`operUrl`,`operIp`,`operLocation`,`operParam`,`jsonResult`,`status`,`errorMsg`,`operTime`,`Elapsed`)
+     VALUES
+           (@title,@businessType,@method,@requestMethod,@operatorType,@operName,@deptName,@operUrl,@operIp,@operLocation,@operParam,@jsonResult,@status,@errorMsg,@operTime,@Elapsed) ;，{"@title":"文章修改","@businessType":2,"@method":"Article.Update()","@requestMethod":"PUT","@operatorType":0,"@operName":"admin","@deptName":null,"@operUrl":"/Article/edit","@operIp":"127.0.0.1","@operLocation":"0 内网IP","@operParam":"{\"fmt_type\":\"markdown\",\"cid\":30,\"title\":\"测试\",\"content\":\"爱仕达多撒\",\"category_id\":1,\"tags\":[],\"status\":\"1\"}","@jsonResult":"{  \"code\": 200,  \"msg\": \"SUCCESS\",  \"data\": 1}","@status":0,"@errorMsg":null,"@operTime":"2022-03-21T14:39:08.4988768+08:00","@Elapsed":0}
+===========================================
+ 2022-03-21 14:39:09.4101 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT Count(*) FROM `article`  WHERE ( 1 = 1 )  ，{}
+===========================================
+ 2022-03-21 14:39:09.4101 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Cid`,`Title`,`CreateTime`,`UpdateTime`,`Content`,`AuthorName`,`UserId`,`Status`,`Fmt_type`,`Hits`,`Category_id`,`first_picture` FROM `article`   WHERE ( 1 = 1 )   ORDER BY `Cid` DESC LIMIT 0,20，{}
+===========================================
+ 2022-03-21 14:39:09.4101 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:39:09.4101 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:39:09.4101 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":30}
+===========================================
+ 2022-03-21 14:39:09.4101 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:39:09.4101 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:39:09.4101 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":29}
+===========================================
+ 2022-03-21 14:39:09.4101 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `Category_Id`,`Name`,`ParentId`,`pic_url`,`color` FROM `articleCategory`   WHERE ( `Category_Id` = @Category_Id0 )  ORDER BY NOW()  LIMIT 0,1，{"@Category_Id0":1}
+===========================================
+ 2022-03-21 14:39:09.4101 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT `UserId`,`UserName`,`NickName`,`Avatar`,`Email`,`Password`,`Phonenumber`,`Sex`,`Status`,`DelFlag`,`LoginIP`,`LoginDate`,`Create_by`,`Create_time`,`Update_by`,`Update_time`,`Remark` FROM `sys_user`   WHERE ( `UserId` = @UserId0 )  ORDER BY NOW()  LIMIT 0,1，{"@UserId0":1}
+===========================================
+ 2022-03-21 14:39:09.4231 - 127.0.0.1 - userid=1 - http://localhost/Article/list 
+ SELECT  `a`.`article_id` AS `article_id` , `a`.`tag_id` AS `tag_id` , `t`.`Name` AS `TagName`  FROM `t_article_tags` a Left JOIN `t_tag` t ON ( `a`.`tag_id` = `t`.`Id` )   WHERE ( `a`.`article_id` = @article_id0 ) ，{"@article_id0":28}
+===========================================
+ 2022-03-21 14:40:00.0204 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 14:40:00.0204 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T14:40:00.0218131+08:00","@Elapsed":14.6489}
+===========================================
+ 2022-03-21 14:40:00.0204 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 14:50:00.0295 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 14:50:00.0420 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T14:50:00.0415482+08:00","@Elapsed":15.4073}
+===========================================
+ 2022-03-21 14:50:00.0420 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:00:00.0281 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:00:00.0465 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T15:00:00.0460215+08:00","@Elapsed":14.5245}
+===========================================
+ 2022-03-21 15:00:00.0502 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:10:00.0208 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:10:00.0366 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T15:10:00.0360137+08:00","@Elapsed":15.5194}
+===========================================
+ 2022-03-21 15:10:00.0366 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:20:00.0286 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:20:00.0409 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T15:20:00.0403668+08:00","@Elapsed":14.6249}
+===========================================
+ 2022-03-21 15:20:00.0496 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:30:00.0247 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:30:00.0366 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T15:30:00.0361257+08:00","@Elapsed":15.6067}
+===========================================
+ 2022-03-21 15:30:00.0366 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:40:00.0202 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:40:00.0202 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T15:40:00.0312419+08:00","@Elapsed":14.6471}
+===========================================
+ 2022-03-21 15:40:00.0346 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:50:00.0251 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 15:50:00.0361 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T15:50:00.0355708+08:00","@Elapsed":15.6697}
+===========================================
+ 2022-03-21 15:50:00.0361 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:00:00.0294 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:00:00.0434 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T16:00:00.0427951+08:00","@Elapsed":15.5443}
+===========================================
+ 2022-03-21 16:00:00.0434 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:10:00.0231 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:10:00.0322 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T16:10:00.0318409+08:00","@Elapsed":14.4585}
+===========================================
+ 2022-03-21 16:10:00.0322 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:20:00.0298 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:20:00.0432 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T16:20:00.0425873+08:00","@Elapsed":15.7431}
+===========================================
+ 2022-03-21 16:20:00.0522 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:30:00.0245 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:30:00.0330 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T16:30:00.0323104+08:00","@Elapsed":14.5653}
+===========================================
+ 2022-03-21 16:30:00.0330 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:40:00.0273 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:40:00.0418 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T16:40:00.0413103+08:00","@Elapsed":15.7324}
+===========================================
+ 2022-03-21 16:40:00.0502 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:50:00.0314 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 16:50:00.0314 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T16:50:00.040509+08:00","@Elapsed":15.5294}
+===========================================
+ 2022-03-21 16:50:00.0494 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:00:00.0275 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:00:00.0396 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T17:00:00.0390722+08:00","@Elapsed":15.6589}
+===========================================
+ 2022-03-21 17:00:00.0478 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:10:00.0308 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:10:00.0441 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T17:10:00.0434547+08:00","@Elapsed":15.7328}
+===========================================
+ 2022-03-21 17:10:00.0441 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:20:00.0307 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:20:00.0439 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T17:20:00.0433613+08:00","@Elapsed":15.6288}
+===========================================
+ 2022-03-21 17:20:00.0525 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:30:00.0298 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:30:00.0446 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T17:30:00.0439975+08:00","@Elapsed":15.7032}
+===========================================
+ 2022-03-21 17:30:00.0530 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:40:00.0313 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:40:00.0454 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T17:40:00.0447327+08:00","@Elapsed":15.6149}
+===========================================
+ 2022-03-21 17:40:00.0538 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:50:00.0268 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 17:50:00.0396 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T17:50:00.0389918+08:00","@Elapsed":14.7385}
+===========================================
+ 2022-03-21 17:50:00.0478 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:00:00.0333 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:00:00.0333 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T18:00:00.0454465+08:00","@Elapsed":30.7543}
+===========================================
+ 2022-03-21 18:00:00.0543 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:10:00.0228 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:10:00.0363 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T18:10:00.0355921+08:00","@Elapsed":14.6107}
+===========================================
+ 2022-03-21 18:10:00.0363 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:20:00.0303 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:20:00.0466 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T18:20:00.0458724+08:00","@Elapsed":14.7668}
+===========================================
+ 2022-03-21 18:20:00.0546 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:30:00.0183 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:30:00.0183 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T18:30:00.0310497+08:00","@Elapsed":14.6113}
+===========================================
+ 2022-03-21 18:30:00.0395 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:40:00.0260 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:40:00.0382 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T18:40:00.0376787+08:00","@Elapsed":14.7443}
+===========================================
+ 2022-03-21 18:40:00.0382 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:50:00.0504 -  -  -  
+ SELECT `ID`,`Name`,`JobGroup`,`Cron`,`AssemblyName`,`ClassName`,`Remark`,`RunTimes`,`BeginTime`,`EndTime`,`TriggerType`,`IntervalSecond`,`IsStart`,`JobParams`,`Create_by`,`Create_time`,`Update_by`,`Update_time` FROM `Sys_TasksQz`  WHERE `ID` = @InPara0   ，{"@InPara0":"1410905433996136448"}
+===========================================
+ 2022-03-21 18:50:00.0765 -  -  -  
+ INSERT INTO `sys_Tasks_log`  
+           (`JobId`,`JobName`,`JobGroup`,`Status`,`JobMessage`,`InvokeTarget`,`CreateTime`,`Elapsed`)
+     VALUES
+           (@JobId,@JobName,@JobGroup,@Status,@JobMessage,@InvokeTarget,@CreateTime,@Elapsed) ;，{"@JobId":"1410905433996136448","@JobName":"测试任务","@JobGroup":"SYSTEM","@Status":"0","@JobMessage":"Succeed","@InvokeTarget":"ZR.Tasks.Job_SyncTest","@CreateTime":"2022-03-21T18:50:00.075546+08:00","@Elapsed":30.3322}
+===========================================
+ 2022-03-21 18:50:00.0873 -  -  -  
+ UPDATE `Sys_TasksQz`  SET
+            `RunTimes` = ( `RunTimes` + @RunTimes0 )   WHERE ( `ID` = @ID1 )，{"@RunTimes0":1,"@ID1":"1410905433996136448"}

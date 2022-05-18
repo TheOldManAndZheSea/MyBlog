@@ -1,0 +1,10 @@
+2022-03-23 17:37:16.4236 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-23 17:37:16.4326 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-23 17:37:16.4326 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-23 17:37:16.4326 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-23 17:40:00.1892 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-23 17:46:14.6384 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-23 17:46:14.6486 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-23 17:46:14.6486 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-23 17:46:14.6486 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-23 17:50:00.1162 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 

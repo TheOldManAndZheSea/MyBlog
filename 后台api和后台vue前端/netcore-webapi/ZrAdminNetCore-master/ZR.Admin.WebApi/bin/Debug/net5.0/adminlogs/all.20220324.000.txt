@@ -1,0 +1,187 @@
+2022-03-24 10:37:04.9333 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-24 10:37:04.9333 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-24 10:37:04.9333 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-24 10:37:04.9333 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-24 10:37:33.5371 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-24 10:37:34.0078 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-24 10:37:36.2547 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-24 10:39:34.4475 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/103 |  |  | {  "code": 110,  "msg": "存在子菜单,不允许删除"} | 
+2022-03-24 10:39:42.7881 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1018 |  |  | {  "code": 110,  "msg": "菜单已分配,不允许删除"} | 
+2022-03-24 10:39:54.4637 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/user/2 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:39:57.4031 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/user/3 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:40:00.0685 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 10:40:08.0702 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/system/role/2 |  |  | {"code":0,"msg":"\u666e\u901a\u89d2\u8272\u5df2\u5206\u914d,\u4e0d\u80fd\u5220\u9664","data":null} | Infrastructure.CustomException: 普通角色已分配,不能删除
+   at ZR.Service.SysRoleService.DeleteRoleByRoleId(Int64[] roleIds) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\System\SysRoleService.cs:line 87
+   at ZR.Admin.WebApi.Controllers.System.SysRoleController.Remove(String roleId) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\SysRoleController.cs:line 146
+   at lambda_method292(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-24 10:41:57.3862 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/system/role/2 |  |  | {"code":0,"msg":"\u666e\u901a\u89d2\u8272\u5df2\u5206\u914d,\u4e0d\u80fd\u5220\u9664","data":null} | Infrastructure.CustomException: 普通角色已分配,不能删除
+   at ZR.Service.SysRoleService.DeleteRoleByRoleId(Int64[] roleIds) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\System\SysRoleService.cs:line 87
+   at ZR.Admin.WebApi.Controllers.System.SysRoleController.Remove(String roleId) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\SysRoleController.cs:line 146
+   at lambda_method292(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-24 10:42:53.2995 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/system/role/2 |  |  | {"code":0,"msg":"\u666e\u901a\u89d2\u8272\u5df2\u5206\u914d,\u4e0d\u80fd\u5220\u9664","data":null} | Infrastructure.CustomException: 普通角色已分配,不能删除
+   at ZR.Service.SysRoleService.DeleteRoleByRoleId(Int64[] roleIds) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\System\SysRoleService.cs:line 87
+   at ZR.Admin.WebApi.Controllers.System.SysRoleController.Remove(String roleId) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Controllers\System\SysRoleController.cs:line 146
+   at lambda_method292(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\Middleware\GlobalExceptionMiddleware.cs:line 37
+2022-03-24 10:43:11.0547 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/role/2 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:43:39.0876 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/104 |  |  | {  "code": 110,  "msg": "存在子菜单,不允许删除"} | 
+2022-03-24 10:43:45.9784 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1022 |  |  | {  "code": 110,  "msg": "菜单已分配,不允许删除"} | 
+2022-03-24 10:45:43.9753 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/1022 |  |  | {  "code": 110,  "msg": "菜单已分配,不允许删除"} | 
+2022-03-24 10:48:22.1946 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":6,"menuName":"控制台","parentName":null,"parentId":0,"orderNum":0,"path":"dashboard","component":"index_v1","isCache":"0","isFrame":"0","menuType":"C","visible":"1","status":"0","perms":"","icon":"dashboard","children":[],"createBy":"","createTime":"2022-03-23 17:24:20","updateTime":null,"remark":""} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:50:00.0405 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 10:50:22.6350 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/menu/add |  | {"parentId":0,"menuName":"博客管理","icon":"menu","menuType":"M","orderNum":19,"isFrame":"0","isCache":"0","visible":"0","status":"0","path":"blog"} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:50:53.0443 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":118,"menuName":"文章管理","parentName":null,"parentId":2006,"orderNum":18,"path":"article","component":null,"isCache":"0","isFrame":"0","menuType":"M","visible":"0","status":"0","perms":null,"icon":"documentation","children":[],"createBy":"","createTime":"2022-03-23 17:24:20","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:51:31.9663 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":118,"menuName":"文章管理","parentName":null,"parentId":2006,"orderNum":18,"path":"blog/article","component":null,"isCache":"0","isFrame":"0","menuType":"M","visible":"0","status":"0","perms":null,"icon":"documentation","children":[],"createBy":"","createTime":"2022-03-23 17:24:20","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:54:22.9778 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":118,"orderNum":2,"path":"/blog/publish","component":"blog/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-23 17:24:20","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:55:12.2467 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":119,"menuName":"文章列表","parentName":null,"parentId":118,"orderNum":1,"path":"index","component":"blog/article/manager","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:list","icon":"list","children":[],"createBy":"","createTime":"2022-03-23 17:24:20","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:55:28.7474 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":118,"orderNum":2,"path":"publish","component":"blog/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-23 17:24:20","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:55:38.3362 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1048,"menuName":"文章新增","parentName":null,"parentId":118,"orderNum":3,"path":"#","component":null,"isCache":"0","isFrame":"0","menuType":"F","visible":"0","status":"0","perms":"blog:article:add","icon":"","children":[],"createBy":"","createTime":"2022-03-23 17:24:21","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:55:45.2889 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1049,"menuName":"文章修改","parentName":null,"parentId":118,"orderNum":4,"path":"#","component":null,"isCache":"0","isFrame":"0","menuType":"F","visible":"0","status":"0","perms":"blog:article:update","icon":"","children":[],"createBy":"","createTime":"2022-03-23 17:24:21","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:55:51.4287 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1050,"menuName":"文章删除","parentName":null,"parentId":118,"orderNum":5,"path":"#","component":null,"isCache":"0","isFrame":"0","menuType":"F","visible":"0","status":"0","perms":"blog:article:delete","icon":"","children":[],"createBy":"","createTime":"2022-03-23 17:24:21","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 10:58:23.3891 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-24 10:58:23.3891 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-24 10:58:23.3891 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-24 10:58:23.3891 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-24 11:00:00.0841 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 11:10:00.0580 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 11:20:00.0378 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 11:25:54.1654 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-24 11:25:54.4982 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-24 11:25:55.5036 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-24 11:30:00.0267 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 11:40:00.0440 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 11:50:00.0388 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 12:00:00.0391 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 13:20:00.0221 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 13:20:11.6675 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-24 13:20:12.0435 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-24 13:20:12.9766 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-24 13:21:24.0905 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/add |  | {"fmt_type":"markdown","tags":[],"content":"啊发撒法发**粗体**","title":"测试","category_id":1,"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 13:22:13.9501 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":118,"menuName":"文章管理","parentName":null,"parentId":2006,"orderNum":18,"path":"article","component":null,"isCache":"0","isFrame":"0","menuType":"M","visible":"0","status":"0","perms":null,"icon":"documentation","children":[],"createBy":"","createTime":"2022-03-23 17:24:20","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 13:23:40.5014 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","content":"啊发撒法发**粗体**","category_id":1,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 13:29:29.4490 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":null,"content":"啊发撒法发**粗体**","category_id":1,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 13:30:00.0409 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 13:34:17.4188 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"first_picture","content":"啊发撒法发**粗体**","category_id":1,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 13:34:30.3821 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"first_picture","content":"啊发撒法发**粗体**","category_id":1,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 13:36:34.2286 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"first_picture","content":"啊发撒法发**粗体**","category_id":1,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 13:38:57.6974 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"first_picture","content":"啊发撒法发**粗体**","category_id":1,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 13:40:00.0219 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 13:40:40.1058 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"http://localhost:8888/uploads/2022324//26f7898e5c86a830.jpg","content":"啊发撒法发**粗体**","category_id":1,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 13:50:00.0314 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 14:00:00.0376 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 14:10:00.0429 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 14:13:53.7375 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-24 14:13:53.8624 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-24 14:13:55.4906 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-24 14:18:18.0726 |  | INFO | ZR.Admin.WebApi.Filters.GlobalActionMonitor | ::1 |  | http://localhost/article/QueryNew | 请求参数错误,The value 'QueryNew' is not valid. |  |  | 
+2022-03-24 14:18:28.6662 |  | INFO | ZR.Admin.WebApi.Filters.GlobalActionMonitor | ::1 |  | http://localhost/article/QueryNew | 请求参数错误,The value 'QueryNew' is not valid. |  |  | 
+2022-03-24 14:19:59.7043 |  | INFO | ZR.Admin.WebApi.Filters.GlobalActionMonitor | ::1 |  | http://localhost/article/QueryNew | 请求参数错误,The value 'QueryNew' is not valid. |  |  | 
+2022-03-24 14:20:00.0375 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 14:30:00.0233 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 14:37:59.9652 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-24 14:37:59.9652 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-24 14:37:59.9652 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-24 14:37:59.9652 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-24 14:40:00.0966 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 14:50:00.0237 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 15:00:00.0379 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 15:10:00.0442 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 15:20:00.0284 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 15:30:00.0389 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 15:40:00.0400 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 15:50:00.0270 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 16:00:00.0238 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 16:10:00.0402 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 16:20:00.0268 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 16:30:00.0259 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 16:40:00.0418 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 16:45:10.8069 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-24 16:45:11.0874 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-24 16:45:12.1153 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-24 16:46:49.9660 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/menu/add |  | {"parentId":2006,"menuName":"标签管理","icon":"star","menuType":"M","orderNum":20,"isFrame":"0","isCache":"0","visible":"0","status":"0","path":"tag"} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 16:47:26.4338 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":2007,"menuName":"标签管理","parentName":null,"parentId":2006,"orderNum":20,"path":"tag","component":"/blog/tag/index","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:tag","icon":"star","children":[],"createBy":"admin","createTime":"2022-03-24 16:46:49","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 16:48:37.5895 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":2007,"menuName":"标签管理","parentName":null,"parentId":2006,"orderNum":20,"path":"tag","component":"","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:tag","icon":"star","children":[],"createBy":"admin","createTime":"2022-03-24 16:46:49","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 16:50:00.0371 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 16:53:14.6793 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/5 |  |  | {  "code": 110,  "msg": "菜单已分配,不允许删除"} | 
+2022-03-24 16:54:14.9548 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/5 |  |  | {  "code": 110,  "msg": "菜单已分配,不允许删除"} | 
+2022-03-24 16:55:47.0267 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/5 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 16:56:56.1963 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":2007,"menuName":"标签管理","parentName":null,"parentId":2006,"orderNum":20,"path":"tag","component":"/blog/tag/index","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:tag","icon":"star","children":[],"createBy":"admin","createTime":"2022-03-24 16:46:49","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 16:57:04.6510 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":2007,"menuName":"标签管理","parentName":null,"parentId":2006,"orderNum":20,"path":"tag","component":"blog/tag/index","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:tag","icon":"star","children":[],"createBy":"admin","createTime":"2022-03-24 16:46:49","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-24 17:00:00.0251 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 17:00:43.4923 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tag/add |  | {"name":"白娃娃格罗"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 17:00:53.4973 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tag/add |  | {"name":"神田咏梅"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 17:01:05.5426 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tag/add |  | {"name":"桥本"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-24 17:02:05.8385 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/add |  | {"fmt_type":"markdown","tags":[{"tag_id":1},{"tag_id":2}],"content":"博客上线地址：\n欢迎访问我的博客！http://hikari.top\n\n项目介绍\n实现了一个简单的个人博客系统，技术栈为后端SpringBoot+JPA+MySQL,前端Vue+ElementUI+Echarts系统分为前台展示和后台管理两个部分，前台部分主要分为了引导页，首页，随笔，项目，留言和关于我页面，使用响应式布局，能够自适应移动端，后台有首页，博客管理，撰写博客，用户管理，分类管理，标签管理，评论管理，随笔管理，项目管理，个人中心，图片管理。\n\n项目开源地址：\n博客前端：https://gitee.com/tyoubin_admin/myblog-frontend.git 博客后端：https://gitee.com/tyoubin_admin/myblog-backend.git\n\n本项目将长期更新与维护，欢迎拉取和star！\n\n项目截图及亮点","first_picture":"http://localhost:8888/uploads/2022324//8c0e545c6be1c21c.jpg","title":"这是一个简单的","category_id":2,"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 2} | 
+2022-03-24 17:10:00.0376 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 17:20:00.0426 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 17:24:58.2631 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-24 17:24:58.2631 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-24 17:24:58.2631 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-24 17:24:58.2631 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-24 17:29:00.5713 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-24 17:29:00.5713 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-24 17:29:00.5713 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-24 17:29:00.5713 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-24 17:30:00.1153 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 17:34:43.5227 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-24 17:34:43.5227 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-24 17:34:43.5227 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-24 17:34:43.5227 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-24 17:36:18.8328 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-24 17:36:18.8377 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-24 17:36:18.8377 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-24 17:36:18.8377 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-24 17:40:30.1025 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-24 17:40:30.1025 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-24 17:40:30.1025 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-24 17:40:30.1025 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-24 17:43:15.0934 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-24 17:43:15.0934 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-24 17:43:15.0934 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-24 17:43:15.1002 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-24 17:50:00.1025 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-24 18:00:00.0241 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 

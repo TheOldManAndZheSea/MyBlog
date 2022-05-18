@@ -1,0 +1,166 @@
+2022-03-30 09:52:39.0430 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 09:52:39.0430 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 09:52:39.0430 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 09:52:39.0430 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 09:53:14.1721 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-30 09:53:14.5158 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-30 09:53:15.8381 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-30 09:54:40.0921 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 09:54:40.0921 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 09:54:40.0921 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 09:54:40.0921 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 09:55:46.2749 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 09:55:46.2749 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 09:55:46.2749 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 09:55:46.2749 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 09:59:48.6063 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 09:59:48.6063 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 09:59:48.6063 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 09:59:48.6063 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 10:03:15.9677 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 10:03:15.9677 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 10:03:15.9677 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 10:03:15.9677 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 10:06:18.4694 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 10:06:18.4694 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 10:06:18.4754 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 10:06:18.4754 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 10:07:45.1893 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 10:07:45.1943 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 10:07:45.1943 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 10:07:45.1943 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 10:09:42.3792 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 10:09:42.3843 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 10:09:42.3843 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 10:09:42.3843 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 10:10:00.0880 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 10:11:00.1158 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 10:11:00.1207 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 10:11:00.1207 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 10:11:00.1207 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 10:11:12.4509 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/TBlogpersonalinfo/edit |  | {"id":1,"name":"ztc","sex":"0","age":25,"degree":"专升本","height":174,"weight":72,"birthday":"2022-03-01 00:00:00","school":"河北科技","specialized":"计算机科学与技术","blood":"B","giteeUrl":null,"gitHubUrl":null,"csdnUrl":null,"email":null,"avatar":"http://localhost:8888/uploads/2022330//b397d8fca2f31968.webp"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-30 10:11:36.1645 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/TBlogpersonalinfo/edit |  | {"id":1,"name":"ztc","sex":"0","age":25,"degree":"专升本","height":174,"weight":72,"birthday":"2022-03-01 00:00:00","school":"河北科技","specialized":"计算机科学与技术","blood":"B","giteeUrl":null,"gitHubUrl":null,"csdnUrl":null,"email":null,"avatar":"http://localhost:8888/uploads/2022330//b397d8fca2f31968.webp"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-30 10:20:00.0818 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 10:24:27.9103 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 10:24:27.9153 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 10:24:27.9153 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 10:24:27.9153 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 10:24:40.7731 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-30 10:24:41.1598 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-30 10:24:42.5064 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-30 10:25:32.5896 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/TBlogpersonalinfo/edit |  | {"id":1,"name":"ztc","sex":"0","age":25,"degree":"专升本","height":174,"weight":72.7,"birthday":"2022-03-01 00:00:00","school":"河北科技","specialized":"计算机科学与技术","blood":"B","giteeUrl":null,"gitHubUrl":null,"csdnUrl":null,"email":null,"avatar":"http://localhost:8888/uploads/2022330//b397d8fca2f31968.webp"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-30 10:30:00.0726 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 10:40:00.0384 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 10:43:04.6845 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/Blog/TBlogpersonalinfo/1 | 请求访问[/Blog/TBlogpersonalinfo/1]失败，无法访问系统资源 |  |  | 
+2022-03-30 10:43:08.7740 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/Blog/TBlogpersonalinfo/1 | 请求访问[/Blog/TBlogpersonalinfo/1]失败，无法访问系统资源 |  |  | 
+2022-03-30 10:43:28.3023 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/Blog/TBlogpersonalinfo/1 | 请求访问[/Blog/TBlogpersonalinfo/1]失败，无法访问系统资源 |  |  | 
+2022-03-30 10:44:29.6674 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 10:44:29.6674 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 10:44:29.6674 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 10:44:29.6674 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 10:47:36.2462 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 10:47:36.2462 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 10:47:36.2462 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 10:47:36.2462 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 10:50:00.0880 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 11:00:00.0406 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 11:10:00.0413 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 11:20:00.0391 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 11:30:00.0225 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 11:40:00.0229 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 11:50:00.0246 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 12:00:00.0285 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 12:10:00.0277 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 12:20:00.0380 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 12:30:00.0404 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 12:40:00.0401 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 12:50:00.0416 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 13:00:00.0388 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 13:10:00.0431 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 13:20:00.0268 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 13:30:00.0413 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 13:40:00.0425 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 13:50:00.0383 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 14:00:00.0429 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 14:10:00.0260 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 14:20:00.0431 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 14:30:00.0233 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 14:40:00.0384 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 14:43:38.2480 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 14:43:38.2480 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 14:43:38.2480 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 14:43:38.2480 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 14:50:00.0971 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 15:00:00.0385 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 15:20:00.0403 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 15:31:11.8306 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 15:31:11.8354 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 15:31:11.8354 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 15:31:11.8354 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 15:34:37.9602 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 15:34:37.9602 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 15:34:37.9602 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 15:34:37.9602 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 15:35:24.8304 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/Article/edit | 请求访问[/Article/edit]失败，无法访问系统资源 |  |  | 
+2022-03-30 15:35:26.8767 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-30 15:35:56.6059 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"http://localhost:8888/uploads/2022324//26f7898e5c86a830.jpg","content":"啊发撒法发**粗体**","category_id":1,"tags":[],"istop":true,"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-30 15:37:55.2098 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"http://localhost:8888/uploads/2022324//26f7898e5c86a830.jpg","content":"啊发撒法发**粗体**","category_id":1,"tags":[],"istop":true,"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-30 15:39:13.9918 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"http://localhost:8888/uploads/2022324//26f7898e5c86a830.jpg","content":"啊发撒法发**粗体**","category_id":1,"istop":true,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-30 15:39:41.4010 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"http://localhost:8888/uploads/2022324//26f7898e5c86a830.jpg","content":"啊发撒法发**粗体**","category_id":1,"istop":true,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-30 15:40:00.0578 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 15:41:20.6528 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"http://localhost:8888/uploads/2022324//26f7898e5c86a830.jpg","content":"啊发撒法发**粗体**","category_id":1,"istop":true,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-30 15:41:29.0743 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":1,"title":"测试","first_picture":"http://localhost:8888/uploads/2022324//26f7898e5c86a830.jpg","content":"啊发撒法发**粗体**","category_id":1,"istop":true,"tags":[],"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-30 15:50:00.0389 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 16:00:00.0227 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 16:10:00.0252 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 16:20:00.0236 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 16:30:00.0446 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 16:40:00.0428 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 16:46:18.1529 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/system/menu/list | 请求访问[/system/menu/list]失败，无法访问系统资源 |  |  | 
+2022-03-30 16:46:20.0066 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-30 16:46:58.1013 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":7,"menuName":"图标icon","parentName":null,"parentId":0,"orderNum":6,"path":"icon","component":"components/icons/index","isCache":"0","isFrame":"0","menuType":"C","visible":"1","status":"0","perms":null,"icon":"icon1","children":[],"createBy":"","createTime":"2022-03-23 17:24:20","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-30 16:49:04.2121 |  | INFO | GlobalExceptionMiddleware | 127.0.0.1 | admin | http://localhost/system/dict/type/5 |  |  | {"code":0,"msg":"\u4efb\u52a1\u5206\u7ec4\u5df2\u5206\u914d,\u4e0d\u80fd\u5220\u9664","data":null} | Infrastructure.CustomException: 任务分组已分配,不能删除
+   at ZR.Service.System.SysDictService.DeleteDictTypeByIds(Int64[] dictIds) in E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Service\System\SysDictService.cs:line 68
+   at ZR.Admin.WebApi.Controllers.System.SysDictTypeController.Remove(String ids)
+   at lambda_method358(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context)
+2022-03-30 16:49:59.7138 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":107,"menuName":"参数设置","parentName":null,"parentId":1,"orderNum":8,"path":"config","component":"system/config/index","isCache":"0","isFrame":"0","menuType":"C","visible":"1","status":"0","perms":"system:config:list","icon":"edit","children":[],"createBy":"","createTime":"2022-03-23 17:24:20","updateTime":null,"remark":""} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-30 16:50:00.0230 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 17:00:00.0409 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 17:10:00.0549 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 17:11:41.6715 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/user/profile/avatar |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "imgUrl": "http://localhost:8888/uploads/2022330//F7F4E052737F6AA6.png"  }} | 
+2022-03-30 17:11:47.4299 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/user/profile |  | {"userId":1,"userName":"admin","nickName":"管理员","avatar":"","email":"","phonenumber":"","sex":"0","status":"0","delFlag":"0","loginIP":"127.0.0.1","loginDate":"2022-03-30 16:46:41","roleIds":[1],"postIds":null,"roles":[{"roleId":1,"roleName":"超级管理员","roleKey":"admin","roleSort":1,"status":"0","delFlag":"0","dataScope":"1","menuCheckStrictly":true,"menuIds":null,"userNum":0,"createBy":"admin","createTime":"2022-03-23 17:24:21","updateTime":null,"remark":"超级管理员"}],"welcomeMessage":"下午好","welcomeContent":null,"createBy":"admin","createTime":"2020-11-26 11:52:59","updateTime":"2021-08-03 10:11:24","remark":"管理员"} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-30 17:14:35.4595 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tool/gen/importTable |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "tableId": 5,    "dbName": "blogadmin",    "tableName": "articlecategory",    "tableComment": "",    "subTableName": null,    "subTableFkName": null,    "className": "Articlecategory",    "tplCategory": null,    "baseNameSpace": "ZR.",    "moduleName": "business",    "businessName": "Articlecategory",    "functionName": "",    "functionAuthor": "ztc",    "genType": null,    "genPath": null,    "options": null,    "columns": [      {        "columnId": 0,        "columnName": "category_id",        "tableId": 5,        "tableName": "articlecategory",        "columnComment": "目录id",        "columnType": "int",        "csharpType": "int",        "csharpField": "CategoryId",        "isPk": true,        "isRequired": true,        "isIncrement": true,        "isInsert": false,        "isEdit": false,        "isList": true,        "isQuery": false,        "htmlType": "input",        "queryType": "EQ",        "sort": 0,        "dictType": "",        "requiredStr": "",        "csharpFieldFl": null,        "createBy": "admin",        "createTime": "2022-03-30 17:14:35",        "updateTime": null,        "remark": null      },      {        "columnId": 0,        "columnName": "name",        "tableId": 5,        "tableName": "articlecategory",        "columnComment": "目录名",        "columnType": "varchar",        "csharpType": "string",        "csharpField": "Name",        "isPk": false,        "isRequired": true,        "isIncrement": false,        "isInsert": true,        "isEdit": true,        "isList": true,        "isQuery": false,        "htmlType": "input",        "queryType": "EQ",        "sort": 0,        "dictType": "",        "requiredStr": "",        "csharpFieldFl": null,        "createBy": "admin",        "createTime": "2022-03-30 17:14:35",        "updateTime": null,        "remark": null      },      {        "columnId": 0,        "columnName": "create_time",        "tableId": 5,        "tableName": "articlecategory",        "columnComment": "创建时间",        "columnType": "datetime",        "csharpType": "DateTime",        "csharpField": "CreateTime",        "isPk": false,        "isRequired": false,        "isIncrement": false,        "isInsert": true,        "isEdit": false,        "isList": false,        "isQuery": false,        "htmlType": "datetime",        "queryType": "BETWEEN",        "sort": 0,        "dictType": "",        "requiredStr": "?",        "csharpFieldFl": null,        "createBy": "admin",        "createTime": "2022-03-30 17:14:35",        "updateTime": null,        "remark": null      },      {        "columnId": 0,        "columnName": "parentId",        "tableId": 5,        "tableName": "articlecategory",        "columnComment": "父级ID",        "columnType": "int",        "csharpType": "int",        "csharpField": "ParentId",        "isPk": false,        "isRequired": false,        "isIncrement": false,        "isInsert": true,        "isEdit": true,        "isList": true,        "isQuery": false,        "htmlType": "input",        "queryType": "EQ",        "sort": 0,        "dictType": "",        "requiredStr": "?",        "csharpFieldFl": null,        "createBy": "admin",        "createTime": "2022-03-30 17:14:35",        "updateTime": null,        "remark": null      },      {        "columnId": 0,        "columnName": "pic_url",        "tableId": 5,        "tableName": "articlecategory",        "columnComment": "图片",        "columnType": "varchar",        "csharpType": "string",        "csharpField": "PicUrl",        "isPk": false,        "isRequired": false,        "isIncrement": false,        "isInsert": true,        "isEdit": true,        "isList": true,        "isQuery": false,        "htmlType": "imageUpload",        "queryType": "EQ",        "sort": 0,        "dictType": "",        "requiredStr": "",        "csharpFieldFl": null,        "createBy": "admin",        "createTime": "2022-03-30 17:14:35",        "updateTime": null,        "remark": null      },      {        "columnId": 0,        "columnName": "color",        "tableId": 5,        "tableName": "articlecategory",        "columnComment": "颜色",        "columnType": "varchar",        "csharpType": "string",        "csharpField": "Color",        "isPk": false,        "isRequired": false,        "isIncrement": false,        "isInsert": true,        "isEdit": true,        "isList": true,        "isQuery": false,        "htmlType": "input",        "queryType": "EQ",        "sort": 0,        "dictType": "",        "requiredStr": "",        "csharpFieldFl": null,        "createBy": "admin",        "createTime": "2022-03-30 17:14:35",        "updateTime": null,        "remark": null      }    ],    "parentMenuId": null,    "sortType": "asc",    "sortField": "",    "treeCode": "",    "treeName": "",    "treeParentCode": null,    "checkedBtn": [      1,      2,      3    ],    "createBy": "admin",    "createTime": "2022-03-30 17:14:35",    "updateTime": null,    "remark": null  }} | 
+2022-03-30 17:16:05.7169 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tool/gen/ |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": true} | 
+2022-03-30 17:16:09.2859 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/tool/gen/genCode |  | {"tableId":5} | {  "code": 200,  "msg": "SUCCESS",  "data": {    "path": "/Generatecode/ZrAdmin.NET-文章类型-0330171608.zip",    "fileName": null  }} | 
+2022-03-30 17:28:07.0628 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 17:28:07.0628 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 17:28:07.0628 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 17:28:07.0700 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 17:28:09.1030 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-30 17:28:09.4056 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-30 17:28:10.3829 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-30 17:30:00.0711 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-30 17:30:35.3502 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/menu/add |  | {"parentId":2006,"menuName":"文章类型管理","icon":"cascader","menuType":"C","orderNum":21,"isFrame":"0","isCache":"0","visible":"0","status":"0","path":"articlecategory","component":"blog/article/Articlecategory"} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-30 17:36:51.1559 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-30 17:36:51.1559 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-30 17:36:51.1559 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-30 17:36:51.1559 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-30 17:37:53.3850 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory/8 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-30 17:37:58.9367 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory/7 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-30 17:38:09.4303 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Blog/Articlecategory/1 |  |  | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-30 17:40:00.0720 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 

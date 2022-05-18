@@ -1,0 +1,10 @@
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Model\bin\Debug\netstandard2.1\ZR.Model.deps.json
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Model\bin\Debug\netstandard2.1\ZR.Model.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Model\bin\Debug\netstandard2.1\ZR.Model.pdb
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Model\obj\Debug\netstandard2.1\ZR.Model.csproj.AssemblyReference.cache
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Model\obj\Debug\netstandard2.1\ZR.Model.GeneratedMSBuildEditorConfig.editorconfig
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Model\obj\Debug\netstandard2.1\ZR.Model.AssemblyInfoInputs.cache
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Model\obj\Debug\netstandard2.1\ZR.Model.AssemblyInfo.cs
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Model\obj\Debug\netstandard2.1\ZR.Model.csproj.CoreCompileInputs.cache
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Model\obj\Debug\netstandard2.1\ZR.Model.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Model\obj\Debug\netstandard2.1\ZR.Model.pdb

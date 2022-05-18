@@ -1,0 +1,12 @@
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb

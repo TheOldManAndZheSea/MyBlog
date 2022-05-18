@@ -1,0 +1,1326 @@
+2022-03-16 10:19:40.1792 Info Message Template Auto Format enabled
+2022-03-16 10:19:40.1966 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-16 10:19:40.2570 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-16 10:19:40.2689 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-16 10:19:40.2689 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-16 10:19:40.2689 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-16 10:19:40.2993 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-16 10:19:40.2993 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-16 10:19:40.3149 Info Configuration initialized.
+2022-03-16 10:19:40.3149 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-16 10:19:54.2639 Info AppDomain Shutting down. Logger closing...
+2022-03-16 10:19:54.2844 Info Logger has been shut down.
+2022-03-16 10:34:13.5180 Info Message Template Auto Format enabled
+2022-03-16 10:34:13.5180 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-16 10:34:13.5731 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-16 10:34:13.5830 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-16 10:34:13.5830 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-16 10:34:13.5830 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-16 10:34:13.6050 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-16 10:34:13.6050 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-16 10:34:13.6171 Info Configuration initialized.
+2022-03-16 10:34:13.6171 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-16 11:39:25.0519 Info Message Template Auto Format enabled
+2022-03-16 11:39:25.0646 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-16 11:39:25.1126 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-16 11:39:25.1126 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-16 11:39:25.1293 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-16 11:39:25.1293 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-16 11:39:25.1523 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-16 11:39:25.1574 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-16 11:39:25.1574 Info Configuration initialized.
+2022-03-16 11:39:25.1574 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-16 14:39:49.6178 Info Message Template Auto Format enabled
+2022-03-16 14:39:49.6284 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-16 14:39:49.6688 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-16 14:39:49.6797 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-16 14:39:49.6797 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-16 14:39:49.6797 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-16 14:39:49.7038 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-16 14:39:49.7082 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-16 14:39:49.7082 Info Configuration initialized.
+2022-03-16 14:39:49.7082 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 08:59:04.9259 Info AppDomain Shutting down. Logger closing...
+2022-03-17 08:59:04.9494 Info Logger has been shut down.
+2022-03-17 09:07:43.3946 Info Message Template Auto Format enabled
+2022-03-17 09:07:43.3946 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 09:07:43.4504 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 09:07:43.4618 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 09:07:43.4618 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 09:07:43.4618 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 09:07:43.4898 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 09:07:43.4898 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 09:07:43.5026 Info Configuration initialized.
+2022-03-17 09:07:43.5026 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 09:07:44.4149 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220316.000.txt
+2022-03-17 09:07:44.8043 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220316.000.txt
+2022-03-17 09:56:59.3867 Info Message Template Auto Format enabled
+2022-03-17 09:56:59.3966 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 09:56:59.4369 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 09:56:59.4579 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 09:56:59.4579 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 09:56:59.4579 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 09:56:59.4835 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 09:56:59.4876 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 09:56:59.4876 Info Configuration initialized.
+2022-03-17 09:56:59.4876 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 09:58:54.4111 Info Message Template Auto Format enabled
+2022-03-17 09:58:54.4111 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 09:58:54.4606 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 09:58:54.4702 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 09:58:54.4702 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 09:58:54.4702 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 09:58:54.4930 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 09:58:54.4930 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 09:58:54.5062 Info Configuration initialized.
+2022-03-17 09:58:54.5062 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 10:02:48.0445 Info Message Template Auto Format enabled
+2022-03-17 10:02:48.0561 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 10:02:48.0968 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 10:02:48.0968 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 10:02:48.0968 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 10:02:48.1102 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 10:02:48.1448 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 10:02:48.1448 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 10:02:48.1582 Info Configuration initialized.
+2022-03-17 10:02:48.1582 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 10:14:59.2419 Info Message Template Auto Format enabled
+2022-03-17 10:14:59.2527 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 10:14:59.2925 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 10:14:59.3018 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 10:14:59.3018 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 10:14:59.3018 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 10:14:59.3239 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 10:14:59.3239 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 10:14:59.3365 Info Configuration initialized.
+2022-03-17 10:14:59.3365 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 16:40:35.7405 Info Message Template Auto Format enabled
+2022-03-17 16:40:35.7525 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 16:40:35.7934 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 16:40:35.8013 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 16:40:35.8013 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 16:40:35.8013 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 16:40:35.8276 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 16:40:35.8319 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 16:40:35.8319 Info Configuration initialized.
+2022-03-17 16:40:35.8319 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 16:43:38.5262 Info Message Template Auto Format enabled
+2022-03-17 16:43:38.5376 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 16:43:38.5902 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 16:43:38.6011 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 16:43:38.6011 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 16:43:38.6011 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 16:43:38.6242 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 16:43:38.6281 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 16:43:38.6281 Info Configuration initialized.
+2022-03-17 16:43:38.6281 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 16:44:30.1179 Info Message Template Auto Format enabled
+2022-03-17 16:44:30.1312 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 16:44:30.1708 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 16:44:30.1779 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 16:44:30.1779 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 16:44:30.1779 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 16:44:30.2008 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 16:44:30.2077 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 16:44:30.2077 Info Configuration initialized.
+2022-03-17 16:44:30.2077 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 17:05:59.1583 Info Message Template Auto Format enabled
+2022-03-17 17:05:59.1583 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 17:05:59.2289 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 17:05:59.2389 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 17:05:59.2389 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 17:05:59.2389 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 17:05:59.2667 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 17:05:59.2708 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 17:05:59.2708 Info Configuration initialized.
+2022-03-17 17:05:59.2708 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 17:09:24.8103 Info Message Template Auto Format enabled
+2022-03-17 17:09:24.8208 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 17:09:24.8626 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 17:09:24.8626 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 17:09:24.8626 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 17:09:24.8626 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 17:09:24.8951 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 17:09:24.8951 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 17:09:24.8951 Info Configuration initialized.
+2022-03-17 17:09:24.8951 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 17:15:12.2991 Info Message Template Auto Format enabled
+2022-03-17 17:15:12.2991 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 17:15:12.3529 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 17:15:12.3529 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 17:15:12.3665 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 17:15:12.3665 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 17:15:12.3869 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 17:15:12.3869 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 17:15:12.3991 Info Configuration initialized.
+2022-03-17 17:15:12.3991 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 17:40:07.8832 Info Message Template Auto Format enabled
+2022-03-17 17:40:07.8946 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 17:40:07.9357 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 17:40:07.9442 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 17:40:07.9442 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 17:40:07.9442 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 17:40:07.9715 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 17:40:07.9715 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 17:40:07.9859 Info Configuration initialized.
+2022-03-17 17:40:07.9859 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-17 17:54:22.7828 Info Message Template Auto Format enabled
+2022-03-17 17:54:22.7828 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-17 17:54:22.8321 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-17 17:54:22.8321 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-17 17:54:22.8321 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-17 17:54:22.8450 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-17 17:54:22.8628 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-17 17:54:22.8628 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-17 17:54:22.8628 Info Configuration initialized.
+2022-03-17 17:54:22.8628 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-18 17:12:38.8494 Info Message Template Auto Format enabled
+2022-03-18 17:12:38.8691 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-18 17:12:38.9455 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-18 17:12:38.9523 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-18 17:12:38.9722 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-18 17:12:38.9722 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-18 17:12:39.0104 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-18 17:12:39.0168 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-18 17:12:39.0327 Info Configuration initialized.
+2022-03-18 17:12:39.0327 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-18 17:12:40.8293 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220317.000.txt
+2022-03-18 17:12:41.5034 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220317.000.txt
+2022-03-19 08:29:47.8768 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220318.000.txt
+2022-03-19 08:29:47.8768 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220318.000.txt
+2022-03-20 10:50:00.0305 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220319.000.txt
+2022-03-20 10:50:00.0746 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220319.000.txt
+2022-03-21 00:00:00.0611 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220320.000.txt
+2022-03-21 00:00:00.0611 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220320.000.txt
+2022-03-21 09:21:03.2705 Info Message Template Auto Format enabled
+2022-03-21 09:21:03.2848 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 09:21:03.3355 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 09:21:03.3442 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 09:21:03.3442 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 09:21:03.3442 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 09:21:03.3751 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 09:21:03.3794 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 09:21:03.3794 Info Configuration initialized.
+2022-03-21 09:21:03.3794 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-21 10:03:28.8986 Info Message Template Auto Format enabled
+2022-03-21 10:03:28.9126 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 10:03:28.9535 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 10:03:28.9577 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 10:03:28.9697 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 10:03:28.9697 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 10:03:28.9919 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 10:03:28.9919 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 10:03:29.0067 Info Configuration initialized.
+2022-03-21 10:03:29.0067 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-21 13:38:05.5536 Info Message Template Auto Format enabled
+2022-03-21 13:38:05.5649 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 13:38:05.6047 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 13:38:05.6155 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 13:38:05.6155 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 13:38:05.6155 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 13:38:05.6387 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 13:38:05.6430 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 13:38:05.6430 Info Configuration initialized.
+2022-03-21 13:38:05.6430 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-21 13:41:34.2313 Info Message Template Auto Format enabled
+2022-03-21 13:41:34.2435 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 13:41:34.2851 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 13:41:34.2851 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 13:41:34.3004 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 13:41:34.3004 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 13:41:34.3227 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 13:41:34.3227 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 13:41:34.3367 Info Configuration initialized.
+2022-03-21 13:41:34.3367 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-21 13:57:36.4655 Info Message Template Auto Format enabled
+2022-03-21 13:57:36.4774 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 13:57:36.5195 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 13:57:36.5195 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 13:57:36.5352 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 13:57:36.5352 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 13:57:36.5559 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 13:57:36.5559 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 13:57:36.5692 Info Configuration initialized.
+2022-03-21 13:57:36.5692 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-21 14:10:05.2047 Info Message Template Auto Format enabled
+2022-03-21 14:10:05.2282 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 14:10:05.2737 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 14:10:05.2851 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 14:10:05.2851 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 14:10:05.2851 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 14:10:05.3109 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 14:10:05.3165 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 14:10:05.3165 Info Configuration initialized.
+2022-03-21 14:10:05.3165 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-21 14:16:43.0570 Info Message Template Auto Format enabled
+2022-03-21 14:16:43.0695 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 14:16:43.1101 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 14:16:43.1101 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 14:16:43.1261 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 14:16:43.1261 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 14:16:43.1466 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 14:16:43.1466 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 14:16:43.1634 Info Configuration initialized.
+2022-03-21 14:16:43.1634 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-21 14:18:43.0439 Info Message Template Auto Format enabled
+2022-03-21 14:18:43.0566 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 14:18:43.1030 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 14:18:43.1150 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 14:18:43.1150 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 14:18:43.1150 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 14:18:43.1441 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 14:18:43.1441 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 14:18:43.1579 Info Configuration initialized.
+2022-03-21 14:18:43.1579 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-21 14:20:23.9575 Info Message Template Auto Format enabled
+2022-03-21 14:20:23.9693 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 14:20:24.0133 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 14:20:24.0173 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 14:20:24.0312 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 14:20:24.0312 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 14:20:24.0544 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 14:20:24.0544 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 14:20:24.0686 Info Configuration initialized.
+2022-03-21 14:20:24.0686 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-21 14:25:25.8405 Info Message Template Auto Format enabled
+2022-03-21 14:25:25.8534 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 14:25:25.8955 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 14:25:25.8955 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 14:25:25.9099 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 14:25:25.9099 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 14:25:25.9299 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 14:25:25.9299 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 14:25:25.9432 Info Configuration initialized.
+2022-03-21 14:25:25.9432 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-21 14:26:17.3954 Info Message Template Auto Format enabled
+2022-03-21 14:26:17.4101 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-21 14:26:17.4531 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-21 14:26:17.4531 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-21 14:26:17.4531 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-21 14:26:17.4531 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-21 14:26:17.4882 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-21 14:26:17.4882 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-21 14:26:17.5008 Info Configuration initialized.
+2022-03-21 14:26:17.5008 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-23 17:37:13.9628 Info Message Template Auto Format enabled
+2022-03-23 17:37:13.9887 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-23 17:37:14.0634 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-23 17:37:14.0890 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-23 17:37:14.0890 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-23 17:37:14.0890 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-23 17:37:14.1376 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-23 17:37:14.1376 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-23 17:37:14.1561 Info Configuration initialized.
+2022-03-23 17:37:14.1561 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-23 17:37:15.8268 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220321.000.txt
+2022-03-23 17:37:16.4520 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220321.000.txt
+2022-03-23 17:46:12.4407 Info Message Template Auto Format enabled
+2022-03-23 17:46:12.4677 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-23 17:46:12.5738 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-23 17:46:12.5901 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-23 17:46:12.5901 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-23 17:46:12.5901 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-23 17:46:12.6378 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-23 17:46:12.6378 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-23 17:46:12.6667 Info Configuration initialized.
+2022-03-23 17:46:12.6667 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-24 10:37:03.4020 Info Message Template Auto Format enabled
+2022-03-24 10:37:03.4196 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-24 10:37:03.4627 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-24 10:37:03.4627 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-24 10:37:03.4797 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-24 10:37:03.4797 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-24 10:37:03.5016 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-24 10:37:03.5016 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-24 10:37:03.5142 Info Configuration initialized.
+2022-03-24 10:37:03.5142 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-24 10:37:04.5218 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220323.000.txt
+2022-03-24 10:37:04.9472 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220323.000.txt
+2022-03-24 10:58:22.1236 Info Message Template Auto Format enabled
+2022-03-24 10:58:22.1361 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-24 10:58:22.1758 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-24 10:58:22.1833 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-24 10:58:22.1833 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-24 10:58:22.1833 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-24 10:58:22.2094 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-24 10:58:22.2094 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-24 10:58:22.2094 Info Configuration initialized.
+2022-03-24 10:58:22.2094 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-24 14:37:58.4808 Info Message Template Auto Format enabled
+2022-03-24 14:37:58.4970 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-24 14:37:58.5409 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-24 14:37:58.5537 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-24 14:37:58.5537 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-24 14:37:58.5537 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-24 14:37:58.5798 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-24 14:37:58.5841 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-24 14:37:58.5841 Info Configuration initialized.
+2022-03-24 14:37:58.5841 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-24 17:24:56.9148 Info Message Template Auto Format enabled
+2022-03-24 17:24:56.9282 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-24 17:24:56.9704 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-24 17:24:56.9757 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-24 17:24:56.9757 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-24 17:24:56.9757 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-24 17:24:57.0056 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-24 17:24:57.0056 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-24 17:24:57.0056 Info Configuration initialized.
+2022-03-24 17:24:57.0056 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-24 17:28:59.1218 Info Message Template Auto Format enabled
+2022-03-24 17:28:59.1391 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-24 17:28:59.1956 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-24 17:28:59.2090 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-24 17:28:59.2090 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-24 17:28:59.2090 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-24 17:28:59.2460 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-24 17:28:59.2460 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-24 17:28:59.2634 Info Configuration initialized.
+2022-03-24 17:28:59.2634 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-24 17:34:42.1559 Info Message Template Auto Format enabled
+2022-03-24 17:34:42.1762 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-24 17:34:42.2193 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-24 17:34:42.2260 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-24 17:34:42.2260 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-24 17:34:42.2260 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-24 17:34:42.2554 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-24 17:34:42.2604 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-24 17:34:42.2604 Info Configuration initialized.
+2022-03-24 17:34:42.2604 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-24 17:36:17.4715 Info Message Template Auto Format enabled
+2022-03-24 17:36:17.4892 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-24 17:36:17.5297 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-24 17:36:17.5381 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-24 17:36:17.5381 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-24 17:36:17.5381 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-24 17:36:17.5707 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-24 17:36:17.5707 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-24 17:36:17.5840 Info Configuration initialized.
+2022-03-24 17:36:17.5840 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-24 17:40:28.8007 Info Message Template Auto Format enabled
+2022-03-24 17:40:28.8135 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-24 17:40:28.8580 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-24 17:40:28.8700 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-24 17:40:28.8700 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-24 17:40:28.8700 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-24 17:40:28.8970 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-24 17:40:28.8970 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-24 17:40:28.8970 Info Configuration initialized.
+2022-03-24 17:40:28.8970 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-24 17:43:13.7711 Info Message Template Auto Format enabled
+2022-03-24 17:43:13.7848 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-24 17:43:13.8250 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-24 17:43:13.8364 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-24 17:43:13.8364 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-24 17:43:13.8364 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-24 17:43:13.8613 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-24 17:43:13.8613 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-24 17:43:13.8751 Info Configuration initialized.
+2022-03-24 17:43:13.8751 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 08:58:14.8514 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220324.000.txt
+2022-03-25 09:00:00.0468 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220324.000.txt
+2022-03-25 10:00:18.4633 Info Message Template Auto Format enabled
+2022-03-25 10:00:18.4876 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:00:18.5325 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:00:18.5380 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:00:18.5380 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:00:18.5380 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:00:18.5733 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:00:18.5733 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:00:18.5890 Info Configuration initialized.
+2022-03-25 10:00:18.5890 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:03:35.8761 Info Message Template Auto Format enabled
+2022-03-25 10:03:35.8891 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:03:35.9282 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:03:35.9282 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:03:35.9438 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:03:35.9438 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:03:35.9687 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:03:35.9687 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:03:35.9817 Info Configuration initialized.
+2022-03-25 10:03:35.9817 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:08:39.5940 Info Message Template Auto Format enabled
+2022-03-25 10:08:39.6073 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:08:39.6488 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:08:39.6664 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:08:39.6664 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:08:39.6664 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:08:39.6915 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:08:39.6959 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:08:39.6959 Info Configuration initialized.
+2022-03-25 10:08:39.6959 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:10:01.2616 Info Message Template Auto Format enabled
+2022-03-25 10:10:01.2747 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:10:01.3131 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:10:01.3404 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:10:01.3502 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:10:01.3502 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:10:01.3683 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:10:01.3683 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:10:01.3683 Info Configuration initialized.
+2022-03-25 10:10:01.3683 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:17:14.8705 Info Message Template Auto Format enabled
+2022-03-25 10:17:14.8845 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:17:14.9291 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:17:14.9291 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:17:14.9478 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:17:14.9478 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:17:14.9698 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:17:14.9749 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:17:14.9749 Info Configuration initialized.
+2022-03-25 10:17:14.9749 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:33:26.5185 Info Message Template Auto Format enabled
+2022-03-25 10:33:26.5478 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:33:26.5911 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:33:26.6016 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:33:26.6016 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:33:26.6016 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:33:26.6277 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:33:26.6324 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:33:26.6324 Info Configuration initialized.
+2022-03-25 10:33:26.6324 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:41:15.5530 Info Message Template Auto Format enabled
+2022-03-25 10:41:15.5530 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:41:15.6115 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:41:15.6366 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:41:15.6470 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:41:15.6470 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:41:15.6669 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:41:15.6669 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:41:15.6797 Info Configuration initialized.
+2022-03-25 10:41:15.6797 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:48:20.1709 Info Message Template Auto Format enabled
+2022-03-25 10:48:20.1888 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:48:20.2331 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:48:20.2455 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:48:20.2455 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:48:20.2455 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:48:20.2709 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:48:20.2759 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:48:20.2759 Info Configuration initialized.
+2022-03-25 10:48:20.2759 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:54:45.1514 Info Message Template Auto Format enabled
+2022-03-25 10:54:45.1636 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:54:45.2026 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:54:45.2274 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:54:45.2274 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:54:45.2274 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:54:45.2516 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:54:45.2558 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:54:45.2558 Info Configuration initialized.
+2022-03-25 10:54:45.2558 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:56:01.7042 Info Message Template Auto Format enabled
+2022-03-25 10:56:01.7184 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:56:01.7846 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:56:01.7921 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:56:01.8035 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:56:01.8035 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:56:01.8239 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:56:01.8239 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:56:01.8391 Info Configuration initialized.
+2022-03-25 10:56:01.8391 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:56:38.0263 Info Message Template Auto Format enabled
+2022-03-25 10:56:38.0382 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:56:38.1048 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:56:38.1163 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:56:38.1163 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:56:38.1163 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:56:38.1429 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:56:38.1477 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:56:38.1477 Info Configuration initialized.
+2022-03-25 10:56:38.1477 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 10:59:30.9374 Info Message Template Auto Format enabled
+2022-03-25 10:59:30.9495 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 10:59:30.9921 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 10:59:30.9921 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 10:59:31.0081 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 10:59:31.0081 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 10:59:31.0279 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 10:59:31.0279 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 10:59:31.0434 Info Configuration initialized.
+2022-03-25 10:59:31.0434 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 11:03:16.2754 Info Message Template Auto Format enabled
+2022-03-25 11:03:16.2873 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 11:03:16.3304 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 11:03:16.3366 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 11:03:16.3366 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 11:03:16.3366 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 11:03:16.3663 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 11:03:16.3663 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 11:03:16.3663 Info Configuration initialized.
+2022-03-25 11:03:16.3663 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 11:04:48.6958 Info Message Template Auto Format enabled
+2022-03-25 11:04:48.7095 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 11:04:48.7524 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 11:04:48.7642 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 11:04:48.7744 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 11:04:48.7744 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 11:04:48.7947 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 11:04:48.7947 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 11:04:48.8086 Info Configuration initialized.
+2022-03-25 11:04:48.8086 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 11:12:04.2190 Info Message Template Auto Format enabled
+2022-03-25 11:12:04.2322 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 11:12:04.2719 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 11:12:04.2719 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 11:12:04.2719 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 11:12:04.2719 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 11:12:04.3042 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 11:12:04.3042 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 11:12:04.3042 Info Configuration initialized.
+2022-03-25 11:12:04.3042 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 11:19:29.9624 Info Message Template Auto Format enabled
+2022-03-25 11:19:29.9743 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 11:19:30.0165 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 11:19:30.0217 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 11:19:30.0217 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 11:19:30.0217 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 11:19:30.0601 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 11:19:30.0601 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 11:19:30.0759 Info Configuration initialized.
+2022-03-25 11:19:30.0759 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 14:11:56.5477 Info Message Template Auto Format enabled
+2022-03-25 14:11:56.5731 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 14:11:56.6154 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 14:11:56.6154 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 14:11:56.6329 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 14:11:56.6329 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 14:11:56.6570 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 14:11:56.6623 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 14:11:56.6623 Info Configuration initialized.
+2022-03-25 14:11:56.6623 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 16:38:54.9071 Info Message Template Auto Format enabled
+2022-03-25 16:38:54.9201 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 16:38:54.9602 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 16:38:54.9602 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 16:38:54.9761 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 16:38:54.9761 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 16:38:54.9980 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 16:38:54.9980 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 16:38:55.0108 Info Configuration initialized.
+2022-03-25 16:38:55.0108 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 16:39:46.9164 Info AppDomain Shutting down. Logger closing...
+2022-03-25 16:39:48.4248 Warn Flush completed with errors Exception: System.TimeoutException: Timeout when flushing all targets, after waiting 1.5 seconds.
+2022-03-25 16:39:48.4248 Warn Target flush timeout. One or more targets did not complete flush operation, skipping target close.
+2022-03-25 16:39:48.4248 Info Logger has been shut down.
+2022-03-25 16:39:52.4087 Info Message Template Auto Format enabled
+2022-03-25 16:39:52.4218 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 16:39:52.4611 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 16:39:52.4611 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 16:39:52.4611 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 16:39:52.4611 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 16:39:52.4903 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 16:39:52.4903 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 16:39:52.5070 Info Configuration initialized.
+2022-03-25 16:39:52.5070 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 16:48:12.1937 Info Message Template Auto Format enabled
+2022-03-25 16:48:12.2097 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 16:48:12.2485 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 16:48:12.2592 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 16:48:12.2592 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 16:48:12.2592 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 16:48:12.2822 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 16:48:12.2869 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 16:48:12.2869 Info Configuration initialized.
+2022-03-25 16:48:12.2869 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 17:35:26.5052 Info Message Template Auto Format enabled
+2022-03-25 17:35:26.5179 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 17:35:26.5576 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 17:35:26.5576 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 17:35:26.5693 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 17:35:26.5693 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 17:35:26.5893 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 17:35:26.5893 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 17:35:26.6070 Info Configuration initialized.
+2022-03-25 17:35:26.6070 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 17:40:15.4267 Info Message Template Auto Format enabled
+2022-03-25 17:40:15.4397 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 17:40:15.4786 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 17:40:15.4786 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 17:40:15.4928 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 17:40:15.4928 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 17:40:15.5116 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 17:40:15.5116 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 17:40:15.5236 Info Configuration initialized.
+2022-03-25 17:40:15.5236 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-25 17:57:55.7800 Info Message Template Auto Format enabled
+2022-03-25 17:57:55.7935 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-25 17:57:55.8325 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-25 17:57:55.8377 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-25 17:57:55.8503 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-25 17:57:55.8503 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-25 17:57:55.8705 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-25 17:57:55.8705 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-25 17:57:55.8827 Info Configuration initialized.
+2022-03-25 17:57:55.8827 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-26 09:04:44.1259 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220325.000.txt
+2022-03-26 09:10:00.0785 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220325.000.txt
+2022-03-29 10:33:07.6396 Info Message Template Auto Format enabled
+2022-03-29 10:33:07.6536 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 10:33:07.6961 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 10:33:07.6961 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 10:33:07.7108 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 10:33:07.7108 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 10:33:07.7319 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 10:33:07.7319 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 10:33:07.7439 Info Configuration initialized.
+2022-03-29 10:33:07.7439 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 10:33:08.7463 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220326.000.txt
+2022-03-29 10:33:09.1783 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220326.000.txt
+2022-03-29 13:45:13.2752 Info Message Template Auto Format enabled
+2022-03-29 13:45:13.2752 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 13:45:13.3266 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 13:45:13.3369 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 13:45:13.3369 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 13:45:13.3369 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 13:45:13.3589 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 13:45:13.3589 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 13:45:13.3707 Info Configuration initialized.
+2022-03-29 13:45:13.3707 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 13:50:00.7516 Info Message Template Auto Format enabled
+2022-03-29 13:50:00.7653 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 13:50:00.8079 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 13:50:00.8079 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 13:50:00.8213 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 13:50:00.8213 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 13:50:00.8486 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 13:50:00.8577 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 13:50:00.8672 Info Configuration initialized.
+2022-03-29 13:50:00.8672 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 14:00:34.7210 Info Message Template Auto Format enabled
+2022-03-29 14:00:34.7690 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 14:00:34.8081 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 14:00:34.8213 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 14:00:34.8213 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 14:00:34.8213 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 14:00:34.8481 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 14:00:34.8524 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 14:00:34.8524 Info Configuration initialized.
+2022-03-29 14:00:34.8524 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 15:11:35.3970 Info Message Template Auto Format enabled
+2022-03-29 15:11:35.4096 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 15:11:35.4539 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 15:11:35.4651 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 15:11:35.4651 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 15:11:35.4651 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 15:11:35.4888 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 15:11:35.4928 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 15:11:35.4928 Info Configuration initialized.
+2022-03-29 15:11:35.4928 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 15:31:52.4068 Info Message Template Auto Format enabled
+2022-03-29 15:31:52.4193 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 15:31:52.4582 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 15:31:52.4642 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 15:31:52.4642 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 15:31:52.4753 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 15:31:52.4967 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 15:31:52.4967 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 15:31:52.5097 Info Configuration initialized.
+2022-03-29 15:31:52.5097 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 15:37:26.2574 Info Message Template Auto Format enabled
+2022-03-29 15:37:26.2574 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 15:37:26.3082 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 15:37:26.3195 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 15:37:26.3195 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 15:37:26.3195 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 15:37:26.3428 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 15:37:26.3428 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 15:37:26.3546 Info Configuration initialized.
+2022-03-29 15:37:26.3546 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 15:41:07.4807 Info Message Template Auto Format enabled
+2022-03-29 15:41:07.4934 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 15:41:07.5331 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 15:41:07.5379 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 15:41:07.5379 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 15:41:07.5379 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 15:41:07.5727 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 15:41:07.5727 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 15:41:07.5851 Info Configuration initialized.
+2022-03-29 15:41:07.5851 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 15:44:56.4775 Info Message Template Auto Format enabled
+2022-03-29 15:44:56.4908 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 15:44:56.5281 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 15:44:56.5392 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 15:44:56.5392 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 15:44:56.5392 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 15:44:56.5614 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 15:44:56.5614 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 15:44:56.5731 Info Configuration initialized.
+2022-03-29 15:44:56.5731 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 16:00:48.4187 Info Message Template Auto Format enabled
+2022-03-29 16:00:48.4313 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 16:00:48.4704 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 16:00:48.4768 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 16:00:48.4768 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 16:00:48.4768 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 16:00:48.5073 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 16:00:48.5073 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 16:00:48.5073 Info Configuration initialized.
+2022-03-29 16:00:48.5073 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 16:27:26.7315 Info Message Template Auto Format enabled
+2022-03-29 16:27:26.7439 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 16:27:26.7822 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 16:27:26.7939 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 16:27:26.7939 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 16:27:26.7939 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 16:27:26.8170 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 16:27:26.8209 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 16:27:26.8209 Info Configuration initialized.
+2022-03-29 16:27:26.8209 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 16:28:44.7162 Info Message Template Auto Format enabled
+2022-03-29 16:28:44.7294 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 16:28:44.7676 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 16:28:44.7729 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 16:28:44.7729 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 16:28:44.7729 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 16:28:44.8020 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 16:28:44.8060 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 16:28:44.8060 Info Configuration initialized.
+2022-03-29 16:28:44.8060 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 16:29:24.1207 Info Message Template Auto Format enabled
+2022-03-29 16:29:24.1340 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 16:29:24.1736 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 16:29:24.1844 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 16:29:24.1844 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 16:29:24.1844 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 16:29:24.2067 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 16:29:24.2106 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 16:29:24.2106 Info Configuration initialized.
+2022-03-29 16:29:24.2106 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-29 16:32:04.1088 Info Message Template Auto Format enabled
+2022-03-29 16:32:04.1225 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-29 16:32:04.1639 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-29 16:32:04.1639 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-29 16:32:04.1802 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-29 16:32:04.1802 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-29 16:32:04.1996 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-29 16:32:04.1996 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-29 16:32:04.2117 Info Configuration initialized.
+2022-03-29 16:32:04.2117 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 09:52:37.6716 Info Message Template Auto Format enabled
+2022-03-30 09:52:37.6856 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 09:52:37.7266 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 09:52:37.7471 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 09:52:37.7471 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 09:52:37.7471 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 09:52:37.7744 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 09:52:37.7744 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 09:52:37.7744 Info Configuration initialized.
+2022-03-30 09:52:37.7744 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 09:52:38.6944 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220329.000.txt
+2022-03-30 09:52:39.0586 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220329.000.txt
+2022-03-30 09:54:38.7906 Info Message Template Auto Format enabled
+2022-03-30 09:54:38.7906 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 09:54:38.8409 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 09:54:38.8521 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 09:54:38.8521 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 09:54:38.8521 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 09:54:38.8746 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 09:54:38.8746 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 09:54:38.8879 Info Configuration initialized.
+2022-03-30 09:54:38.8879 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 09:55:45.0189 Info Message Template Auto Format enabled
+2022-03-30 09:55:45.0319 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 09:55:45.0706 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 09:55:45.0706 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 09:55:45.0706 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 09:55:45.0706 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 09:55:45.1045 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 09:55:45.1045 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 09:55:45.1045 Info Configuration initialized.
+2022-03-30 09:55:45.1165 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 09:59:47.2674 Info Message Template Auto Format enabled
+2022-03-30 09:59:47.2807 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 09:59:47.3240 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 09:59:47.3381 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 09:59:47.3381 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 09:59:47.3381 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 09:59:47.3622 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 09:59:47.3663 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 09:59:47.3663 Info Configuration initialized.
+2022-03-30 09:59:47.3663 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 10:03:14.6912 Info Message Template Auto Format enabled
+2022-03-30 10:03:14.7036 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 10:03:14.7414 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 10:03:14.7414 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 10:03:14.7414 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 10:03:14.7414 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 10:03:14.7756 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 10:03:14.7756 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 10:03:14.7878 Info Configuration initialized.
+2022-03-30 10:03:14.7878 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 10:06:17.2074 Info Message Template Auto Format enabled
+2022-03-30 10:06:17.2211 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 10:06:17.2595 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 10:06:17.2595 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 10:06:17.2734 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 10:06:17.2734 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 10:06:17.2926 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 10:06:17.2926 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 10:06:17.3049 Info Configuration initialized.
+2022-03-30 10:06:17.3049 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 10:07:43.9278 Info Message Template Auto Format enabled
+2022-03-30 10:07:43.9397 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 10:07:43.9773 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 10:07:43.9773 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 10:07:43.9926 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 10:07:43.9926 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 10:07:44.0113 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 10:07:44.0113 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 10:07:44.0234 Info Configuration initialized.
+2022-03-30 10:07:44.0234 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 10:09:41.0751 Info Message Template Auto Format enabled
+2022-03-30 10:09:41.0872 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 10:09:41.1278 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 10:09:41.1322 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 10:09:41.1322 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 10:09:41.1322 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 10:09:41.1615 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 10:09:41.1654 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 10:09:41.1654 Info Configuration initialized.
+2022-03-30 10:09:41.1654 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 10:10:58.8135 Info Message Template Auto Format enabled
+2022-03-30 10:10:58.8256 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 10:10:58.8636 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 10:10:58.8707 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 10:10:58.8707 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 10:10:58.8707 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 10:10:58.8961 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 10:10:58.9001 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 10:10:58.9001 Info Configuration initialized.
+2022-03-30 10:10:58.9001 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 10:24:26.6272 Info Message Template Auto Format enabled
+2022-03-30 10:24:26.6407 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 10:24:26.6793 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 10:24:26.6793 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 10:24:26.6793 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 10:24:26.6941 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 10:24:26.7123 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 10:24:26.7123 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 10:24:26.7261 Info Configuration initialized.
+2022-03-30 10:24:26.7261 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 10:44:28.4011 Info Message Template Auto Format enabled
+2022-03-30 10:44:28.4133 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 10:44:28.4533 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 10:44:28.4649 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 10:44:28.4649 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 10:44:28.4649 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 10:44:28.4879 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 10:44:28.4919 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 10:44:28.4919 Info Configuration initialized.
+2022-03-30 10:44:28.4919 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 10:47:34.8631 Info Message Template Auto Format enabled
+2022-03-30 10:47:34.8812 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 10:47:34.9221 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 10:47:34.9339 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 10:47:34.9339 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 10:47:34.9339 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 10:47:34.9591 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 10:47:34.9635 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 10:47:34.9635 Info Configuration initialized.
+2022-03-30 10:47:34.9635 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 14:43:36.9354 Info Message Template Auto Format enabled
+2022-03-30 14:43:36.9477 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 14:43:36.9935 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 14:43:37.0064 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 14:43:37.0064 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 14:43:37.0064 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 14:43:37.0310 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 14:43:37.0310 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 14:43:37.0444 Info Configuration initialized.
+2022-03-30 14:43:37.0444 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 15:31:10.5781 Info Message Template Auto Format enabled
+2022-03-30 15:31:10.5894 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 15:31:10.6274 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 15:31:10.6318 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 15:31:10.6318 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 15:31:10.6318 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 15:31:10.6621 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 15:31:10.6663 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 15:31:10.6663 Info Configuration initialized.
+2022-03-30 15:31:10.6663 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 15:34:36.6729 Info Message Template Auto Format enabled
+2022-03-30 15:34:36.6859 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 15:34:36.7233 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 15:34:36.7276 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 15:34:36.7276 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 15:34:36.7276 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 15:34:36.7665 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 15:34:36.7665 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 15:34:36.7806 Info Configuration initialized.
+2022-03-30 15:34:36.7806 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 17:28:05.7184 Info Message Template Auto Format enabled
+2022-03-30 17:28:05.7325 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 17:28:05.7753 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 17:28:05.7753 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 17:28:05.7909 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 17:28:05.7909 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 17:28:05.8108 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 17:28:05.8108 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 17:28:05.8235 Info Configuration initialized.
+2022-03-30 17:28:05.8235 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-30 17:36:49.8836 Info Message Template Auto Format enabled
+2022-03-30 17:36:49.8836 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-30 17:36:49.9340 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-30 17:36:49.9449 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-30 17:36:49.9449 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-30 17:36:49.9449 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-30 17:36:49.9692 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-30 17:36:49.9692 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-30 17:36:49.9828 Info Configuration initialized.
+2022-03-30 17:36:49.9828 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-31 09:13:28.6329 Info Message Template Auto Format enabled
+2022-03-31 09:13:28.6329 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-31 09:13:28.6885 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-31 09:13:28.7002 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-31 09:13:28.7002 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-31 09:13:28.7002 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-31 09:13:28.7282 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-31 09:13:28.7282 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-31 09:13:28.7282 Info Configuration initialized.
+2022-03-31 09:13:28.7412 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-31 09:13:29.6575 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220330.000.txt
+2022-03-31 09:13:30.0226 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220330.000.txt
+2022-03-31 09:49:55.3289 Info Message Template Auto Format enabled
+2022-03-31 09:49:55.3440 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-31 09:49:55.3851 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-31 09:49:55.3978 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-31 09:49:55.3978 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-31 09:49:55.3978 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-31 09:49:55.4244 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-31 09:49:55.4288 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-31 09:49:55.4288 Info Configuration initialized.
+2022-03-31 09:49:55.4288 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-31 10:43:00.6325 Info Message Template Auto Format enabled
+2022-03-31 10:43:00.6325 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-31 10:43:00.6912 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-31 10:43:00.6966 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-31 10:43:00.6966 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-31 10:43:00.6966 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-31 10:43:00.7285 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-31 10:43:00.7285 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-31 10:43:00.7436 Info Configuration initialized.
+2022-03-31 10:43:00.7436 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-31 15:13:00.9341 Info Message Template Auto Format enabled
+2022-03-31 15:13:00.9466 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-31 15:13:01.0156 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-31 15:13:01.0208 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-31 15:13:01.0208 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-31 15:13:01.0208 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-31 15:13:01.0499 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-31 15:13:01.0499 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-31 15:13:01.0499 Info Configuration initialized.
+2022-03-31 15:13:01.0745 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-31 15:34:07.2047 Info Message Template Auto Format enabled
+2022-03-31 15:34:07.2223 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-31 15:34:07.2703 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-31 15:34:07.2703 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-31 15:34:07.2855 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-31 15:34:07.2855 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-31 15:34:07.3081 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-31 15:34:07.3081 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-31 15:34:07.3221 Info Configuration initialized.
+2022-03-31 15:34:07.3221 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-03-31 16:42:20.8187 Info Message Template Auto Format enabled
+2022-03-31 16:42:20.8313 Info Loading assembly: NLog.Web.AspNetCore
+2022-03-31 16:42:20.8741 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-03-31 16:42:20.8799 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-03-31 16:42:20.8799 Info Adding target AsyncTargetWrapper(Name=console)
+2022-03-31 16:42:20.8799 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-03-31 16:42:20.9224 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-03-31 16:42:20.9269 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-03-31 16:42:20.9269 Info Configuration initialized.
+2022-03-31 16:42:20.9269 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-01 09:00:00.0491 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220331.000.txt
+2022-04-01 09:00:00.0741 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220331.000.txt
+2022-04-02 10:25:40.7899 Info Message Template Auto Format enabled
+2022-04-02 10:25:40.8049 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-02 10:25:40.8516 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-02 10:25:40.8625 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-02 10:25:40.8625 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-02 10:25:40.8625 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-02 10:25:40.8876 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-02 10:25:40.8923 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-02 10:25:40.8923 Info Configuration initialized.
+2022-04-02 10:25:40.8923 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-02 10:25:41.8244 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220401.000.txt
+2022-04-02 10:25:42.2060 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220401.000.txt
+2022-04-02 10:35:02.8202 Info Message Template Auto Format enabled
+2022-04-02 10:35:02.8336 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-02 10:35:02.8798 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-02 10:35:02.8798 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-02 10:35:02.8798 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-02 10:35:02.8798 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-02 10:35:02.9106 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-02 10:35:02.9106 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-02 10:35:02.9106 Info Configuration initialized.
+2022-04-02 10:35:02.9237 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-02 10:37:03.8465 Info AppDomain Shutting down. Logger closing...
+2022-04-02 10:37:03.8693 Info Logger has been shut down.
+2022-04-02 10:38:50.5633 Info Message Template Auto Format enabled
+2022-04-02 10:38:50.5771 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-02 10:38:50.6176 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-02 10:38:50.6327 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-02 10:38:50.6327 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-02 10:38:50.6327 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-02 10:38:50.6562 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-02 10:38:50.6617 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-02 10:38:50.6617 Info Configuration initialized.
+2022-04-02 10:38:50.6617 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-02 10:39:45.6289 Info AppDomain Shutting down. Logger closing...
+2022-04-02 10:39:45.6471 Info Logger has been shut down.
+2022-04-02 10:40:00.7158 Info Message Template Auto Format enabled
+2022-04-02 10:40:00.7304 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-02 10:40:00.7710 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-02 10:40:00.7710 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-02 10:40:00.7843 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-02 10:40:00.7843 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-02 10:40:00.8063 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-02 10:40:00.8146 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-02 10:40:00.8146 Info Configuration initialized.
+2022-04-02 10:40:00.8146 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-06 13:39:16.5503 Info Message Template Auto Format enabled
+2022-04-06 13:39:16.5632 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-06 13:39:16.6054 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-06 13:39:16.6054 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-06 13:39:16.6211 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-06 13:39:16.6211 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-06 13:39:16.6447 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-06 13:39:16.6447 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-06 13:39:16.6606 Info Configuration initialized.
+2022-04-06 13:39:16.6606 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-06 13:39:17.6405 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220402.000.txt
+2022-04-06 13:39:18.0419 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220402.000.txt
+2022-04-06 13:40:46.2833 Info Message Template Auto Format enabled
+2022-04-06 13:40:46.2947 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-06 13:40:46.3340 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-06 13:40:46.3385 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-06 13:40:46.3385 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-06 13:40:46.3385 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-06 13:40:46.3722 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-06 13:40:46.3722 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-06 13:40:46.3846 Info Configuration initialized.
+2022-04-06 13:40:46.3846 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-06 13:47:49.6276 Info Message Template Auto Format enabled
+2022-04-06 13:47:49.6402 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-06 13:47:49.6803 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-06 13:47:49.6873 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-06 13:47:49.6979 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-06 13:47:49.6979 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-06 13:47:49.7179 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-06 13:47:49.7179 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-06 13:47:49.7306 Info Configuration initialized.
+2022-04-06 13:47:49.7306 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-06 14:13:54.6165 Info Message Template Auto Format enabled
+2022-04-06 14:13:54.6279 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-06 14:13:54.6726 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-06 14:13:54.6840 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-06 14:13:54.6840 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-06 14:13:54.6840 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-06 14:13:54.7117 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-06 14:13:54.7162 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-06 14:13:54.7162 Info Configuration initialized.
+2022-04-06 14:13:54.7162 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-11 10:41:17.3692 Info Message Template Auto Format enabled
+2022-04-11 10:41:17.3826 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-11 10:41:17.4243 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-11 10:41:17.4243 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-11 10:41:17.4485 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-11 10:41:17.4485 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-11 10:41:17.4721 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-11 10:41:17.4721 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-11 10:41:17.4876 Info Configuration initialized.
+2022-04-11 10:41:17.4876 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-11 10:41:18.4055 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220406.000.txt
+2022-04-11 10:41:18.7940 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220406.000.txt
+2022-04-11 10:43:41.8498 Info Message Template Auto Format enabled
+2022-04-11 10:43:41.8622 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-11 10:43:41.9047 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-11 10:43:41.9047 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-11 10:43:41.9196 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-11 10:43:41.9196 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-11 10:43:41.9389 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-11 10:43:41.9389 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-11 10:43:41.9511 Info Configuration initialized.
+2022-04-11 10:43:41.9511 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-11 10:44:50.3426 Info AppDomain Shutting down. Logger closing...
+2022-04-11 10:44:50.3608 Info Logger has been shut down.
+2022-04-11 10:44:59.8340 Info Message Template Auto Format enabled
+2022-04-11 10:44:59.8472 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-11 10:44:59.8885 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-11 10:44:59.8885 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-11 10:44:59.9033 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-11 10:44:59.9033 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-11 10:44:59.9228 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-11 10:44:59.9228 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-11 10:44:59.9367 Info Configuration initialized.
+2022-04-11 10:44:59.9367 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-11 10:53:59.1624 Info Message Template Auto Format enabled
+2022-04-11 10:53:59.1758 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-11 10:53:59.2184 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-11 10:53:59.2184 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-11 10:53:59.2327 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-11 10:53:59.2327 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-11 10:53:59.2549 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-11 10:53:59.2549 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-11 10:53:59.2686 Info Configuration initialized.
+2022-04-11 10:53:59.2686 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-12 11:07:18.6607 Info Message Template Auto Format enabled
+2022-04-12 11:07:18.6734 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-12 11:07:18.7166 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-12 11:07:18.7166 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-12 11:07:18.7317 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-12 11:07:18.7317 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-12 11:07:18.7518 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-12 11:07:18.7518 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-12 11:07:18.7642 Info Configuration initialized.
+2022-04-12 11:07:18.7642 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-12 11:07:19.6046 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220411.000.txt
+2022-04-12 11:07:19.9691 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220411.000.txt
+2022-04-12 16:45:39.0492 Info Message Template Auto Format enabled
+2022-04-12 16:45:39.0631 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-12 16:45:39.1045 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-12 16:45:39.1045 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-12 16:45:39.1196 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-12 16:45:39.1196 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-12 16:45:39.1412 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-12 16:45:39.1412 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-12 16:45:39.1542 Info Configuration initialized.
+2022-04-12 16:45:39.1542 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 10:42:41.7139 Info Message Template Auto Format enabled
+2022-04-13 10:42:41.7139 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 10:42:41.7708 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 10:42:41.7778 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 10:42:41.7778 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 10:42:41.7778 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 10:42:41.8009 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 10:42:41.8009 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 10:42:41.8126 Info Configuration initialized.
+2022-04-13 10:42:41.8126 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 10:42:42.8604 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220412.000.txt
+2022-04-13 10:42:43.3143 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220412.000.txt
+2022-04-13 11:23:12.3067 Info Message Template Auto Format enabled
+2022-04-13 11:23:12.3191 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 11:23:12.3611 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 11:23:12.3744 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 11:23:12.3744 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 11:23:12.3744 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 11:23:12.4012 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 11:23:12.4012 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 11:23:12.4012 Info Configuration initialized.
+2022-04-13 11:23:12.4012 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 11:26:24.3762 Info Message Template Auto Format enabled
+2022-04-13 11:26:24.3886 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 11:26:24.4283 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 11:26:24.4337 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 11:26:24.4337 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 11:26:24.4337 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 11:26:24.4648 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 11:26:24.4648 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 11:26:24.4648 Info Configuration initialized.
+2022-04-13 11:26:24.4648 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 11:29:08.0495 Info AppDomain Shutting down. Logger closing...
+2022-04-13 11:29:08.0658 Info Logger has been shut down.
+2022-04-13 14:35:26.8432 Info Message Template Auto Format enabled
+2022-04-13 14:35:26.8560 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 14:35:26.8945 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 14:35:26.8987 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 14:35:26.8987 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 14:35:26.8987 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 14:35:26.9314 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 14:35:26.9314 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 14:35:26.9453 Info Configuration initialized.
+2022-04-13 14:35:26.9453 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 14:42:43.2890 Info Message Template Auto Format enabled
+2022-04-13 14:42:43.2890 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 14:42:43.3414 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 14:42:43.3528 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 14:42:43.3528 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 14:42:43.3528 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 14:42:43.3764 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 14:42:43.3764 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 14:42:43.3887 Info Configuration initialized.
+2022-04-13 14:42:43.3887 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 16:16:49.0450 Info Message Template Auto Format enabled
+2022-04-13 16:16:49.0579 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 16:16:49.0958 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 16:16:49.1006 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 16:16:49.1006 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 16:16:49.1006 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 16:16:49.1329 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 16:16:49.1329 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 16:16:49.1514 Info Configuration initialized.
+2022-04-13 16:16:49.1514 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 17:16:53.2736 Info Message Template Auto Format enabled
+2022-04-13 17:16:53.2736 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 17:16:53.3268 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 17:16:53.3397 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 17:16:53.3397 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 17:16:53.3397 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 17:16:53.3667 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 17:16:53.3667 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 17:16:53.3667 Info Configuration initialized.
+2022-04-13 17:16:53.3667 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 17:17:11.6406 Info Message Template Auto Format enabled
+2022-04-13 17:17:11.6552 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 17:17:11.7018 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 17:17:11.7125 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 17:17:11.7125 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 17:17:11.7125 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 17:17:11.7357 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 17:17:11.7357 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 17:17:11.7479 Info Configuration initialized.
+2022-04-13 17:17:11.7479 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 17:23:51.5929 Info Message Template Auto Format enabled
+2022-04-13 17:23:51.6065 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 17:23:51.6447 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 17:23:51.6493 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 17:23:51.6493 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 17:23:51.6493 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 17:23:51.6783 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 17:23:51.6783 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 17:23:51.6783 Info Configuration initialized.
+2022-04-13 17:23:51.6783 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 17:31:44.0641 Info Message Template Auto Format enabled
+2022-04-13 17:31:44.0766 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 17:31:44.1153 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 17:31:44.1203 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 17:31:44.1203 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 17:31:44.1203 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 17:31:44.1500 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 17:31:44.1500 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 17:31:44.1500 Info Configuration initialized.
+2022-04-13 17:31:44.1500 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-13 17:33:20.2117 Info Message Template Auto Format enabled
+2022-04-13 17:33:20.2117 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-13 17:33:20.2639 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-13 17:33:20.2752 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-13 17:33:20.2752 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-13 17:33:20.2752 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-13 17:33:20.2981 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-13 17:33:20.2981 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-13 17:33:20.3107 Info Configuration initialized.
+2022-04-13 17:33:20.3107 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-14 09:10:19.1758 Info Message Template Auto Format enabled
+2022-04-14 09:10:19.1758 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-14 09:10:19.2292 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-14 09:10:19.2407 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-14 09:10:19.2407 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-14 09:10:19.2407 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-14 09:10:19.2651 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-14 09:10:19.2651 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-14 09:10:19.2765 Info Configuration initialized.
+2022-04-14 09:10:19.2765 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-14 09:10:20.2906 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220413.000.txt
+2022-04-14 09:10:20.6945 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220413.000.txt
+2022-04-22 16:08:43.7667 Info Message Template Auto Format enabled
+2022-04-22 16:08:43.7826 Info Loading assembly: NLog.Web.AspNetCore
+2022-04-22 16:08:43.8237 Info Adding target AsyncTargetWrapper(Name=allfile)
+2022-04-22 16:08:43.8290 Info Adding target AsyncTargetWrapper(Name=sqlfile)
+2022-04-22 16:08:43.8290 Info Adding target AsyncTargetWrapper(Name=console)
+2022-04-22 16:08:43.8290 Info Adding target AsyncTargetWrapper(Name=blackhole)
+2022-04-22 16:08:43.8611 Info Validating config: TargetNames=console, sqlfile, allfile, ConfigItems=88, FilePath=E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\NLog.config
+2022-04-22 16:08:43.8611 Warn Unused target detected. Add a rule for this target to the configuration. TargetName: blackhole
+2022-04-22 16:08:43.8611 Info Configuration initialized.
+2022-04-22 16:08:43.8787 Info NLog, Version=4.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 4.7.14.740. Product version: 4.7.14+7b0baf946c6c5541cbd0dc523d2e9e7a582209ba. GlobalAssemblyCache: False
+2022-04-22 16:08:44.8523 Info FileTarget(Name=sqlfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all-sql.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.sql20220414.000.txt
+2022-04-22 16:08:45.2670 Info FileTarget(Name=allfile_wrapped): Archiving E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.txt to E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi\bin\Debug\net5.0\adminlogs\all.20220414.000.txt

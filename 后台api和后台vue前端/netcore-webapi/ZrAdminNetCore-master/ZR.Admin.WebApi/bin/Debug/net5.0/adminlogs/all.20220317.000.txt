@@ -1,0 +1,219 @@
+2022-03-17 09:07:44.7837 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 09:07:44.7837 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 09:07:44.7837 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 09:07:44.7837 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 09:07:53.3041 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-17 09:07:53.5981 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-17 09:07:55.0202 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-17 09:10:00.0571 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 09:10:50.4471 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":119,"menuName":"文章列表","parentName":null,"parentId":118,"orderNum":1,"path":"index","component":"blog/article/manager","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:list","icon":"list","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:11:20.3654 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":118,"orderNum":2,"path":"/article/publish","component":"blog/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:11:53.0648 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":119,"menuName":"文章列表","parentName":null,"parentId":118,"orderNum":1,"path":"blog/article/index","component":"blog/article/manager","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:list","icon":"list","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:12:03.1331 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":118,"orderNum":2,"path":"blog/article/publish","component":"blog/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:12:10.5174 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1048,"menuName":"文章新增","parentName":null,"parentId":118,"orderNum":3,"path":"#","component":null,"isCache":"0","isFrame":"0","menuType":"F","visible":"0","status":"0","perms":"blog:article:add","icon":"","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:12:17.5238 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1049,"menuName":"文章修改","parentName":null,"parentId":118,"orderNum":4,"path":"#","component":null,"isCache":"0","isFrame":"0","menuType":"F","visible":"0","status":"0","perms":"blog:article:update","icon":"","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:12:24.1273 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1050,"menuName":"文章删除","parentName":null,"parentId":118,"orderNum":5,"path":"#","component":null,"isCache":"0","isFrame":"0","menuType":"F","visible":"0","status":"0","perms":"blog:article:delete","icon":"","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:13:16.5848 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":119,"menuName":"文章列表","parentName":null,"parentId":118,"orderNum":1,"path":"index","component":"blog/article/manager","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:list","icon":"list","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:20:00.0518 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 09:23:52.2909 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/add |  | {"dynamicTags":["测试"],"fmt_type":"markdown","tags":"测试","content":"足球：大学中学里经常踢足球，看足球，现在没人踢了，偶尔会关注比赛，以后还想找人一起踢球。\n\n游泳：学校里学的蛙泳，现在找了教练教自由泳。周末会经常去游泳～\n\n阅读：具体兴趣私信，目前主要是文学历史科普类，以后加一些哲学社会学经济学的。\n\n旅游：最爱自然风景，也喜欢城市，之前出去得少，近两年先国内，以后去更远的地方\n\n纪录片：最喜欢自然地理和动植物相关的纪录片。\n\n聊天：我虽然在知乎上经常灌水和傻笑，但是私下里我其实很喜欢深入地讨论人生，喜欢深度沟通。","title":"测试文章","category_id":1,"status":"1"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-17 09:30:00.0339 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 09:30:03.2702 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":118,"orderNum":2,"path":"/article/publish","component":"blog/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:31:02.8775 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":118,"orderNum":2,"path":"publish","component":"blog/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:33:22.5140 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":119,"menuName":"文章列表","parentName":null,"parentId":118,"orderNum":1,"path":"/article/manager","component":"blog/article/manager","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:list","icon":"list","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:33:33.1164 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":118,"orderNum":2,"path":"/article/publish","component":"blog/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:37:17.8151 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":119,"menuName":"文章列表","parentName":null,"parentId":118,"orderNum":1,"path":"index","component":"blog/article/manager","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:list","icon":"list","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:37:52.7230 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":118,"orderNum":2,"path":"article/publish","component":"blog/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:38:47.3623 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/Article/list | 请求访问[/Article/list]失败，无法访问系统资源 |  |  | 
+2022-03-17 09:38:49.5171 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-17 09:40:00.0188 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 09:43:03.7854 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/system/Menu/edit |  | {"menuId":1047,"menuName":"发布文章","parentName":null,"parentId":118,"orderNum":2,"path":"publish","component":"blog/article/publish","isCache":"0","isFrame":"0","menuType":"C","visible":"0","status":"0","perms":"blog:article:publish","icon":"log","children":[],"createBy":"","createTime":"2022-03-16 10:27:33","updateTime":null,"remark":null} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-17 09:46:56.9703 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":28,"title":"测试文章","content":"足球：大学中学里经常踢足球，看足球，现在没人踢了，偶尔会关注比赛，以后还想找人一起踢球。\n\n游泳：学校里学的蛙泳，现在找了教练教自由泳。周末会经常去游泳～\n\n阅读：具体兴趣私信，目前主要是文学历史科普类，以后加一些哲学社会学经济学的。\n\n旅游：最爱自然风景，也喜欢城市，之前出去得少，近两年先国内，以后去更远的地方\n\n纪录片：最喜欢自然地理和动植物相关的纪录片。\n\n聊天：我虽然在知乎上经常灌水和傻笑，但是私下里我其实很喜欢深入地讨论人生，喜欢深度沟通。","category_id":1,"dynamicTags":["测试"],"status":"1","tags":"测试"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-17 09:48:15.7944 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/article/list | 请求访问[/article/list]失败，无法访问系统资源 |  |  | 
+2022-03-17 09:49:37.3887 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/getRouters | 请求访问[/getRouters]失败，无法访问系统资源 |  |  | 
+2022-03-17 09:50:00.0189 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 09:50:26.4243 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/article/list | 请求访问[/article/list]失败，无法访问系统资源 |  |  | 
+2022-03-17 09:57:00.7309 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 09:57:00.7360 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 09:57:00.7360 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 09:57:00.7360 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 09:58:55.8087 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 09:58:55.8144 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 09:58:55.8144 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 09:58:55.8144 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 09:59:03.7416 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/article/list | 请求访问[/article/list]失败，无法访问系统资源 |  |  | 
+2022-03-17 09:59:12.9909 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/article/newList | 请求访问[/article/newList]失败，无法访问系统资源 |  |  | 
+2022-03-17 10:00:00.1043 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 10:00:33.9576 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | ::1 |  | http://localhost/article/newList | 请求访问[/article/newList]失败，无法访问系统资源 |  |  | 
+2022-03-17 10:02:49.4643 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 10:02:49.4643 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 10:02:49.4708 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 10:02:49.4708 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 10:03:43.6279 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/Article/edit |  | {"fmt_type":"markdown","cid":28,"title":"测试文章","content":"++足球：大学中学里经常踢足球，看足球，现在没人踢了，偶尔会关注比赛，以后还想找人一起踢球。++\n\n游泳：学校里学的蛙泳，现在找了教练教自由泳。周末会经常去游泳～\n\n阅读：具体兴趣私信，目前主要是文学历史科普类，以后加一些哲学社会学经济学的。\n\n旅游：最爱自然风景，也喜欢城市，之前出去得少，近两年先国内，以后去更远的地方\n\n纪录片：最喜欢自然地理和动植物相关的纪录片。\n\n聊天：我虽然在知乎上经常灌水和傻笑，但是私下里我其实很喜欢深入地讨论人生，喜欢深度沟通。","category_id":1,"dynamicTags":["测试"],"status":"1","tags":"测试"} | {  "code": 200,  "msg": "SUCCESS",  "data": 1} | 
+2022-03-17 10:10:00.0797 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 10:15:00.5976 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 10:15:00.5976 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 10:15:00.5976 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 10:15:00.5976 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 10:20:00.0987 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 10:30:00.0330 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 10:40:00.0523 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 10:50:00.0410 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 11:00:00.0376 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 11:10:00.0211 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 11:20:00.0181 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 11:30:00.0404 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 11:40:00.0493 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 11:50:00.0854 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 12:00:00.0481 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 12:10:00.0355 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 12:20:00.0205 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 13:10:00.0363 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 13:20:00.0383 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 13:30:00.0390 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 13:40:00.0336 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 13:50:00.0334 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 14:00:00.0370 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 14:10:00.0326 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 14:20:00.0407 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 14:30:00.0424 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 15:30:00.0401 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 15:40:00.0194 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 15:50:00.0343 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 16:00:00.0330 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 16:10:00.0333 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 16:20:00.0386 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 16:30:00.0361 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 16:40:37.1794 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 16:40:37.1794 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 16:40:37.1794 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 16:40:37.1794 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 16:44:31.5575 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 16:44:31.5575 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 16:44:31.5648 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 16:44:31.5648 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 16:50:00.1773 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 17:06:00.5491 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 17:06:00.5491 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 17:06:00.5491 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 17:06:00.5491 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 17:09:26.2206 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 17:09:26.2206 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 17:09:26.2206 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 17:09:26.2206 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 17:10:00.0950 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 17:15:13.7767 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 17:15:13.7767 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 17:15:13.7832 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 17:15:13.7832 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 17:20:00.0985 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 17:30:00.0487 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 17:40:09.2611 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 17:40:09.2611 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 17:40:09.2679 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 17:40:09.2679 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 17:50:00.0971 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-17 17:50:56.6576 |  | ERROR | GlobalExceptionMiddleware | ::1 |  | http://localhost/article/list | Method not found: 'Int32 ZR.Model.System.Dto.ArticleQueryDto.get_Category_id()'. | ?PageNum=1&PageSize=8&Category_id=0 | {"code":500,"msg":"\u670d\u52a1\u5668\u597d\u50cf\u51fa\u4e86\u70b9\u95ee\u9898......","data":null} | System.MissingMethodException: Method not found: 'Int32 ZR.Model.System.Dto.ArticleQueryDto.get_Category_id()'.
+   at ZR.Admin.WebApi.Controllers.ArticleController.Query(ArticleQueryDto parm)
+   at lambda_method58(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context)
+2022-03-17 17:52:36.6909 |  | ERROR | GlobalExceptionMiddleware | ::1 |  | http://localhost/article/list | Method not found: 'Int32 ZR.Model.System.Dto.ArticleQueryDto.get_Category_id()'. | ?PageNum=1&PageSize=8&Category_id=0 | {"code":500,"msg":"\u670d\u52a1\u5668\u597d\u50cf\u51fa\u4e86\u70b9\u95ee\u9898......","data":null} | System.MissingMethodException: Method not found: 'Int32 ZR.Model.System.Dto.ArticleQueryDto.get_Category_id()'.
+   at ZR.Admin.WebApi.Controllers.ArticleController.Query(ArticleQueryDto parm)
+   at lambda_method58(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context)
+2022-03-17 17:52:42.5772 |  | ERROR | GlobalExceptionMiddleware | ::1 |  | http://localhost/article/list | Method not found: 'Int32 ZR.Model.System.Dto.ArticleQueryDto.get_Category_id()'. | ?PageNum=1&PageSize=8&Category_id=0 | {"code":500,"msg":"\u670d\u52a1\u5668\u597d\u50cf\u51fa\u4e86\u70b9\u95ee\u9898......","data":null} | System.MissingMethodException: Method not found: 'Int32 ZR.Model.System.Dto.ArticleQueryDto.get_Category_id()'.
+   at ZR.Admin.WebApi.Controllers.ArticleController.Query(ArticleQueryDto parm)
+   at lambda_method58(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context)
+2022-03-17 17:53:28.5022 |  | ERROR | GlobalExceptionMiddleware | ::1 |  | http://localhost/article/list | Method not found: 'Int32 ZR.Model.System.Dto.ArticleQueryDto.get_Category_id()'. | ?PageNum=1&PageSize=8&Category_id=0 | {"code":500,"msg":"\u670d\u52a1\u5668\u597d\u50cf\u51fa\u4e86\u70b9\u95ee\u9898......","data":null} | System.MissingMethodException: Method not found: 'Int32 ZR.Model.System.Dto.ArticleQueryDto.get_Category_id()'.
+   at ZR.Admin.WebApi.Controllers.ArticleController.Query(ArticleQueryDto parm)
+   at lambda_method58(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context)
+2022-03-17 17:54:06.3155 |  | ERROR | GlobalExceptionMiddleware | ::1 |  | http://localhost/article/list | Method not found: 'Int32 ZR.Model.System.Dto.ArticleQueryDto.get_Category_id()'. | ?PageNum=1&PageSize=8&Category_id=0 | {"code":500,"msg":"\u670d\u52a1\u5668\u597d\u50cf\u51fa\u4e86\u70b9\u95ee\u9898......","data":null} | System.MissingMethodException: Method not found: 'Int32 ZR.Model.System.Dto.ArticleQueryDto.get_Category_id()'.
+   at ZR.Admin.WebApi.Controllers.ArticleController.Query(ArticleQueryDto parm)
+   at lambda_method58(Closure , Object , Object[] )
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at ZR.Admin.WebApi.Middleware.GlobalExceptionMiddleware.Invoke(HttpContext context)
+2022-03-17 17:54:24.1517 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Now listening on: http://localhost:8888 |  |  | 
+2022-03-17 17:54:24.1517 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Application started. Press Ctrl+C to shut down. |  |  | 
+2022-03-17 17:54:24.1578 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Hosting environment: Stage |  |  | 
+2022-03-17 17:54:24.1578 |  | INFO | Microsoft.Hosting.Lifetime |  |  |  | Content root path: E:\文档\张天赐\练习代码\Vstudio\个人博客\ZrAdminNetCore-master\ZR.Admin.WebApi |  |  | 
+2022-03-17 18:00:00.0958 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 

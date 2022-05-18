@@ -1,0 +1,7 @@
+2022-03-26 09:10:00.0540 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-26 09:11:11.3299 |  | INFO | ZR.Admin.WebApi.Filters.VerifyAttribute | 127.0.0.1 |  | http://localhost/getInfo | 请求访问[/getInfo]失败，无法访问系统资源 |  |  | 
+2022-03-26 09:11:11.9624 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-26 09:11:13.1289 |  | INFO | GlobalActionMonitor | 127.0.0.1 |  | http://localhost/LogOut |  |  | {  "code": 200,  "msg": "SUCCESS",  "data": {    "name": null,    "id": 0  }} | 
+2022-03-26 09:19:26.7713 |  | INFO | GlobalActionMonitor | 127.0.0.1 | admin | http://localhost/blog/TBlogessays |  | {"id":1,"title":"测试","color":"#B8DE38","content":"水水水水","createTime":"2022-03-25 17:46:37","authorName":"水水水"} | {  "code": 200,  "msg": "SUCCESS"} | 
+2022-03-26 09:20:00.0371 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
+2022-03-26 09:30:00.0376 |  | INFO | ZR.Tasks.JobBase |  |  |  | 执行任务【1410905433996136448|测试任务】结果=Succeed |  |  | 
