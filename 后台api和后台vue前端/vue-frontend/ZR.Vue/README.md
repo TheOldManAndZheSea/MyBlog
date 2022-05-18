@@ -1,8 +1,6 @@
 ## 开发
 
 ```bash
-# 克隆项目
-git clone https://gitee.com/izory/ZrAdminNetCore
 
 # 进入项目目录
 cd ZR.Vue
@@ -27,21 +25,4 @@ npm run build:stage
 
 # 构建生产环境
 npm run build:prod
-```
-
-# 插件说明
-### Autoprefixer （已删除）
-浏览器自动补全前缀
-例如：
-```
-a{
-     transition :transform 1s
-}
-
-将会补全如下
-a{
-     -webkit-transition :-webkit-transform 1s;
-     transition :-ms-transform 1s;
-     transition :transform 1s
-}
 ```
