@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Business\**" />
+    <EmbeddedResource Remove="Business\**" />
+    <None Remove="Business\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ZR.Common\ZR.Common.csproj" />
+    <ProjectReference Include="..\ZR.Repository\ZR.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

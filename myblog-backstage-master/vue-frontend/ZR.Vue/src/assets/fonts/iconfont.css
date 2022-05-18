@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 3353430 */
+  src: url('iconfont.woff2?t=1650763931658') format('woff2'),
+       url('iconfont.woff?t=1650763931658') format('woff'),
+       url('iconfont.ttf?t=1650763931658') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-jquery:before {
+  content: "\e69d";
+}
+
+.icon-xml:before {
+  content: "\e610";
+}
+
+.icon-mysql:before {
+  content: "\e667";
+}
+
+.icon-csdn:before {
+  content: "\e638";
+}
+
+.icon-HTML-fill:before {
+  content: "\e881";
+}
+
+.icon-QQ:before {
+  content: "\e882";
+}
+
+.icon-aliyun:before {
+  content: "\e600";
+}
+
+.icon-blog:before {
+  content: "\e601";
+}
+
+.icon-js:before {
+  content: "\ec68";
+}
+
+.icon-Vue:before {
+  content: "\e799";
+}
+
+.icon-weixin:before {
+  content: "\e637";
+}
+
+.icon-dingtalk:before {
+  content: "\e666";
+}
+
+.icon-alipay:before {
+  content: "\e668";
+}
+
+.icon-taobao:before {
+  content: "\e669";
+}
+
+.icon-tengxunyun:before {
+  content: "\e731";
+}
+
+.icon-github:before {
+  content: "\e72a";
+}
+
+.icon-Wpf:before {
+  content: "\e826";
+}
+
+.icon-xaml:before {
+  content: "\e61f";
+}
+
+.icon-sqlserver:before {
+  content: "\e602";
+}
+
+.icon-json-full:before {
+  content: "\ea42";
+}
+
+.icon-cnblogs:before {
+  content: "\e603";
+}
+
+.icon-sqlite:before {
+  content: "\e6ac";
+}
+
+.icon-gitee:before {
+  content: "\e60c";
+}
+
